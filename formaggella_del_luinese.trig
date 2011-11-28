@@ -1,0 +1,68 @@
+###############################################################################
+# This work is licensed under the                                             #
+# Creative Commons Attribution-ShareAlike 3.0 Unported License.               #
+# To view a copy of this license, visit                                       #
+# http://creativecommons.org/licenses/by-sa/3.0/                              #
+# or send a letter to                                                         #
+# Creative Commons,                                                           #
+# 444 Castro Street, Suite 900,                                               #
+# Mountain View, California, 94041, USA.                                      #
+###############################################################################
+
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#>
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+@prefix owl:        <http://www.w3.org/2002/07/owl#>
+@prefix dc:         <http://purl.org/dc/elements/1.1/>
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix yago:	    <http://dbpedia.org/class/yago/> .
+@prefix dbpedia:    <http://dbpedia.org/resource/> .
+@prefix ov:         <http://open.vocab.org/terms/> .
+@prefix freebase:   <http://ids.freebaseapps.com/?id=/en/> .
+@prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
+@prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
+@prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+@prefix :           <http://kasabi.com/dataset/cheese/> .
+@prefix cheese:     <http://kasabi.com/dataset/cheese/> .
+
+ # 
+ # Reg. UE n. 375 dell'11.04.11 	
+ # GUUE L. 102 del 16.04.11
+ # 
+ # http://it.wikipedia.org/wiki/Prodotti_DOP,_IGP,_STG_e_IG_italiani
+ # http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2010:220:0018:0021:EN:PDF
+ # 
+
+{
+
+cheese:FormaggellaDelLuinese
+
+    rdf:type cheese:Cheese ;
+
+    rdfs:description "Formaggella del Luinese is a semi-hard cheese produced exclusively from whole, raw goat's milk, using rennet-based curdling, with a minimum maturing period of 20 days."@en ;
+
+    rdfs:label "Formaggella del Luinese"@en ;
+    rdfs:label "Formaggella del Luinese"@it ;
+    skos:prefLabel "Formaggella del Luinese"@en ;
+    skos:prefLabel "Formaggella del Luinese"@it ;
+    skos:altLabel "Formaggella del Luinese (cheese)"@en ;
+    skos:altLabel "Formaggella del Luinese (formaggio)"@it ;
+
+    cheese:texture cheese:SemiHardCheese ;
+    cheese:milk_source cheese:GoatMilk ;
+    cheese:milk_type cheese:WholeMilk ;
+    cheese:milk_type cheese:NonPasteurisedMilk ;
+
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Lombardia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Varese> ;
+
+    cheese:certification cheese:CertificationDOP ;
+    .
+
+}
+
+
+
+

@@ -1,0 +1,109 @@
+###############################################################################
+# This work is licensed under the                                             #
+# Creative Commons Attribution-ShareAlike 3.0 Unported License.               #
+# To view a copy of this license, visit                                       #
+# http://creativecommons.org/licenses/by-sa/3.0/                              #
+# or send a letter to                                                         #
+# Creative Commons,                                                           #
+# 444 Castro Street, Suite 900,                                               #
+# Mountain View, California, 94041, USA.                                      #
+###############################################################################
+
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#>
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+@prefix owl:        <http://www.w3.org/2002/07/owl#>
+@prefix dc:         <http://purl.org/dc/elements/1.1/>
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix yago:	    <http://dbpedia.org/class/yago/> .
+@prefix dbpedia:    <http://dbpedia.org/resource/> .
+@prefix ov:         <http://open.vocab.org/terms/> .
+@prefix freebase:   <http://ids.freebaseapps.com/?id=/en/> .
+@prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
+@prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
+@prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+@prefix :           <http://kasabi.com/dataset/cheese/> .
+@prefix cheese:     <http://kasabi.com/dataset/cheese/> .
+
+# 
+# http://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/3335
+#  --> http://www.politicheagricole.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252F7%252Fc%252FD.3edc9b3dfc963481e338/P/BLOB%3AID%3D3335 (has logo, pag. 5)
+# http://ec.europa.eu/agriculture/quality/door/publishedName.html?denominationId=2703
+# 
+#    Dossier Number       Denomination Id                                     Designation                                Status       Type      Last relevant date     Submission date      Publication date     Registration date     1st Amendment date         2nd Amendment date          3rd Amendment date        
+# IT/PDO/0005/00823       2703                                          Nostrano  Valtrompia                          Published    PDO         15/10/2011             22/09/2010           15/10/2011                                                                                        
+#
+
+{
+
+cheese:NostranoValtrompia
+
+    rdf:type cheese:Cheese ;
+
+    rdfs:comment "Nostrano Valtrompia PDO cheese is a semi-fat, extra-hard cheese produced throughout the year from raw milk with added saffron."@en ;
+
+    rdfs:label "Nostrano Valtrompia"@en ;
+    rdfs:label "Nostrano Valtrompia"@it ;
+    skos:prefLabel "Nostrano Valtrompia"@en ;
+    skos:prefLabel "Nostrano Valtrompia"@it ;
+    skos:altLabel "Nostrano Valtrompia (cheese)"@en ;
+    skos:altLabel "Nostrano Valtrompia (formaggio)"@it ;
+
+    cheese:milk_source cheese:CowMilk ;
+    cheese:texture cheese:VeryHardCheese ;
+    cheese:milk_type cheese:WholeMilk ;
+    cheese:milk_type cheese:NonPasteurisedMilk ;
+
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Brescia> ;
+    cheese:region <http://dbpedia.org/resource/Lombardia> ;
+
+    cheese:location <http://dbpedia.org/resource/Trompia> ;
+    cheese:location <http://dbpedia.org/resource/Bovegno> ;
+    cheese:location <http://dbpedia.org/resource/Bovezzo> ;
+    cheese:location <http://dbpedia.org/resource/Brione> ;
+    cheese:location <http://dbpedia.org/resource/Caino> ;
+    cheese:location <http://dbpedia.org/resource/Collio> ;
+    cheese:location <http://dbpedia.org/resource/Concesio> ;
+    cheese:location <http://dbpedia.org/resource/Irma> ;
+    cheese:location <http://dbpedia.org/resource/Gardone_Val_Trompia> ;
+    cheese:location <http://dbpedia.org/resource/Lodrino> ;
+    cheese:location <http://dbpedia.org/resource/Lumezzane> ;
+    cheese:location <http://dbpedia.org/resource/Marcheno> ;
+    cheese:location <http://dbpedia.org/resource/Marmentino> ;
+    cheese:location <http://dbpedia.org/resource/Nave> ;
+    cheese:location <http://dbpedia.org/resource/Pezzaze> ;
+    cheese:location <http://dbpedia.org/resource/Polaveno> ;
+    cheese:location <http://dbpedia.org/resource/Tavernole_sul_Mella> ;
+    cheese:location <http://dbpedia.org/resource/Villa_Carcina> ;
+    cheese:location <http://dbpedia.org/resource/Gussago> ;
+    cheese:location <http://dbpedia.org/resource/Quarone> ;
+    cheese:location <http://dbpedia.org/resource/Civine> ;
+
+    cheese:certification cheese:CertificationDOP ;
+    .
+
+}
+
+:nostrano_valtrompia_certification 
+{
+
+    cheese:NostranoValtrompia cheese:certification cheese:CertificationDOP ;
+    .
+
+}
+
+:nostrano_valtrompia_certification_provenance 
+{
+
+    :nostrano_valtrompia_certification foaf:page [
+        rdfs:label "52011XC1015(06)" ;
+        foaf:page <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:52011XC1015%2806%29:EN:NOT> ;
+        dc:date "2011-10-15"^^xsd:date ;
+    ] ;
+    .
+
+}
+
+

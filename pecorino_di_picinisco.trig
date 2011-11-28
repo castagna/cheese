@@ -1,0 +1,85 @@
+###############################################################################
+# This work is licensed under the                                             #
+# Creative Commons Attribution-ShareAlike 3.0 Unported License.               #
+# To view a copy of this license, visit                                       #
+# http://creativecommons.org/licenses/by-sa/3.0/                              #
+# or send a letter to                                                         #
+# Creative Commons,                                                           #
+# 444 Castro Street, Suite 900,                                               #
+# Mountain View, California, 94041, USA.                                      #
+###############################################################################
+
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#>
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+@prefix owl:        <http://www.w3.org/2002/07/owl#>
+@prefix dc:         <http://purl.org/dc/elements/1.1/>
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix yago:	    <http://dbpedia.org/class/yago/> .
+@prefix dbpedia:    <http://dbpedia.org/resource/> .
+@prefix ov:         <http://open.vocab.org/terms/> .
+@prefix freebase:   <http://ids.freebaseapps.com/?id=/en/> .
+@prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
+@prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
+@prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+@prefix :           <http://kasabi.com/dataset/cheese/> .
+@prefix cheese:     <http://kasabi.com/dataset/cheese/> .
+
+
+{
+
+cheese:PecorinoDiPicinisco
+
+    rdf:type cheese:Cheese ;
+
+    rdfs:description ""@en ;
+
+    rdfs:label "Pecorino di Picinisco"@en ;
+    rdfs:label "Pecorino di Picinisco"@it ;
+    skos:prefLabel "Pecorino di Picinisco"@en ;
+    skos:prefLabel "Pecorino di Picinisco"@it ;
+    skos:altLabel "Pecorino di Picinisco (cheese)"@en ;
+    skos:altLabel "Pecorino di Picinisco (formaggio)"@it ;
+
+    cheese:texture cheese:SemiHardCheese ;
+    cheese:milk_source cheese:SheepMilk ;
+    cheese:milk_source cheese:GoatMilk ; # < 25%
+    cheese:milk_type cheese:WholeMilk ;
+    cheese:milk_type cheese:NonPasteurisedMilk ;
+
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Lazio> ;
+    cheese:region <http://dbpedia.org/resource/Abruzzo> ;
+    cheese:region <http://dbpedia.org/resource/Molise> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Frosinone> ;
+
+    cheese:location <http://dbpedia.org/resource/Acquafondata> ;
+    cheese:location <http://dbpedia.org/resource/Alvito,_Lazio> ;
+    cheese:location <http://dbpedia.org/resource/Atina,_Lazio> ;
+    cheese:location <http://dbpedia.org/resource/Belmonte_Castello> ;
+    cheese:location <http://dbpedia.org/resource/Campoli_Appennino> ;
+    cheese:location <http://dbpedia.org/resource/Casalattico> ;
+    cheese:location <http://dbpedia.org/resource/Casalvieri> ;
+    cheese:location <http://dbpedia.org/resource/Fontechiari> ;
+    cheese:location <http://dbpedia.org/resource/Gallinaro> ;
+    cheese:location <http://dbpedia.org/resource/Pescosolido> ;
+    cheese:location <http://dbpedia.org/resource/Picinisco> ;
+    cheese:location <http://dbpedia.org/resource/Posta_Fibreno> ;
+    cheese:location <http://dbpedia.org/resource/San_Biagio_Saracinisco> ;
+    cheese:location <http://dbpedia.org/resource/San_Donato_Val_di_Comino> ;
+    cheese:location <http://dbpedia.org/resource/Settefrati> ;
+    cheese:location <http://dbpedia.org/resource/Terelle> ;
+    cheese:location <http://dbpedia.org/resource/Vallerotonda> ;
+    cheese:location <http://dbpedia.org/resource/Villa_Latina> ;
+    cheese:location <http://dbpedia.org/resource/Vicalvi> ;
+    cheese:location <http://dbpedia.org/resource/Viticuso> ;
+
+    cheese:certification cheese:CertificationDOP ;
+    .
+
+}
+
+
+
+
