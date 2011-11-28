@@ -9,11 +9,11 @@
 # Mountain View, California, 94041, USA.                                      #
 ###############################################################################
 
-@prefix xsd:        <http://www.w3.org/2001/XMLSchema#>
-@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
-@prefix owl:        <http://www.w3.org/2002/07/owl#>
-@prefix dc:         <http://purl.org/dc/elements/1.1/>
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix dc:         <http://purl.org/dc/elements/1.1/> .
 @prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
 @prefix yago:	    <http://dbpedia.org/class/yago/> .
 @prefix dbpedia:    <http://dbpedia.org/resource/> .
@@ -22,6 +22,7 @@
 @prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
 @prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
 @prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
 
 @prefix :           <http://kasabi.com/dataset/cheese/> .
 @prefix cheese:     <http://kasabi.com/dataset/cheese/> .
@@ -96,11 +97,11 @@ cheese:Asiago
     rdfs:subClassOf <http://dbpedia.org/class/yago/ItalianProduCtsWithProtectedDesignationOfOrigin> ;
     owl:sameAs <http://rdf.freebase.com/ns/m/02k5rl> ;
     foaf:page <http://en.wikipedia.org/wiki/Asiago_cheese> ;
-    wikipedia:WikipediaPageEnglish <http://en.wikipedia.org/wiki/Asiago_cheese> ;
-    wikipedia:WikipediaPageItalian <http://it.wikipedia.org/wiki/Asiago_(formaggio)> ;
+    cheese:WikipediaPageEnglish <http://en.wikipedia.org/wiki/Asiago_cheese> ;
+    cheese:WikipediaPageItalian <http://it.wikipedia.org/wiki/Asiago_(formaggio)> ;
 
     # this is an alternative way to link Wikipedia pages, see "wgArticleId=" in the HTML
-    wikipedia:WikipediaPageItalian <http://it.wikipedia.org/wiki/index.html?curid=241457> ;
+    cheese:WikipediaPageItalian <http://it.wikipedia.org/wiki/index.html?curid=241457> ;
 
     cheese:milk_source cheese:CowMilk ;
     cheese:texture cheese:Semi-Hard ;
@@ -132,10 +133,10 @@ cheese:Asiago
     cheese:consortium [
         rdf:type dbpedia:Consortium ; # http://wordnet.rkbexplorer.com/data/synset-consortium-noun-1, http://www.w3.org/2006/03/wn/wn20/instances/synset-consortium-noun-1
         rdfs:label "Consorzio per la tutela del formaggio Asiago"@it ;
-        ?:url <http://www.asiagocheese.it/> ;
+        foaf:page <http://www.asiagocheese.it/> ;
         addr:tel "+39 0444 321758" ;
         addr:fax "+39 0444 326212" ;
-        addrstreetAddress "Corso Fogazzaro, 18"@it ;
+        addr:streetAddress "Corso Fogazzaro, 18"@it ;
         addr:postalCode "36100" ; 
         addr:localityName "Vicenza"@it ;
         addr:regionName "Veneto"@it ;

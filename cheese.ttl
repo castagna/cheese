@@ -9,11 +9,11 @@
 # Mountain View, California, 94041, USA.                                      #
 ###############################################################################
 
-@prefix xsd:        <http://www.w3.org/2001/XMLSchema#>
-@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
-@prefix owl:        <http://www.w3.org/2002/07/owl#>
-@prefix dc:         <http://purl.org/dc/elements/1.1/>
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix dc:         <http://purl.org/dc/elements/1.1/> .
 @prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
 @prefix yago:	    <http://dbpedia.org/class/yago/> .
 @prefix dbpedia:    <http://dbpedia.org/resource/> .
@@ -104,8 +104,8 @@ cheese:WholeMilk
     rdfs:subClassOf cheese:MilkType ;
     rdfs:label "latte intero"@it ;
     rdfs:label "whole milk"@en ;
-    rdfs:label "whole milk"@en_UK ;
-    rdfs:label "whole milk"@en_US ;
+    rdfs:label "whole milk"@en-UK ;
+    rdfs:label "whole milk"@en-US ;
     .
 
 cheese:SemiSkimmedMilk
@@ -113,8 +113,8 @@ cheese:SemiSkimmedMilk
     rdfs:subClassOf cheese:MilkType ;
     rdfs:label "latte parzialmente scremato"@it ;
     rdfs:label "semi skimmed milk"@en ;
-    rdfs:label "semi skimmed milk"@en_UK ;
-    rdfs:label "lowfat milk"@en_US ;
+    rdfs:label "semi skimmed milk"@en-UK ;
+    rdfs:label "lowfat milk"@en-US ;
     .
 
 cheese:SkimmedMilk
@@ -122,8 +122,8 @@ cheese:SkimmedMilk
     rdfs:subClassOf cheese:MilkType ;
     rdfs:label "latte scremato"@it ;
     rdfs:label "skimmed milk"@en ;
-    rdfs:label "skimmed milk"@en_UK ;
-    rdfs:label "reduced-fat milk"@en_US ;
+    rdfs:label "skimmed milk"@en-UK ;
+    rdfs:label "reduced-fat milk"@en-US ;
     .
 
 cheese:MilkType 
@@ -256,7 +256,7 @@ cheese:location
     rdfs:label "prodotto in"@it ;
     .
 
-cheese:Location ;
+cheese:Location
     rdf:type rdfs:Class ;
     rdfs:label "Area"@it ;
     rdfs:label "Location"@en ;
