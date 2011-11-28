@@ -1,0 +1,13 @@
+
+  TODO
+  ====
+
+   - Populate the list of instance data on Italian DOP cheeses.
+   - Link to existing websites/datasets.
+   - Find where to buy in UK.
+   - Find SlowFood informations on cheese.
+   - Add pictures (only creative commons).
+   - Create an Exhibit on Italian cheeses.
+   - Write README.txt
+   - ...
+

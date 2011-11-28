@@ -1,0 +1,169 @@
+###############################################################################
+# This work is licensed under the                                             #
+# Creative Commons Attribution-ShareAlike 3.0 Unported License.               #
+# To view a copy of this license, visit                                       #
+# http://creativecommons.org/licenses/by-sa/3.0/                              #
+# or send a letter to                                                         #
+# Creative Commons,                                                           #
+# 444 Castro Street, Suite 900,                                               #
+# Mountain View, California, 94041, USA.                                      #
+###############################################################################
+
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#>
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+@prefix owl:        <http://www.w3.org/2002/07/owl#>
+@prefix dc:         <http://purl.org/dc/elements/1.1/>
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix yago:	    <http://dbpedia.org/class/yago/> .
+@prefix dbpedia:    <http://dbpedia.org/resource/> .
+@prefix ov:         <http://open.vocab.org/terms/> .
+@prefix freebase:   <http://ids.freebaseapps.com/?id=/en/> .
+@prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
+@prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
+@prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+@prefix :           <http://kasabi.com/dataset/cheese/> .
+@prefix cheese:     <http://kasabi.com/dataset/cheese/> .
+
+
+{
+
+cheese:AsiagoPressato 
+    rdfs:subClassOf cheese:Asiago ;
+    rdfs:label "Asiago pressato"@it ;
+    cheese:milk_source cheese:CowMilk ;
+    cheese:milk_type cheese:WholeMilk ;
+    cheese:texture cheese:SemiHardCheese ;
+    foaf:depiction <http://upload.wikimedia.org/wikipedia/commons/b/b6/Asiago_cheese.jpg> ;
+    cheese:certification cheese:CertificationDOP ;
+    .
+
+cheese:AsiagoAllevo 
+    rdfs:subClassOf cheese:Asiago ;
+    rdfs:label "Asiago d'allevo"@it ;
+    cheese:milk_source cheese:CowMilk ;
+    cheese:milk_tpye cheese:SkimmedMilk ;
+    cheese:texture cheese:HardCheese ;
+    cheese:certification cheese:CertificationDOP ;
+    .
+
+cheese:AsiagoAllevoMezzano 
+    rdfs:subClassOf cheese:AsiagoAllevo ;
+    rdfs:label "Asiago Mezzano"@it ;
+    rdfs:label "Middle Asiago"@en ;
+    cheese:milk_source cheese:CowMilk ;
+    cheese:milk_tpye cheese:SkimmedMilk ;
+    cheese:texture cheese:HardCheese ;
+    rdfs:comment "From 3 to 8 months ageing."@en ;
+    cheese:certification cheese:CertificationDOP ;
+    .
+
+cheese:AsiagoAllevoVecchio
+    rdfs:subClassOf cheese:AsiagoAllevo ;
+    rdfs:label "Asiago Vecchio"@it ;
+    rdfs:label "Old Asiago"@en ;
+    cheese:milk_source cheese:CowMilk ;
+    cheese:milk_tpye cheese:SkimmedMilk ;
+    cheese:texture cheese:HardCheese ;
+    rdfs:comment "From 9 to 18 months ageing."@en ;
+    cheese:certification cheese:CertificationDOP ;
+    .
+
+cheese:AsiagoAllevoStravecchio
+    rdfs:subClassOf cheese:AsiagoAllevo ;
+    rdfs:label "Asiago Stravecchio"@it ;
+    rdfs:label "Very-old Asiago"@en ;
+    cheese:milk_source cheese:CowMilk ;
+    cheese:milk_tpye cheese:SkimmedMilk ;
+    cheese:texture cheese:VeryHardCheese ;
+    rdfs:comment "More than 18 months ageing."@en ;
+    cheese:certification cheese:CertificationDOP ;
+    .
+
+cheese:Asiago
+    rdf:type cheese:Cheese ;
+
+    rdfs:label "Asiago"@en ;
+    rdfs:label "Asiago"@it ;
+    skos:prefLabel "Asiago"@en ;
+    skos:prefLabel "Asiago"@it ;
+    skos:altLabel "Asiago (cheese)"@en ;
+    skos:altLabel "Asiago (formaggio)"@it ;
+    skos:hiddenLabel "Asiago pressato"@it ;
+    skos:hiddenLabel "Asiago d'allevo"@it ;
+
+    rdfs:subClassOf <http://dbpedia.org/class/yago/ItalianProduCtsWithProtectedDesignationOfOrigin> ;
+    owl:sameAs <http://rdf.freebase.com/ns/m/02k5rl> ;
+    foaf:page <http://en.wikipedia.org/wiki/Asiago_cheese> ;
+    wikipedia:WikipediaPageEnglish <http://en.wikipedia.org/wiki/Asiago_cheese> ;
+    wikipedia:WikipediaPageItalian <http://it.wikipedia.org/wiki/Asiago_(formaggio)> ;
+
+    # this is an alternative way to link Wikipedia pages, see "wgArticleId=" in the HTML
+    wikipedia:WikipediaPageItalian <http://it.wikipedia.org/wiki/index.html?curid=241457> ;
+
+    cheese:milk_source cheese:CowMilk ;
+    cheese:texture cheese:Semi-Hard ;
+    cheese:texture cheese:Hard ;
+
+    cheese:certification cheese:CertificationDOP ;
+
+    owl:sameAs yago:AsiagoCheese ;
+    owl:sameAs freebase:asiago_cheese ;
+    owl:sameAs <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002896f2> ;
+
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Vicenza> ;
+    cheese:province <http://dbpedia.org/resource/Trento> ; # Province_of_Trento mistake on wikipedia!
+    cheese:region <http://dbpedia.org/resource/Veneto> ;
+    cheese:region <http://dbpedia.org/resource/Trentino> ;
+
+    # you can use Google Maps to get lat/long: http://googlesystem.blogspot.com/2010/02/google-maps-labs.html
+    geo:lat "45.875" ;
+    geo:long "11.508" ;
+
+    rdfs:seeAlso <http://www.freebase.com/view/en/asiago_cheese> ;
+    rdfs:seeAlso <http://en.wikipedia.org/wiki/index.html?curid=512446> ;
+    rdfs:seeAlso <http://www.cookipedia.co.uk/wiki/index.php/Asiago_cheese> ;
+    rdfs:seeAlso <http://www.youtube.com/user/youasiago> ;
+    rdfs:seeAlso <http://www.facebook.com/FormaggioAsiagoDOP> ;
+    rdfs:seeAlso <https://twitter.com/#!/mondoasiago> ;
+
+    cheese:consortium [
+        rdf:type dbpedia:Consortium ; # http://wordnet.rkbexplorer.com/data/synset-consortium-noun-1, http://www.w3.org/2006/03/wn/wn20/instances/synset-consortium-noun-1
+        rdfs:label "Consorzio per la tutela del formaggio Asiago"@it ;
+        ?:url <http://www.asiagocheese.it/> ;
+        addr:tel "+39 0444 321758" ;
+        addr:fax "+39 0444 326212" ;
+        addrstreetAddress "Corso Fogazzaro, 18"@it ;
+        addr:postalCode "36100" ; 
+        addr:localityName "Vicenza"@it ;
+        addr:regionName "Veneto"@it ;
+        addr:countryName "Italy"@en ;
+        addr:countryName "Italia"@it ; 
+    ] ;
+
+    .
+
+}
+
+:asiago_certification 
+{
+
+    cheese:Asiago cheese:certification cheese:CertificationDOP ;
+    .
+
+}
+
+:asiago_certification_provenance 
+{
+
+    :asiago_certification foaf:page [
+        rdfs:label "Commission Regulation (EC) No 1107/96"@en ;
+        rdfs:label "Reg. CE 1107/96"@it ;
+        foaf:page <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1107:EN:HTML> ;
+    ] ;
+    .
+
+}
+

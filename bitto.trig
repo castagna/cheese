@@ -1,0 +1,99 @@
+###############################################################################
+# This work is licensed under the                                             #
+# Creative Commons Attribution-ShareAlike 3.0 Unported License.               #
+# To view a copy of this license, visit                                       #
+# http://creativecommons.org/licenses/by-sa/3.0/                              #
+# or send a letter to                                                         #
+# Creative Commons,                                                           #
+# 444 Castro Street, Suite 900,                                               #
+# Mountain View, California, 94041, USA.                                      #
+###############################################################################
+
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#>
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+@prefix owl:        <http://www.w3.org/2002/07/owl#>
+@prefix dc:         <http://purl.org/dc/elements/1.1/>
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix yago:	    <http://dbpedia.org/class/yago/> .
+@prefix dbpedia:    <http://dbpedia.org/resource/> .
+@prefix ov:         <http://open.vocab.org/terms/> .
+@prefix freebase:   <http://ids.freebaseapps.com/?id=/en/> .
+@prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
+@prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
+@prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+@prefix :           <http://kasabi.com/dataset/cheese/> .
+@prefix cheese:     <http://kasabi.com/dataset/cheese/> .
+
+
+{
+
+cheese:Bitto
+    rdf:type cheese:Cheese ;
+    rdfs:label "Bitto"@en ;
+    rdfs:label "Bitto"@it ;
+    skos:prefLabel "Bitto"@en ;
+    skos:prefLabel "Bitto"@it ;
+    skos:altLabel "Bitto (cheese)"@en ;
+    skos:altLabel "Bitto (formaggio)"@it ;
+
+    cheese:milk_source cheese:CowMilk ;
+    cheese:milk_source cheese:GoatMilk ; # < 10%
+
+    cheese:milk_type cheese:WholeMilk ;
+
+    cheese:texture cheese:SemiHardCheese ; // semi dura: E' un formaggio d’alpe grasso a pasta semicotta, di media durezza e media stagionatura. -- http://www.formaggiobitto.com/formaggio_bitto_come_si_produce.html
+
+    cheese:certification cheese:CertificationDOP ;
+
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Lonbardia> ;
+    cheese:province <http://dbpedia.org/resource/Sondrio> ;
+
+    cheese:location <http://dbpedia.org/resource/Gerola_Alta> ;
+    cheese:location <http://dbpedia.org/resource/Val_Brembana> ;
+    cheese:location <http://dbpedia.org/resource/Bitto_(torrente)> ;
+    cheese:location <http://dbpedia.org/resource/Albaredo_per_San_Marco> ;
+
+    wikipedia:WikipediaPageEnglish <http://en.wikipedia.org/wiki/Bitto> ;
+    wikipedia:WikipediaPageItalian <http://it.wikipedia.org/wiki/Bitto_(formaggio)> ;
+
+    cheese:consortium [
+        rdf:type dbpedia:Consortium ;
+
+        rdfs:label "Associazione Produttori \"Valli del Bitto\""@it ;
+            ?:url <http://www.formaggiobitto.com/> ;
+            addr:tel "+39 0342 690081" ;
+            addrstreetAddress "Via Nazionale, 31"@it ;
+            addr:localityName "Gerola Alta (SO)"@it ;
+            addr:regionName "Lombardia"@it ;
+            addr:countryName "Italy"@en ;
+            addr:countryName "Italia"@it ; 
+            foaf:mbox <info@formaggiobitto.com> ;
+        ] ;
+
+    .
+
+}
+
+:bitto_certification 
+{
+
+    cheese:Bitto cheese:certification cheese:CertificationDOP ;
+    .
+
+}
+
+:bitto_certification_provenance 
+{
+
+    :bitto_certification foaf:page [
+        rdfs:label "Commission Regulation (EC) No 1138/2009"@en ;
+        rdfs:label "Reg. CE 1138/2009"@it ;
+        foaf:page <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:311:0023:01:EN:HTML> ;
+    ] ;
+    .
+
+}
+
