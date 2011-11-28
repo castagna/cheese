@@ -22,6 +22,7 @@
 @prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
 @prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
 @prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
 
 @prefix :           <http://kasabi.com/dataset/cheese/> .
 @prefix cheese:     <http://kasabi.com/dataset/cheese/> .
@@ -43,7 +44,7 @@ cheese:Bitto
 
     cheese:milk_type cheese:WholeMilk ;
 
-    cheese:texture cheese:SemiHardCheese ; // semi dura: E' un formaggio d’alpe grasso a pasta semicotta, di media durezza e media stagionatura. -- http://www.formaggiobitto.com/formaggio_bitto_come_si_produce.html
+    cheese:texture cheese:SemiHardCheese ; # semi dura: E' un formaggio d’alpe grasso a pasta semicotta, di media durezza e media stagionatura. -- http://www.formaggiobitto.com/formaggio_bitto_come_si_produce.html
 
     cheese:certification cheese:CertificationDOP ;
 
@@ -56,16 +57,16 @@ cheese:Bitto
     cheese:location <http://dbpedia.org/resource/Bitto_(torrente)> ;
     cheese:location <http://dbpedia.org/resource/Albaredo_per_San_Marco> ;
 
-    wikipedia:WikipediaPageEnglish <http://en.wikipedia.org/wiki/Bitto> ;
-    wikipedia:WikipediaPageItalian <http://it.wikipedia.org/wiki/Bitto_(formaggio)> ;
+    cheese:WikipediaPageEnglish <http://en.wikipedia.org/wiki/Bitto> ;
+    cheese:WikipediaPageItalian <http://it.wikipedia.org/wiki/Bitto_(formaggio)> ;
 
     cheese:consortium [
         rdf:type dbpedia:Consortium ;
 
         rdfs:label "Associazione Produttori \"Valli del Bitto\""@it ;
-            ?:url <http://www.formaggiobitto.com/> ;
+            foaf:page <http://www.formaggiobitto.com/> ;
             addr:tel "+39 0342 690081" ;
-            addrstreetAddress "Via Nazionale, 31"@it ;
+            addr:streetAddress "Via Nazionale, 31"@it ;
             addr:localityName "Gerola Alta (SO)"@it ;
             addr:regionName "Lombardia"@it ;
             addr:countryName "Italy"@en ;

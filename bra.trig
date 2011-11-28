@@ -22,6 +22,7 @@
 @prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
 @prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
 @prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
 
 @prefix :           <http://kasabi.com/dataset/cheese/> .
 @prefix cheese:     <http://kasabi.com/dataset/cheese/> .
@@ -77,16 +78,16 @@ cheese:Bra
     cheese:pasteurised cheese:NonPasteurisedMilk ;
     cheese:pasteurised cheese:PasteurisedMilk ;
 
-    wikipedia:WikipediaPageEnglish <http://en.wikipedia.org/wiki/Bra_cheese> ;
-    wikipedia:WikipediaPageItalian <http://it.wikipedia.org/wiki/Bra_(formaggio)> ;
+    cheese:WikipediaPageEnglish <http://en.wikipedia.org/wiki/Bra_cheese> ;
+    cheese:WikipediaPageItalian <http://it.wikipedia.org/wiki/Bra_(formaggio)> ;
 
     cheese:consortium [
         rdf:type dbpedia:Consortium ;
         rdfs:label "Consorzio di tutela formaggio Bra DOP"@it ;
-            ?:url <http://www.assopiemonte.com/bra.asp> ;
+            foaf:page <http://www.assopiemonte.com/bra.asp> ;
             addr:tel "+39 011 0565985" ;
             addr:fax "+39 011 0565989" ;
-            addrstreetAddress "Via Silvio Pellico, 10"@it ;
+            addr:streetAddress "Via Silvio Pellico, 10"@it ;
             addr:localityName "Carmagnola (TO)"@it ;
             addr:postalCode "10022" ;
             addr:regionName "Piemonte"@it ;
