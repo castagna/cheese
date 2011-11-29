@@ -39,9 +39,6 @@ cheese:PecorinoRomano
     skos:altLabel "Pecorino Romano (cheese)"@en ;
     skos:altLabel "Pecorino Romano (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

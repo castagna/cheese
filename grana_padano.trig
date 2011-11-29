@@ -39,9 +39,6 @@ cheese:GranaPadano
     skos:altLabel "Grana Padano (cheese)"@en ;
     skos:altLabel "Grana Padano (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

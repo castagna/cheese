@@ -39,9 +39,6 @@ cheese:ValleDAostaFromadzo
     skos:altLabel "Valle d'Aosta Fromadzo (cheese)"@en ;
     skos:altLabel "Valle d'Aosta Fromadzo (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

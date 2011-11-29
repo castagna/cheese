@@ -39,9 +39,6 @@ cheese:ProvoloneValpadana
     skos:altLabel "Provolone Valpadana (cheese)"@en ;
     skos:altLabel "Provolone Valpadana (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

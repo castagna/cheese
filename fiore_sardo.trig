@@ -39,9 +39,6 @@ cheese:FioreSardo
     skos:altLabel "Fiore sardo (cheese)"@en ;
     skos:altLabel "Fiore sardo (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

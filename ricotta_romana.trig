@@ -39,9 +39,6 @@ cheese:RicottaRomana
     skos:altLabel "Ricotta Romana (cheese)"@en ;
     skos:altLabel "Ricotta Romana (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

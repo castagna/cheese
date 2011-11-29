@@ -39,9 +39,6 @@ cheese:PecorinoToscano
     skos:altLabel "Pecorino Toscano (cheese)"@en ;
     skos:altLabel "Pecorino Toscano (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

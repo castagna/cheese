@@ -39,9 +39,6 @@ cheese:Taleggio
     skos:altLabel "Taleggio (cheese)"@en ;
     skos:altLabel "Taleggio (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

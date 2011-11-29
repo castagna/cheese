@@ -39,9 +39,6 @@ cheese:Fontina
     skos:altLabel "Fontina (cheese)"@en ;
     skos:altLabel "Fontina (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

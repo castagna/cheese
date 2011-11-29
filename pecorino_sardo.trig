@@ -39,9 +39,6 @@ cheese:PecorinoSardo
     skos:altLabel "Pecorino Sardo (cheese)"@en ;
     skos:altLabel "Pecorino Sardo (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

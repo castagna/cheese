@@ -39,9 +39,6 @@ cheese:QuartiroloLombardo
     skos:altLabel "Quartirolo Lombardo (cheese)"@en ;
     skos:altLabel "Quartirolo Lombardo (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

@@ -39,9 +39,6 @@ cheese:Gorgonzola
     skos:altLabel "Gorgonzola (cheese)"@en ;
     skos:altLabel "Gorgonzola (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

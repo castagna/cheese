@@ -39,9 +39,6 @@ cheese:SpressaDelleGiudicarie
     skos:altLabel "Spressa delle Giudicarie (cheese)"@en ;
     skos:altLabel "Spressa delle Giudicarie (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

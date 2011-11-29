@@ -39,12 +39,8 @@ cheese:PecorinoSiciliano
     skos:altLabel "Pecorino Siciliano (cheese)"@en ;
     skos:altLabel "Pecorino Siciliano (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
-
 
 }
 

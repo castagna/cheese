@@ -39,9 +39,6 @@ cheese:RobiolaDiRoccaverano
     skos:altLabel "Robiola di Roccaverano (cheese)"@en ;
     skos:altLabel "Robiola di Roccaverano (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

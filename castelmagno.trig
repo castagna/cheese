@@ -39,9 +39,6 @@ cheese:Castelmagno
     skos:altLabel "Castelmagno (cheese)"@en ;
     skos:altLabel "Castelmagno (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

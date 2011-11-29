@@ -39,9 +39,6 @@ cheese:Murazzano
     skos:altLabel "Murazzano (cheese)"@en ;
     skos:altLabel "Murazzano (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

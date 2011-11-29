@@ -39,9 +39,6 @@ cheese:PecorinoDiFiliano
     skos:altLabel "Pecorino di Filiano (cheese)"@en ;
     skos:altLabel "Pecorino di Filiano (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

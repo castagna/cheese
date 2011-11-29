@@ -39,9 +39,6 @@ cheese:TomaPiemontese
     skos:altLabel "Toma Piemontese (cheese)"@en ;
     skos:altLabel "Toma Piemontese (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

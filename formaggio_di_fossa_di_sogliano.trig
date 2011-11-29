@@ -40,9 +40,6 @@ cheese:FormaggioDiFossaDiSogliano
     skos:altLabel "Formaggio di Fossa di Sogliano e Talamello (cheese)"@en ;
     skos:altLabel "Formaggio di Fossa di Sogliano e Talamello (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

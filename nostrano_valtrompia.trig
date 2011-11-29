@@ -22,6 +22,7 @@
 @prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
 @prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
 @prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
 
 @prefix :           <http://kasabi.com/dataset/cheese/> .
 @prefix cheese:     <http://kasabi.com/dataset/cheese/> .

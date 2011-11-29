@@ -39,13 +39,8 @@ cheese:ValtellinaCasera
     skos:altLabel "Valtellina Casera (cheese)"@en ;
     skos:altLabel "Valtellina Casera (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
-
-}
 
 }
 

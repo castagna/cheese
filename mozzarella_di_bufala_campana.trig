@@ -39,9 +39,6 @@ cheese:MozzarellaDiBufalaCampana
     skos:altLabel "Mozzarella di Bufala Campana (cheese)"@en ;
     skos:altLabel "Mozzarella di Bufala Campana (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

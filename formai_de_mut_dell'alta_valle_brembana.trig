@@ -39,9 +39,6 @@ cheese:FormaiDeMutDellAltaValleBrembana
     skos:altLabel "Formai de Mut dell'Alta Valle Brembana (cheese)"@en ;
     skos:altLabel "Formai de Mut dell'Alta Valle Brembana (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

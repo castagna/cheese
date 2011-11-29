@@ -1,0 +1,879 @@
+<http://kasabi.com/dataset/cheese/AsiagoPressato> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Asiago> .
+<http://kasabi.com/dataset/cheese/AsiagoPressato> <http://www.w3.org/2000/01/rdf-schema#label> "Asiago pressato"@it .
+<http://kasabi.com/dataset/cheese/AsiagoPressato> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/AsiagoPressato> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/WholeMilk> .
+<http://kasabi.com/dataset/cheese/AsiagoPressato> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/SemiHardCheese> .
+<http://kasabi.com/dataset/cheese/AsiagoPressato> <http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/b/b6/Asiago_cheese.jpg> .
+<http://kasabi.com/dataset/cheese/AsiagoPressato> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/class/yago/ItalianProduCtsWithProtectedDesignationOfOrigin> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2000/01/rdf-schema#label> "Asiago"@en .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2000/01/rdf-schema#label> "Asiago"@it .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/Semi-Hard> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/Hard> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2004/02/skos/core#prefLabel> "Asiago"@en .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2004/02/skos/core#prefLabel> "Asiago"@it .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2004/02/skos/core#altLabel> "Asiago (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2004/02/skos/core#altLabel> "Asiago (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Asiago pressato"@it .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Asiago d'allevo"@it .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2002/07/owl#sameAs> <http://rdf.freebase.com/ns/m/02k5rl> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/class/yago/AsiagoCheese> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2002/07/owl#sameAs> <http://ids.freebaseapps.com/?id=/en/asiago_cheese> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2002/07/owl#sameAs> <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002896f2> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://xmlns.com/foaf/0.1/page> <http://en.wikipedia.org/wiki/Asiago_cheese> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/WikipediaPageEnglish> <http://en.wikipedia.org/wiki/Asiago_cheese> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/WikipediaPageItalian> <http://it.wikipedia.org/wiki/Asiago_(formaggio)> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/WikipediaPageItalian> <http://it.wikipedia.org/wiki/index.html?curid=241457> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Vicenza> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Trento> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Veneto> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Trentino> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "45.875" .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "11.508" .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.freebase.com/view/en/asiago_cheese> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/index.html?curid=512446> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.cookipedia.co.uk/wiki/index.php/Asiago_cheese> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.youtube.com/user/youasiago> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.facebook.com/FormaggioAsiagoDOP> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://twitter.com/#!/mondoasiago> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/consortium> _:BX2D33ae0507X3A133ecb81644X3AX2D7fff .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/consortium> _:BX2D360c201aX3A133ecbae894X3AX2D7fff .
+<http://kasabi.com/dataset/cheese/milk_source> <http://www.w3.org/2000/01/rdf-schema#label> "tipo di latte"@it .
+<http://kasabi.com/dataset/cheese/milk_source> <http://www.w3.org/2000/01/rdf-schema#label> "milk source"@en .
+<http://kasabi.com/dataset/cheese/milk_source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://kasabi.com/dataset/cheese/milk_source> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/property/source> .
+<http://kasabi.com/dataset/cheese/milk_source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/milk_source> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/MilkSource> .
+<http://kasabi.com/dataset/cheese/CowMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Milk> .
+<http://kasabi.com/dataset/cheese/CowMilk> <http://www.w3.org/2000/01/rdf-schema#label> "latte di mucca"@it .
+<http://kasabi.com/dataset/cheese/CowMilk> <http://www.w3.org/2000/01/rdf-schema#label> "cow's milk"@en .
+<http://kasabi.com/dataset/cheese/CowMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#MilkSource> .
+<http://kasabi.com/dataset/cheese/CowMilk> <http://www.w3.org/2004/02/skos/core#altLabel> "latte vaccino"@it .
+<http://kasabi.com/dataset/cheese/milk_type> <http://www.w3.org/2000/01/rdf-schema#label> "tipo di latte"@it .
+<http://kasabi.com/dataset/cheese/milk_type> <http://www.w3.org/2000/01/rdf-schema#label> "type of milk"@en .
+<http://kasabi.com/dataset/cheese/milk_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://kasabi.com/dataset/cheese/milk_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/milk_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/MilkType> .
+<http://kasabi.com/dataset/cheese/WholeMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/MilkType> .
+<http://kasabi.com/dataset/cheese/WholeMilk> <http://www.w3.org/2000/01/rdf-schema#label> "latte intero"@it .
+<http://kasabi.com/dataset/cheese/WholeMilk> <http://www.w3.org/2000/01/rdf-schema#label> "whole milk"@en .
+<http://kasabi.com/dataset/cheese/WholeMilk> <http://www.w3.org/2000/01/rdf-schema#label> "whole milk"@en-UK .
+<http://kasabi.com/dataset/cheese/WholeMilk> <http://www.w3.org/2000/01/rdf-schema#label> "whole milk"@en-US .
+<http://kasabi.com/dataset/cheese/WholeMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://kasabi.com/dataset/cheese/texture> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/property/texture> .
+<http://kasabi.com/dataset/cheese/texture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/texture> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/CheeseTexture> .
+<http://kasabi.com/dataset/cheese/SemiHardCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/CheeseTexture> .
+<http://kasabi.com/dataset/cheese/SemiHardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/SemiHardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "formaggio a pasta semi dura"@it .
+<http://kasabi.com/dataset/cheese/SemiHardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "semi-hard cheese"@en .
+<http://kasabi.com/dataset/cheese/certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://kasabi.com/dataset/cheese/certification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/property/certification> .
+<http://kasabi.com/dataset/cheese/certification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/certification> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/Certification> .
+<http://kasabi.com/dataset/cheese/CertificationDOP> <http://www.w3.org/2000/01/rdf-schema#label> "DOP"@it .
+<http://kasabi.com/dataset/cheese/CertificationDOP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Certification> .
+<http://kasabi.com/dataset/cheese/CertificationDOP> <http://www.w3.org/2004/02/skos/core#prefLabel> "DOP"@it .
+<http://kasabi.com/dataset/cheese/CertificationDOP> <http://www.w3.org/2004/02/skos/core#altLabel> "D.O.P."@it .
+<http://kasabi.com/dataset/cheese/CertificationDOP> <http://www.w3.org/2004/02/skos/core#altLabel> "Denominazione di origine protetta (DOP)"@it .
+<http://kasabi.com/dataset/cheese/CertificationDOP> <http://www.w3.org/2004/02/skos/core#altLabel> "Protected Designation of Origin (PDO)"@en .
+<http://kasabi.com/dataset/cheese/CertificationDOP> <http://www.w3.org/2002/07/owl#sameAs> <http://kasabi.com/dataset/cheese/CertificationPDO> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Asiago> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevo> <http://www.w3.org/2000/01/rdf-schema#label> "Asiago d'allevo"@it .
+<http://kasabi.com/dataset/cheese/AsiagoAllevo> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevo> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/HardCheese> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevo> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevo> <http://kasabi.com/dataset/cheese/milk_tpye> <http://kasabi.com/dataset/cheese/SkimmedMilk> .
+<http://kasabi.com/dataset/cheese/SkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/MilkType> .
+<http://kasabi.com/dataset/cheese/SkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#label> "latte scremato"@it .
+<http://kasabi.com/dataset/cheese/SkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#label> "skimmed milk"@en .
+<http://kasabi.com/dataset/cheese/SkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#label> "skimmed milk"@en-UK .
+<http://kasabi.com/dataset/cheese/SkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#label> "reduced-fat milk"@en-US .
+<http://kasabi.com/dataset/cheese/SkimmedMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/HardCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/CheeseTexture> .
+<http://kasabi.com/dataset/cheese/HardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/HardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "formaggio a pasta dura"@it .
+<http://kasabi.com/dataset/cheese/HardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "hard cheese"@en .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoMezzano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/AsiagoAllevo> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoMezzano> <http://www.w3.org/2000/01/rdf-schema#label> "Asiago Mezzano"@it .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoMezzano> <http://www.w3.org/2000/01/rdf-schema#label> "Middle Asiago"@en .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoMezzano> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoMezzano> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/HardCheese> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoMezzano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoMezzano> <http://kasabi.com/dataset/cheese/milk_tpye> <http://kasabi.com/dataset/cheese/SkimmedMilk> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoMezzano> <http://www.w3.org/2000/01/rdf-schema#comment> "From 3 to 8 months ageing."@en .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoVecchio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/AsiagoAllevo> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoVecchio> <http://www.w3.org/2000/01/rdf-schema#label> "Asiago Vecchio"@it .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoVecchio> <http://www.w3.org/2000/01/rdf-schema#label> "Old Asiago"@en .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoVecchio> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoVecchio> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/HardCheese> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoVecchio> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoVecchio> <http://kasabi.com/dataset/cheese/milk_tpye> <http://kasabi.com/dataset/cheese/SkimmedMilk> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoVecchio> <http://www.w3.org/2000/01/rdf-schema#comment> "From 9 to 18 months ageing."@en .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoStravecchio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/AsiagoAllevo> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoStravecchio> <http://www.w3.org/2000/01/rdf-schema#label> "Asiago Stravecchio"@it .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoStravecchio> <http://www.w3.org/2000/01/rdf-schema#label> "Very-old Asiago"@en .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoStravecchio> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoStravecchio> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/VeryHardCheese> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoStravecchio> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoStravecchio> <http://kasabi.com/dataset/cheese/milk_tpye> <http://kasabi.com/dataset/cheese/SkimmedMilk> .
+<http://kasabi.com/dataset/cheese/AsiagoAllevoStravecchio> <http://www.w3.org/2000/01/rdf-schema#comment> "More than 18 months ageing."@en .
+<http://kasabi.com/dataset/cheese/VeryHardCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/CheeseTexture> .
+<http://kasabi.com/dataset/cheese/VeryHardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/VeryHardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "formaggio a pasta molto dura"@it .
+<http://kasabi.com/dataset/cheese/VeryHardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "very-hard cheese"@en .
+<http://kasabi.com/dataset/cheese/Cheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#EdibleThing> .
+<http://kasabi.com/dataset/cheese/Cheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/Cheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://open.vocab.org/terms/Cheese> .
+<http://kasabi.com/dataset/cheese/Cheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Cheese> .
+<http://kasabi.com/dataset/cheese/Cheese> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/class/yago/Cheese> .
+<http://kasabi.com/dataset/cheese/Cheese> <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Cheese> .
+<http://kasabi.com/dataset/cheese/Cheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "formaggio"@it .
+<http://kasabi.com/dataset/cheese/Cheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "cheese"@en .
+<http://kasabi.com/dataset/cheese/country> <http://www.w3.org/2000/01/rdf-schema#label> "country"@en .
+<http://kasabi.com/dataset/cheese/country> <http://www.w3.org/2000/01/rdf-schema#label> "nazione"@it .
+<http://kasabi.com/dataset/cheese/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://kasabi.com/dataset/cheese/country> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://kasabi.com/dataset/cheese/location> .
+<http://kasabi.com/dataset/cheese/country> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/property/country> .
+<http://kasabi.com/dataset/cheese/country> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://kasabi.com/dataset/cheese/country> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/Country> .
+<http://kasabi.com/dataset/cheese/province> <http://www.w3.org/2000/01/rdf-schema#label> "province"@en .
+<http://kasabi.com/dataset/cheese/province> <http://www.w3.org/2000/01/rdf-schema#label> "provincia"@it .
+<http://kasabi.com/dataset/cheese/province> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://kasabi.com/dataset/cheese/province> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://kasabi.com/dataset/cheese/location> .
+<http://kasabi.com/dataset/cheese/province> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/property/province> .
+<http://kasabi.com/dataset/cheese/province> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://kasabi.com/dataset/cheese/province> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/Province> .
+<http://kasabi.com/dataset/cheese/region> <http://www.w3.org/2000/01/rdf-schema#label> "region"@en .
+<http://kasabi.com/dataset/cheese/region> <http://www.w3.org/2000/01/rdf-schema#label> "regione"@it .
+<http://kasabi.com/dataset/cheese/region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://kasabi.com/dataset/cheese/region> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://kasabi.com/dataset/cheese/location> .
+<http://kasabi.com/dataset/cheese/region> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/property/region> .
+<http://kasabi.com/dataset/cheese/region> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://kasabi.com/dataset/cheese/region> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/Region> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://www.w3.org/2000/01/rdf-schema#label> "Consorzio per la tutela del formaggio Asiago"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/resource/Consortium> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://xmlns.com/foaf/0.1/page> <http://www.asiagocheese.it/> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://schemas.talis.com/2005/address/schema#tel> "+39 0444 321758" .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://schemas.talis.com/2005/address/schema#fax> "+39 0444 326212" .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://schemas.talis.com/2005/address/schema#streetAddress> "Corso Fogazzaro, 18"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://schemas.talis.com/2005/address/schema#postalCode> "36100" .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://schemas.talis.com/2005/address/schema#localityName> "Vicenza"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://schemas.talis.com/2005/address/schema#regionName> "Veneto"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://schemas.talis.com/2005/address/schema#countryName> "Italy"@en .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7fff <http://schemas.talis.com/2005/address/schema#countryName> "Italia"@it .
+<http://kasabi.com/dataset/cheese/Bitto> <http://www.w3.org/2000/01/rdf-schema#label> "Bitto"@en .
+<http://kasabi.com/dataset/cheese/Bitto> <http://www.w3.org/2000/01/rdf-schema#label> "Bitto"@it .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/GoatMilk> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/WholeMilk> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/SemiHardCheese> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bitto"@en .
+<http://kasabi.com/dataset/cheese/Bitto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bitto"@it .
+<http://kasabi.com/dataset/cheese/Bitto> <http://www.w3.org/2004/02/skos/core#altLabel> "Bitto (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Bitto> <http://www.w3.org/2004/02/skos/core#altLabel> "Bitto (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/WikipediaPageEnglish> <http://en.wikipedia.org/wiki/Bitto> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/WikipediaPageItalian> <http://it.wikipedia.org/wiki/Bitto_(formaggio)> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Sondrio> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Lonbardia> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/consortium> _:BX2D33ae0507X3A133ecb81644X3AX2D7ffd .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/consortium> _:BX2D360c201aX3A133ecbae894X3AX2D7ffd .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Gerola_Alta> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Val_Brembana> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Bitto_(torrente)> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Albaredo_per_San_Marco> .
+<http://kasabi.com/dataset/cheese/GoatMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Milk> .
+<http://kasabi.com/dataset/cheese/GoatMilk> <http://www.w3.org/2000/01/rdf-schema#label> "latte di capra"@it .
+<http://kasabi.com/dataset/cheese/GoatMilk> <http://www.w3.org/2000/01/rdf-schema#label> "goat's milk"@en .
+<http://kasabi.com/dataset/cheese/GoatMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#MilkSource> .
+<http://kasabi.com/dataset/cheese/location> <http://www.w3.org/2000/01/rdf-schema#label> "produced in"@en .
+<http://kasabi.com/dataset/cheese/location> <http://www.w3.org/2000/01/rdf-schema#label> "prodotto in"@it .
+<http://kasabi.com/dataset/cheese/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://kasabi.com/dataset/cheese/location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://kasabi.com/dataset/cheese/location> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/Location> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://www.w3.org/2000/01/rdf-schema#label> "Associazione Produttori \"Valli del Bitto\""@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/resource/Consortium> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://xmlns.com/foaf/0.1/page> <http://www.formaggiobitto.com/> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#tel> "+39 0342 690081" .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#streetAddress> "Via Nazionale, 31"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#localityName> "Gerola Alta (SO)"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#regionName> "Lombardia"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#countryName> "Italy"@en .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#countryName> "Italia"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffd <http://xmlns.com/foaf/0.1/mbox> <file:///home/castagna/Desktop/cheese/info@formaggiobitto.com> .
+<http://kasabi.com/dataset/cheese/BraDuroAlpeggio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Bra> .
+<http://kasabi.com/dataset/cheese/BraDuroAlpeggio> <http://www.w3.org/2000/01/rdf-schema#label> "Bra duro d'alpeggio"@it .
+<http://kasabi.com/dataset/cheese/BraDuroAlpeggio> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/BraDuroAlpeggio> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/GoatMilk> .
+<http://kasabi.com/dataset/cheese/BraDuroAlpeggio> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/SheepMilk> .
+<http://kasabi.com/dataset/cheese/BraDuroAlpeggio> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/HardCheese> .
+<http://kasabi.com/dataset/cheese/BraDuroAlpeggio> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/BraDuroAlpeggio> <http://kasabi.com/dataset/cheese/pasteurised> <http://kasabi.com/dataset/cheese/NonPasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/Bra> <http://www.w3.org/2000/01/rdf-schema#label> "Bra"@en .
+<http://kasabi.com/dataset/cheese/Bra> <http://www.w3.org/2000/01/rdf-schema#label> "Bra"@it .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/GoatMilk> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/SheepMilk> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/SemiHardCheese> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/HardCheese> .
+<http://kasabi.com/dataset/cheese/Bra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Bra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bra"@en .
+<http://kasabi.com/dataset/cheese/Bra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bra"@it .
+<http://kasabi.com/dataset/cheese/Bra> <http://www.w3.org/2004/02/skos/core#altLabel> "Bra (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Bra> <http://www.w3.org/2004/02/skos/core#altLabel> "Bra (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/WikipediaPageEnglish> <http://en.wikipedia.org/wiki/Bra_cheese> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/WikipediaPageItalian> <http://it.wikipedia.org/wiki/Bra_(formaggio)> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Cuneo> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Piemonte> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/consortium> _:BX2D33ae0507X3A133ecb81644X3AX2D7ffb .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/consortium> _:BX2D360c201aX3A133ecbae894X3AX2D7ffb .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Bra,_Piedmont> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Villafranca_Piemonte> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/pasteurised> <http://kasabi.com/dataset/cheese/NonPasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/Bra> <http://kasabi.com/dataset/cheese/pasteurised> <http://kasabi.com/dataset/cheese/PasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/SheepMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Milk> .
+<http://kasabi.com/dataset/cheese/SheepMilk> <http://www.w3.org/2000/01/rdf-schema#label> "latte di pecora"@it .
+<http://kasabi.com/dataset/cheese/SheepMilk> <http://www.w3.org/2000/01/rdf-schema#label> "sheep's milk"@en .
+<http://kasabi.com/dataset/cheese/SheepMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#MilkSource> .
+<http://kasabi.com/dataset/cheese/pasteurised> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://kasabi.com/dataset/cheese/pasteurised> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://dbpedia.org/property/pasteurised> .
+<http://kasabi.com/dataset/cheese/pasteurised> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/pasteurised> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/NonPasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/pasteurised> <http://www.w3.org/2000/01/rdf-schema#range> <http://kasabi.com/dataset/cheese/PasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/NonPasteurisedMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/CheeseProduction> .
+<http://kasabi.com/dataset/cheese/NonPasteurisedMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/MilkType> .
+<http://kasabi.com/dataset/cheese/NonPasteurisedMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/NonPasteurisedMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "formaggio non pastorizzato"@it .
+<http://kasabi.com/dataset/cheese/NonPasteurisedMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "non pasteurised cheese"@en .
+<http://kasabi.com/dataset/cheese/BraTeneroAlpeggio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Bra> .
+<http://kasabi.com/dataset/cheese/BraTeneroAlpeggio> <http://www.w3.org/2000/01/rdf-schema#label> "Bra tenero d'alpeggio"@it .
+<http://kasabi.com/dataset/cheese/BraTeneroAlpeggio> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/BraTeneroAlpeggio> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/GoatMilk> .
+<http://kasabi.com/dataset/cheese/BraTeneroAlpeggio> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/SheepMilk> .
+<http://kasabi.com/dataset/cheese/BraTeneroAlpeggio> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/SemiHardCheese> .
+<http://kasabi.com/dataset/cheese/BraTeneroAlpeggio> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/BraTeneroAlpeggio> <http://kasabi.com/dataset/cheese/pasteurised> <http://kasabi.com/dataset/cheese/PasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/PasteurisedMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/CheeseProduction> .
+<http://kasabi.com/dataset/cheese/PasteurisedMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/MilkType> .
+<http://kasabi.com/dataset/cheese/PasteurisedMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/PasteurisedMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "formaggio pastorizzato"@it .
+<http://kasabi.com/dataset/cheese/PasteurisedMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "pasteurised cheese"@en .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://www.w3.org/2000/01/rdf-schema#label> "Consorzio di tutela formaggio Bra DOP"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/resource/Consortium> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://xmlns.com/foaf/0.1/page> <http://www.assopiemonte.com/bra.asp> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#tel> "+39 011 0565985" .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#fax> "+39 011 0565989" .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#streetAddress> "Via Silvio Pellico, 10"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#postalCode> "10022" .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#localityName> "Carmagnola (TO)"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#regionName> "Piemonte"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#countryName> "Italy"@en .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#countryName> "Italia"@it .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffb <http://xmlns.com/foaf/0.1/mbox> <file:///home/castagna/Desktop/cheese/promo.formaggi@produttorilattepiemonte.com> .
+<http://kasabi.com/dataset/cheese/CaciocavalloRagusano> <http://www.w3.org/2000/01/rdf-schema#label> "Caciocavallo Ragusano"@en .
+<http://kasabi.com/dataset/cheese/CaciocavalloRagusano> <http://www.w3.org/2000/01/rdf-schema#label> "Caciocavallo Ragusano"@it .
+<http://kasabi.com/dataset/cheese/CaciocavalloRagusano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/CaciocavalloRagusano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/CaciocavalloRagusano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caciocavallo Ragusano"@en .
+<http://kasabi.com/dataset/cheese/CaciocavalloRagusano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caciocavallo Ragusano"@it .
+<http://kasabi.com/dataset/cheese/CaciocavalloRagusano> <http://www.w3.org/2004/02/skos/core#altLabel> "Caciocavallo Ragusano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/CaciocavalloRagusano> <http://www.w3.org/2004/02/skos/core#altLabel> "Caciocavallo Ragusano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/CaciocavalloSilano> <http://www.w3.org/2000/01/rdf-schema#label> "Caciocavallo Silano"@en .
+<http://kasabi.com/dataset/cheese/CaciocavalloSilano> <http://www.w3.org/2000/01/rdf-schema#label> "Caciocavallo Silano"@it .
+<http://kasabi.com/dataset/cheese/CaciocavalloSilano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/CaciocavalloSilano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/CaciocavalloSilano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caciocavallo Silano"@en .
+<http://kasabi.com/dataset/cheese/CaciocavalloSilano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caciocavallo Silano"@it .
+<http://kasabi.com/dataset/cheese/CaciocavalloSilano> <http://www.w3.org/2004/02/skos/core#altLabel> "Caciocavallo Silano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/CaciocavalloSilano> <http://www.w3.org/2004/02/skos/core#altLabel> "Caciocavallo Silano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/CanestratoDiMoliterno> <http://www.w3.org/2000/01/rdf-schema#label> "Canestrato di Moliterno"@en .
+<http://kasabi.com/dataset/cheese/CanestratoDiMoliterno> <http://www.w3.org/2000/01/rdf-schema#label> "Canestrato di Moliterno"@it .
+<http://kasabi.com/dataset/cheese/CanestratoDiMoliterno> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/CanestratoDiMoliterno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/CanestratoDiMoliterno> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canestrato di Moliterno"@en .
+<http://kasabi.com/dataset/cheese/CanestratoDiMoliterno> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canestrato di Moliterno"@it .
+<http://kasabi.com/dataset/cheese/CanestratoDiMoliterno> <http://www.w3.org/2004/02/skos/core#altLabel> "Canestrato di Moliterno (cheese)"@en .
+<http://kasabi.com/dataset/cheese/CanestratoDiMoliterno> <http://www.w3.org/2004/02/skos/core#altLabel> "Canestrato di Moliterno (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/CanestratoPugliese> <http://www.w3.org/2000/01/rdf-schema#label> "Canestrato Pugliese"@en .
+<http://kasabi.com/dataset/cheese/CanestratoPugliese> <http://www.w3.org/2000/01/rdf-schema#label> "Canestrato Pugliese"@it .
+<http://kasabi.com/dataset/cheese/CanestratoPugliese> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/CanestratoPugliese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/CanestratoPugliese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canestrato Pugliese"@en .
+<http://kasabi.com/dataset/cheese/CanestratoPugliese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canestrato Pugliese"@it .
+<http://kasabi.com/dataset/cheese/CanestratoPugliese> <http://www.w3.org/2004/02/skos/core#altLabel> "Canestrato Pugliese (cheese)"@en .
+<http://kasabi.com/dataset/cheese/CanestratoPugliese> <http://www.w3.org/2004/02/skos/core#altLabel> "Canestrato Pugliese (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/CasatellaTrevigiana> <http://www.w3.org/2000/01/rdf-schema#label> "Casatella Trevigiana"@en .
+<http://kasabi.com/dataset/cheese/CasatellaTrevigiana> <http://www.w3.org/2000/01/rdf-schema#label> "Casatella Trevigiana"@it .
+<http://kasabi.com/dataset/cheese/CasatellaTrevigiana> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/CasatellaTrevigiana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/CasatellaTrevigiana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Casatella Trevigiana"@en .
+<http://kasabi.com/dataset/cheese/CasatellaTrevigiana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Casatella Trevigiana"@it .
+<http://kasabi.com/dataset/cheese/CasatellaTrevigiana> <http://www.w3.org/2004/02/skos/core#altLabel> "Casatella Trevigiana (cheese)"@en .
+<http://kasabi.com/dataset/cheese/CasatellaTrevigiana> <http://www.w3.org/2004/02/skos/core#altLabel> "Casatella Trevigiana (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/CasciottaDUrbino> <http://www.w3.org/2000/01/rdf-schema#label> "Casciotta d'Urbino"@en .
+<http://kasabi.com/dataset/cheese/CasciottaDUrbino> <http://www.w3.org/2000/01/rdf-schema#label> "Casciotta d'Urbino"@it .
+<http://kasabi.com/dataset/cheese/CasciottaDUrbino> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/CasciottaDUrbino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/CasciottaDUrbino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Casciotta d'Urbino"@en .
+<http://kasabi.com/dataset/cheese/CasciottaDUrbino> <http://www.w3.org/2004/02/skos/core#prefLabel> "Casciotta d'Urbino"@it .
+<http://kasabi.com/dataset/cheese/CasciottaDUrbino> <http://www.w3.org/2004/02/skos/core#altLabel> "Casciotta d'Urbino (cheese)"@en .
+<http://kasabi.com/dataset/cheese/CasciottaDUrbino> <http://www.w3.org/2004/02/skos/core#altLabel> "Casciotta d'Urbino (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Castelmagno> <http://www.w3.org/2000/01/rdf-schema#label> "Castelmagno"@en .
+<http://kasabi.com/dataset/cheese/Castelmagno> <http://www.w3.org/2000/01/rdf-schema#label> "Castelmagno"@it .
+<http://kasabi.com/dataset/cheese/Castelmagno> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Castelmagno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Castelmagno> <http://www.w3.org/2004/02/skos/core#prefLabel> "Castelmagno"@en .
+<http://kasabi.com/dataset/cheese/Castelmagno> <http://www.w3.org/2004/02/skos/core#prefLabel> "Castelmagno"@it .
+<http://kasabi.com/dataset/cheese/Castelmagno> <http://www.w3.org/2004/02/skos/core#altLabel> "Castelmagno (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Castelmagno> <http://www.w3.org/2004/02/skos/core#altLabel> "Castelmagno (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/FioreSardo> <http://www.w3.org/2000/01/rdf-schema#label> "Fiore sardo"@en .
+<http://kasabi.com/dataset/cheese/FioreSardo> <http://www.w3.org/2000/01/rdf-schema#label> "Fiore sardo"@it .
+<http://kasabi.com/dataset/cheese/FioreSardo> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/FioreSardo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/FioreSardo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fiore sardo"@en .
+<http://kasabi.com/dataset/cheese/FioreSardo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fiore sardo"@it .
+<http://kasabi.com/dataset/cheese/FioreSardo> <http://www.w3.org/2004/02/skos/core#altLabel> "Fiore sardo (cheese)"@en .
+<http://kasabi.com/dataset/cheese/FioreSardo> <http://www.w3.org/2004/02/skos/core#altLabel> "Fiore sardo (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Fontina> <http://www.w3.org/2000/01/rdf-schema#label> "Fontina"@en .
+<http://kasabi.com/dataset/cheese/Fontina> <http://www.w3.org/2000/01/rdf-schema#label> "Fontina"@it .
+<http://kasabi.com/dataset/cheese/Fontina> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Fontina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Fontina> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fontina"@en .
+<http://kasabi.com/dataset/cheese/Fontina> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fontina"@it .
+<http://kasabi.com/dataset/cheese/Fontina> <http://www.w3.org/2004/02/skos/core#altLabel> "Fontina (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Fontina> <http://www.w3.org/2004/02/skos/core#altLabel> "Fontina (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://www.w3.org/2000/01/rdf-schema#label> "Formaggella del Luinese"@en .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://www.w3.org/2000/01/rdf-schema#label> "Formaggella del Luinese"@it .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/GoatMilk> .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/WholeMilk> .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/NonPasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/SemiHardCheese> .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formaggella del Luinese"@en .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formaggella del Luinese"@it .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://www.w3.org/2004/02/skos/core#altLabel> "Formaggella del Luinese (cheese)"@en .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://www.w3.org/2004/02/skos/core#altLabel> "Formaggella del Luinese (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Varese> .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Lombardia> .
+<http://kasabi.com/dataset/cheese/FormaggellaDelLuinese> <http://www.w3.org/2000/01/rdf-schema#description> "Formaggella del Luinese is a semi-hard cheese produced exclusively from whole, raw goat's milk, using rennet-based curdling, with a minimum maturing period of 20 days."@en .
+<http://kasabi.com/dataset/cheese/FormaggioDiFossaDiSogliano> <http://www.w3.org/2000/01/rdf-schema#label> "Formaggio di Fossa di Sogliano e Talamello"@en .
+<http://kasabi.com/dataset/cheese/FormaggioDiFossaDiSogliano> <http://www.w3.org/2000/01/rdf-schema#label> "Formaggio di Fossa di Sogliano e Talamello"@it .
+<http://kasabi.com/dataset/cheese/FormaggioDiFossaDiSogliano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/FormaggioDiFossaDiSogliano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/FormaggioDiFossaDiSogliano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formaggio di Fossa di Sogliano e Talamello"@en .
+<http://kasabi.com/dataset/cheese/FormaggioDiFossaDiSogliano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formaggio di Fossa di Sogliano e Talamello"@it .
+<http://kasabi.com/dataset/cheese/FormaggioDiFossaDiSogliano> <http://www.w3.org/2004/02/skos/core#altLabel> "Formaggio di Fossa di Sogliano e Talamello (cheese)"@en .
+<http://kasabi.com/dataset/cheese/FormaggioDiFossaDiSogliano> <http://www.w3.org/2004/02/skos/core#altLabel> "Formaggio di Fossa di Sogliano e Talamello (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/FormaiDeMutDellAltaValleBrembana> <http://www.w3.org/2000/01/rdf-schema#label> "Formai de Mut dell'Alta Valle Brembana"@en .
+<http://kasabi.com/dataset/cheese/FormaiDeMutDellAltaValleBrembana> <http://www.w3.org/2000/01/rdf-schema#label> "Formai de Mut dell'Alta Valle Brembana"@it .
+<http://kasabi.com/dataset/cheese/FormaiDeMutDellAltaValleBrembana> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/FormaiDeMutDellAltaValleBrembana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/FormaiDeMutDellAltaValleBrembana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formai de Mut dell'Alta Valle Brembana"@en .
+<http://kasabi.com/dataset/cheese/FormaiDeMutDellAltaValleBrembana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formai de Mut dell'Alta Valle Brembana"@it .
+<http://kasabi.com/dataset/cheese/FormaiDeMutDellAltaValleBrembana> <http://www.w3.org/2004/02/skos/core#altLabel> "Formai de Mut dell'Alta Valle Brembana (cheese)"@en .
+<http://kasabi.com/dataset/cheese/FormaiDeMutDellAltaValleBrembana> <http://www.w3.org/2004/02/skos/core#altLabel> "Formai de Mut dell'Alta Valle Brembana (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/GiacobinDeZena> <http://www.w3.org/2000/01/rdf-schema#label> "Giacobin de Zena"@en .
+<http://kasabi.com/dataset/cheese/GiacobinDeZena> <http://www.w3.org/2000/01/rdf-schema#label> "Giacobin de Zena"@it .
+<http://kasabi.com/dataset/cheese/GiacobinDeZena> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/GiacobinDeZena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/GiacobinDeZena> <http://www.w3.org/2004/02/skos/core#prefLabel> "Giacobin de Zena"@en .
+<http://kasabi.com/dataset/cheese/GiacobinDeZena> <http://www.w3.org/2004/02/skos/core#prefLabel> "Giacobin de Zena"@it .
+<http://kasabi.com/dataset/cheese/GiacobinDeZena> <http://www.w3.org/2004/02/skos/core#altLabel> "Giacobin de Zena (cheese)"@en .
+<http://kasabi.com/dataset/cheese/GiacobinDeZena> <http://www.w3.org/2004/02/skos/core#altLabel> "Giacobin de Zena (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Gorgonzola> <http://www.w3.org/2000/01/rdf-schema#label> "Gorgonzola"@en .
+<http://kasabi.com/dataset/cheese/Gorgonzola> <http://www.w3.org/2000/01/rdf-schema#label> "Gorgonzola"@it .
+<http://kasabi.com/dataset/cheese/Gorgonzola> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Gorgonzola> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Gorgonzola> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gorgonzola"@en .
+<http://kasabi.com/dataset/cheese/Gorgonzola> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gorgonzola"@it .
+<http://kasabi.com/dataset/cheese/Gorgonzola> <http://www.w3.org/2004/02/skos/core#altLabel> "Gorgonzola (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Gorgonzola> <http://www.w3.org/2004/02/skos/core#altLabel> "Gorgonzola (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/GranaPadano> <http://www.w3.org/2000/01/rdf-schema#label> "Grana Padano"@en .
+<http://kasabi.com/dataset/cheese/GranaPadano> <http://www.w3.org/2000/01/rdf-schema#label> "Grana Padano"@it .
+<http://kasabi.com/dataset/cheese/GranaPadano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/GranaPadano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/GranaPadano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grana Padano"@en .
+<http://kasabi.com/dataset/cheese/GranaPadano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grana Padano"@it .
+<http://kasabi.com/dataset/cheese/GranaPadano> <http://www.w3.org/2004/02/skos/core#altLabel> "Grana Padano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/GranaPadano> <http://www.w3.org/2004/02/skos/core#altLabel> "Grana Padano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Montasio> <http://www.w3.org/2000/01/rdf-schema#label> "Montasio"@en .
+<http://kasabi.com/dataset/cheese/Montasio> <http://www.w3.org/2000/01/rdf-schema#label> "Montasio"@it .
+<http://kasabi.com/dataset/cheese/Montasio> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Montasio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Montasio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Montasio"@en .
+<http://kasabi.com/dataset/cheese/Montasio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Montasio"@it .
+<http://kasabi.com/dataset/cheese/Montasio> <http://www.w3.org/2004/02/skos/core#altLabel> "Montasio (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Montasio> <http://www.w3.org/2004/02/skos/core#altLabel> "Montasio (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/MonteVeronese> <http://www.w3.org/2000/01/rdf-schema#label> "Monte Veronese"@en .
+<http://kasabi.com/dataset/cheese/MonteVeronese> <http://www.w3.org/2000/01/rdf-schema#label> "Monte Veronese"@it .
+<http://kasabi.com/dataset/cheese/MonteVeronese> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/MonteVeronese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/MonteVeronese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monte Veronese"@en .
+<http://kasabi.com/dataset/cheese/MonteVeronese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monte Veronese"@it .
+<http://kasabi.com/dataset/cheese/MonteVeronese> <http://www.w3.org/2004/02/skos/core#altLabel> "Monte Veronese (cheese)"@en .
+<http://kasabi.com/dataset/cheese/MonteVeronese> <http://www.w3.org/2004/02/skos/core#altLabel> "Monte Veronese (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/MozzarellaDiBufalaCampana> <http://www.w3.org/2000/01/rdf-schema#label> "Mozzarella di Bufala Campana"@en .
+<http://kasabi.com/dataset/cheese/MozzarellaDiBufalaCampana> <http://www.w3.org/2000/01/rdf-schema#label> "Mozzarella di Bufala Campana"@it .
+<http://kasabi.com/dataset/cheese/MozzarellaDiBufalaCampana> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/MozzarellaDiBufalaCampana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/MozzarellaDiBufalaCampana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mozzarella di Bufala Campana"@en .
+<http://kasabi.com/dataset/cheese/MozzarellaDiBufalaCampana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mozzarella di Bufala Campana"@it .
+<http://kasabi.com/dataset/cheese/MozzarellaDiBufalaCampana> <http://www.w3.org/2004/02/skos/core#altLabel> "Mozzarella di Bufala Campana (cheese)"@en .
+<http://kasabi.com/dataset/cheese/MozzarellaDiBufalaCampana> <http://www.w3.org/2004/02/skos/core#altLabel> "Mozzarella di Bufala Campana (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Murazzano> <http://www.w3.org/2000/01/rdf-schema#label> "Murazzano"@en .
+<http://kasabi.com/dataset/cheese/Murazzano> <http://www.w3.org/2000/01/rdf-schema#label> "Murazzano"@it .
+<http://kasabi.com/dataset/cheese/Murazzano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Murazzano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Murazzano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Murazzano"@en .
+<http://kasabi.com/dataset/cheese/Murazzano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Murazzano"@it .
+<http://kasabi.com/dataset/cheese/Murazzano> <http://www.w3.org/2004/02/skos/core#altLabel> "Murazzano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Murazzano> <http://www.w3.org/2004/02/skos/core#altLabel> "Murazzano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://www.w3.org/2000/01/rdf-schema#label> "Nostrano Valtrompia"@en .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://www.w3.org/2000/01/rdf-schema#label> "Nostrano Valtrompia"@it .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/WholeMilk> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/NonPasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/VeryHardCheese> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://www.w3.org/2000/01/rdf-schema#comment> "Nostrano Valtrompia PDO cheese is a semi-fat, extra-hard cheese produced throughout the year from raw milk with added saffron."@en .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nostrano Valtrompia"@en .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nostrano Valtrompia"@it .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://www.w3.org/2004/02/skos/core#altLabel> "Nostrano Valtrompia (cheese)"@en .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://www.w3.org/2004/02/skos/core#altLabel> "Nostrano Valtrompia (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Brescia> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Lombardia> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Trompia> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Bovegno> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Bovezzo> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Brione> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Caino> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Collio> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Concesio> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Irma> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Gardone_Val_Trompia> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Lodrino> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Lumezzane> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Marcheno> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Marmentino> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Nave> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Pezzaze> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Polaveno> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Tavernole_sul_Mella> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Villa_Carcina> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Gussago> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Quarone> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Civine> .
+<http://kasabi.com/dataset/cheese/ParmigianoReggiano> <http://www.w3.org/2000/01/rdf-schema#label> "Parmigiano Reggiano"@en .
+<http://kasabi.com/dataset/cheese/ParmigianoReggiano> <http://www.w3.org/2000/01/rdf-schema#label> "Parmigiano Reggiano"@it .
+<http://kasabi.com/dataset/cheese/ParmigianoReggiano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/ParmigianoReggiano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/ParmigianoReggiano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Parmigiano Reggiano"@en .
+<http://kasabi.com/dataset/cheese/ParmigianoReggiano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Parmigiano Reggiano"@it .
+<http://kasabi.com/dataset/cheese/ParmigianoReggiano> <http://www.w3.org/2004/02/skos/core#altLabel> "Parmigiano Reggiano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/ParmigianoReggiano> <http://www.w3.org/2004/02/skos/core#altLabel> "Parmigiano Reggiano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/PecorinoDiFiliano> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino di Filiano"@en .
+<http://kasabi.com/dataset/cheese/PecorinoDiFiliano> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino di Filiano"@it .
+<http://kasabi.com/dataset/cheese/PecorinoDiFiliano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/PecorinoDiFiliano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/PecorinoDiFiliano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino di Filiano"@en .
+<http://kasabi.com/dataset/cheese/PecorinoDiFiliano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino di Filiano"@it .
+<http://kasabi.com/dataset/cheese/PecorinoDiFiliano> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino di Filiano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/PecorinoDiFiliano> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino di Filiano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino di Picinisco"@en .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino di Picinisco"@it .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/GoatMilk> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/SheepMilk> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/WholeMilk> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/NonPasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/SemiHardCheese> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino di Picinisco"@en .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino di Picinisco"@it .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino di Picinisco (cheese)"@en .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino di Picinisco (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Frosinone> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Lazio> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Abruzzo> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Molise> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Acquafondata> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Alvito,_Lazio> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Atina,_Lazio> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Belmonte_Castello> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Campoli_Appennino> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Casalattico> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Casalvieri> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Fontechiari> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Gallinaro> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Pescosolido> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Picinisco> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Posta_Fibreno> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/San_Biagio_Saracinisco> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/San_Donato_Val_di_Comino> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Settefrati> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Terelle> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Vallerotonda> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Villa_Latina> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Vicalvi> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Viticuso> .
+<http://kasabi.com/dataset/cheese/PecorinoDiPicinisco> <http://www.w3.org/2000/01/rdf-schema#description> ""@en .
+<http://kasabi.com/dataset/cheese/PecorinoRomano> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino Romano"@en .
+<http://kasabi.com/dataset/cheese/PecorinoRomano> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino Romano"@it .
+<http://kasabi.com/dataset/cheese/PecorinoRomano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/PecorinoRomano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/PecorinoRomano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino Romano"@en .
+<http://kasabi.com/dataset/cheese/PecorinoRomano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino Romano"@it .
+<http://kasabi.com/dataset/cheese/PecorinoRomano> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino Romano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/PecorinoRomano> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino Romano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/PecorinoSardo> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino Sardo"@en .
+<http://kasabi.com/dataset/cheese/PecorinoSardo> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino Sardo"@it .
+<http://kasabi.com/dataset/cheese/PecorinoSardo> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/PecorinoSardo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/PecorinoSardo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino Sardo"@en .
+<http://kasabi.com/dataset/cheese/PecorinoSardo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino Sardo"@it .
+<http://kasabi.com/dataset/cheese/PecorinoSardo> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino Sardo (cheese)"@en .
+<http://kasabi.com/dataset/cheese/PecorinoSardo> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino Sardo (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/PecorinoSiciliano> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino Siciliano"@en .
+<http://kasabi.com/dataset/cheese/PecorinoSiciliano> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino Siciliano"@it .
+<http://kasabi.com/dataset/cheese/PecorinoSiciliano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/PecorinoSiciliano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/PecorinoSiciliano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino Siciliano"@en .
+<http://kasabi.com/dataset/cheese/PecorinoSiciliano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino Siciliano"@it .
+<http://kasabi.com/dataset/cheese/PecorinoSiciliano> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino Siciliano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/PecorinoSiciliano> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino Siciliano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/PecorinoToscano> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino Toscano"@en .
+<http://kasabi.com/dataset/cheese/PecorinoToscano> <http://www.w3.org/2000/01/rdf-schema#label> "Pecorino Toscano"@it .
+<http://kasabi.com/dataset/cheese/PecorinoToscano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/PecorinoToscano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/PecorinoToscano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino Toscano"@en .
+<http://kasabi.com/dataset/cheese/PecorinoToscano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pecorino Toscano"@it .
+<http://kasabi.com/dataset/cheese/PecorinoToscano> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino Toscano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/PecorinoToscano> <http://www.w3.org/2004/02/skos/core#altLabel> "Pecorino Toscano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://www.w3.org/2000/01/rdf-schema#label> "Piacentinu Ennese"@en .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://www.w3.org/2000/01/rdf-schema#label> "Piacentinu Ennese"@it .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/SheepMilk> .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/WholeMilk> .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/NonPasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/HardCheese> .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piacentinu Ennese"@en .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piacentinu Ennese"@it .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://www.w3.org/2004/02/skos/core#altLabel> "Piacentinu Ennese (cheese)"@en .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://www.w3.org/2004/02/skos/core#altLabel> "Piacentinu Ennese (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Enna> .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Sicilia> .
+<http://kasabi.com/dataset/cheese/PiacentinuEnnese> <http://www.w3.org/2000/01/rdf-schema#description> ""@en .
+<http://kasabi.com/dataset/cheese/Piave> <http://www.w3.org/2000/01/rdf-schema#label> "Piave"@en .
+<http://kasabi.com/dataset/cheese/Piave> <http://www.w3.org/2000/01/rdf-schema#label> "Piave"@it .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/WholeMilk> .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/SkimmedMilk> .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/PasteurisedMilk> .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/texture> <http://kasabi.com/dataset/cheese/HardCheese> .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Piave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Piave> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piave"@en .
+<http://kasabi.com/dataset/cheese/Piave> <http://www.w3.org/2004/02/skos/core#prefLabel> "Piave"@it .
+<http://kasabi.com/dataset/cheese/Piave> <http://www.w3.org/2004/02/skos/core#altLabel> "Piave (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Piave> <http://www.w3.org/2004/02/skos/core#altLabel> "Piave (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Belluno> .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Veneto> .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/resource/Feltre> .
+<http://kasabi.com/dataset/cheese/Piave> <http://kasabi.com/dataset/cheese/location> <http://dbpedia.org/page/Piave_(river)> .
+<http://kasabi.com/dataset/cheese/Piave> <http://www.w3.org/2000/01/rdf-schema#description> ""@en .
+<http://kasabi.com/dataset/cheese/ProvoloneDelMonaco> <http://www.w3.org/2000/01/rdf-schema#label> "Provolone del Monaco"@en .
+<http://kasabi.com/dataset/cheese/ProvoloneDelMonaco> <http://www.w3.org/2000/01/rdf-schema#label> "Provolone del Monaco"@it .
+<http://kasabi.com/dataset/cheese/ProvoloneDelMonaco> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/ProvoloneDelMonaco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/ProvoloneDelMonaco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Provolone del Monaco"@en .
+<http://kasabi.com/dataset/cheese/ProvoloneDelMonaco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Provolone del Monaco"@it .
+<http://kasabi.com/dataset/cheese/ProvoloneDelMonaco> <http://www.w3.org/2004/02/skos/core#altLabel> "Provolone del Monaco (cheese)"@en .
+<http://kasabi.com/dataset/cheese/ProvoloneDelMonaco> <http://www.w3.org/2004/02/skos/core#altLabel> "Provolone del Monaco (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/ProvoloneValpadana> <http://www.w3.org/2000/01/rdf-schema#label> "Provolone Valpadana"@en .
+<http://kasabi.com/dataset/cheese/ProvoloneValpadana> <http://www.w3.org/2000/01/rdf-schema#label> "Provolone Valpadana"@it .
+<http://kasabi.com/dataset/cheese/ProvoloneValpadana> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/ProvoloneValpadana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/ProvoloneValpadana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Provolone Valpadana"@en .
+<http://kasabi.com/dataset/cheese/ProvoloneValpadana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Provolone Valpadana"@it .
+<http://kasabi.com/dataset/cheese/ProvoloneValpadana> <http://www.w3.org/2004/02/skos/core#altLabel> "Provolone Valpadana (cheese)"@en .
+<http://kasabi.com/dataset/cheese/ProvoloneValpadana> <http://www.w3.org/2004/02/skos/core#altLabel> "Provolone Valpadana (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/QuartiroloLombardo> <http://www.w3.org/2000/01/rdf-schema#label> "Quartirolo Lombardo"@en .
+<http://kasabi.com/dataset/cheese/QuartiroloLombardo> <http://www.w3.org/2000/01/rdf-schema#label> "Quartirolo Lombardo"@it .
+<http://kasabi.com/dataset/cheese/QuartiroloLombardo> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/QuartiroloLombardo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/QuartiroloLombardo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quartirolo Lombardo"@en .
+<http://kasabi.com/dataset/cheese/QuartiroloLombardo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quartirolo Lombardo"@it .
+<http://kasabi.com/dataset/cheese/QuartiroloLombardo> <http://www.w3.org/2004/02/skos/core#altLabel> "Quartirolo Lombardo (cheese)"@en .
+<http://kasabi.com/dataset/cheese/QuartiroloLombardo> <http://www.w3.org/2004/02/skos/core#altLabel> "Quartirolo Lombardo (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Ragusano> <http://www.w3.org/2000/01/rdf-schema#label> "Ragusano"@en .
+<http://kasabi.com/dataset/cheese/Ragusano> <http://www.w3.org/2000/01/rdf-schema#label> "Ragusano"@it .
+<http://kasabi.com/dataset/cheese/Ragusano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Ragusano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Ragusano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ragusano"@en .
+<http://kasabi.com/dataset/cheese/Ragusano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ragusano"@it .
+<http://kasabi.com/dataset/cheese/Ragusano> <http://www.w3.org/2004/02/skos/core#altLabel> "Ragusano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Ragusano> <http://www.w3.org/2004/02/skos/core#altLabel> "Ragusano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Raschera> <http://www.w3.org/2000/01/rdf-schema#label> "Raschera"@en .
+<http://kasabi.com/dataset/cheese/Raschera> <http://www.w3.org/2000/01/rdf-schema#label> "Raschera"@it .
+<http://kasabi.com/dataset/cheese/Raschera> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Raschera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Raschera> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raschera"@en .
+<http://kasabi.com/dataset/cheese/Raschera> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raschera"@it .
+<http://kasabi.com/dataset/cheese/Raschera> <http://www.w3.org/2004/02/skos/core#altLabel> "Raschera (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Raschera> <http://www.w3.org/2004/02/skos/core#altLabel> "Raschera (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/RicottaRomana> <http://www.w3.org/2000/01/rdf-schema#label> "Ricotta Romana"@en .
+<http://kasabi.com/dataset/cheese/RicottaRomana> <http://www.w3.org/2000/01/rdf-schema#label> "Ricotta Romana"@it .
+<http://kasabi.com/dataset/cheese/RicottaRomana> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/RicottaRomana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/RicottaRomana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ricotta Romana"@en .
+<http://kasabi.com/dataset/cheese/RicottaRomana> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ricotta Romana"@it .
+<http://kasabi.com/dataset/cheese/RicottaRomana> <http://www.w3.org/2004/02/skos/core#altLabel> "Ricotta Romana (cheese)"@en .
+<http://kasabi.com/dataset/cheese/RicottaRomana> <http://www.w3.org/2004/02/skos/core#altLabel> "Ricotta Romana (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/RobiolaDiRoccaverano> <http://www.w3.org/2000/01/rdf-schema#label> "Robiola di Roccaverano"@en .
+<http://kasabi.com/dataset/cheese/RobiolaDiRoccaverano> <http://www.w3.org/2000/01/rdf-schema#label> "Robiola di Roccaverano"@it .
+<http://kasabi.com/dataset/cheese/RobiolaDiRoccaverano> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/RobiolaDiRoccaverano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/RobiolaDiRoccaverano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Robiola di Roccaverano"@en .
+<http://kasabi.com/dataset/cheese/RobiolaDiRoccaverano> <http://www.w3.org/2004/02/skos/core#prefLabel> "Robiola di Roccaverano"@it .
+<http://kasabi.com/dataset/cheese/RobiolaDiRoccaverano> <http://www.w3.org/2004/02/skos/core#altLabel> "Robiola di Roccaverano (cheese)"@en .
+<http://kasabi.com/dataset/cheese/RobiolaDiRoccaverano> <http://www.w3.org/2004/02/skos/core#altLabel> "Robiola di Roccaverano (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://www.w3.org/2000/01/rdf-schema#label> "Salva Cremasco"@en .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://www.w3.org/2000/01/rdf-schema#label> "Salva Cremasco"@it .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/milk_type> <http://kasabi.com/dataset/cheese/RawMilk> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salva Cremasco"@en .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salva Cremasco"@it .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://www.w3.org/2004/02/skos/core#altLabel> "Salva Cremasco (cheese)"@en .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://www.w3.org/2004/02/skos/core#altLabel> "Salva Cremasco (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Brescia> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Bergamo> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Cremona> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Lecco> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Lodi> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Milan> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Lombardia> .
+<http://kasabi.com/dataset/cheese/SalvaCremasco> <http://kasabi.com/dataset/cheese/textture> <http://kasabi.com/dataset/cheese/SoftCheese> .
+<http://kasabi.com/dataset/cheese/SoftCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/CheeseTexture> .
+<http://kasabi.com/dataset/cheese/SoftCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/SoftCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "formaggio morbido"@it .
+<http://kasabi.com/dataset/cheese/SoftCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "soft cheese"@en .
+<http://kasabi.com/dataset/cheese/RawMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/MilkType> .
+<http://kasabi.com/dataset/cheese/RawMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/SpressaDelleGiudicarie> <http://www.w3.org/2000/01/rdf-schema#label> "Spressa delle Giudicarie"@en .
+<http://kasabi.com/dataset/cheese/SpressaDelleGiudicarie> <http://www.w3.org/2000/01/rdf-schema#label> "Spressa delle Giudicarie"@it .
+<http://kasabi.com/dataset/cheese/SpressaDelleGiudicarie> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/SpressaDelleGiudicarie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/SpressaDelleGiudicarie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spressa delle Giudicarie"@en .
+<http://kasabi.com/dataset/cheese/SpressaDelleGiudicarie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spressa delle Giudicarie"@it .
+<http://kasabi.com/dataset/cheese/SpressaDelleGiudicarie> <http://www.w3.org/2004/02/skos/core#altLabel> "Spressa delle Giudicarie (cheese)"@en .
+<http://kasabi.com/dataset/cheese/SpressaDelleGiudicarie> <http://www.w3.org/2004/02/skos/core#altLabel> "Spressa delle Giudicarie (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://www.w3.org/2000/01/rdf-schema#label> "Squacquerone di Romagna"@en .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://www.w3.org/2000/01/rdf-schema#label> "Squacquerone di Romagna"@it .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/CowMilk> .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://www.w3.org/2004/02/skos/core#prefLabel> "Squacquerone di Romagna"@en .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://www.w3.org/2004/02/skos/core#prefLabel> "Squacquerone di Romagna"@it .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://www.w3.org/2004/02/skos/core#altLabel> "Squacquerone di Romagna (cheese)"@en .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://www.w3.org/2004/02/skos/core#altLabel> "Squacquerone di Romagna (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Ravenna> .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Rimini> .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Bologna> .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Forlì-Cesena> .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Ferrara> .
+<http://kasabi.com/dataset/cheese/SquacqueroneDiRomagna> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Emilia-Romagna> .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://www.w3.org/2000/01/rdf-schema#label> "Stelvio"@en .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://www.w3.org/2000/01/rdf-schema#label> "Stelvio"@it .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stelvio"@en .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stelvio"@it .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://www.w3.org/2004/02/skos/core#altLabel> "Stilfser (cheese)"@en .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://www.w3.org/2004/02/skos/core#altLabel> "Stilfser (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://www.w3.org/2004/02/skos/core#altLabel> "Stelvio (cheese)"@en .
+<http://kasabi.com/dataset/cheese/StelvioStilfser> <http://www.w3.org/2004/02/skos/core#altLabel> "Stelvio (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/Taleggio> <http://www.w3.org/2000/01/rdf-schema#label> "Taleggio"@en .
+<http://kasabi.com/dataset/cheese/Taleggio> <http://www.w3.org/2000/01/rdf-schema#label> "Taleggio"@it .
+<http://kasabi.com/dataset/cheese/Taleggio> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Taleggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/Taleggio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taleggio"@en .
+<http://kasabi.com/dataset/cheese/Taleggio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Taleggio"@it .
+<http://kasabi.com/dataset/cheese/Taleggio> <http://www.w3.org/2004/02/skos/core#altLabel> "Taleggio (cheese)"@en .
+<http://kasabi.com/dataset/cheese/Taleggio> <http://www.w3.org/2004/02/skos/core#altLabel> "Taleggio (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/TomaPiemontese> <http://www.w3.org/2000/01/rdf-schema#label> "Toma Piemontese"@en .
+<http://kasabi.com/dataset/cheese/TomaPiemontese> <http://www.w3.org/2000/01/rdf-schema#label> "Toma Piemontese"@it .
+<http://kasabi.com/dataset/cheese/TomaPiemontese> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/TomaPiemontese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/TomaPiemontese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Toma Piemontese"@en .
+<http://kasabi.com/dataset/cheese/TomaPiemontese> <http://www.w3.org/2004/02/skos/core#prefLabel> "Toma Piemontese"@it .
+<http://kasabi.com/dataset/cheese/TomaPiemontese> <http://www.w3.org/2004/02/skos/core#altLabel> "Toma Piemontese (cheese)"@en .
+<http://kasabi.com/dataset/cheese/TomaPiemontese> <http://www.w3.org/2004/02/skos/core#altLabel> "Toma Piemontese (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/ValleDAostaFromadzo> <http://www.w3.org/2000/01/rdf-schema#label> "Valle d'Aosta Fromadzo"@en .
+<http://kasabi.com/dataset/cheese/ValleDAostaFromadzo> <http://www.w3.org/2000/01/rdf-schema#label> "Valle d'Aosta Fromadzo"@it .
+<http://kasabi.com/dataset/cheese/ValleDAostaFromadzo> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/ValleDAostaFromadzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/ValleDAostaFromadzo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valle d'Aosta Fromadzo"@en .
+<http://kasabi.com/dataset/cheese/ValleDAostaFromadzo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valle d'Aosta Fromadzo"@it .
+<http://kasabi.com/dataset/cheese/ValleDAostaFromadzo> <http://www.w3.org/2004/02/skos/core#altLabel> "Valle d'Aosta Fromadzo (cheese)"@en .
+<http://kasabi.com/dataset/cheese/ValleDAostaFromadzo> <http://www.w3.org/2004/02/skos/core#altLabel> "Valle d'Aosta Fromadzo (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/ValtellinaCasera> <http://www.w3.org/2000/01/rdf-schema#label> "Valtellina Casera"@en .
+<http://kasabi.com/dataset/cheese/ValtellinaCasera> <http://www.w3.org/2000/01/rdf-schema#label> "Valtellina Casera"@it .
+<http://kasabi.com/dataset/cheese/ValtellinaCasera> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/ValtellinaCasera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/ValtellinaCasera> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valtellina Casera"@en .
+<http://kasabi.com/dataset/cheese/ValtellinaCasera> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valtellina Casera"@it .
+<http://kasabi.com/dataset/cheese/ValtellinaCasera> <http://www.w3.org/2004/02/skos/core#altLabel> "Valtellina Casera (cheese)"@en .
+<http://kasabi.com/dataset/cheese/ValtellinaCasera> <http://www.w3.org/2004/02/skos/core#altLabel> "Valtellina Casera (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://www.w3.org/2000/01/rdf-schema#label> "Vastedda della valle del Bel\u00ECce"@en .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://www.w3.org/2000/01/rdf-schema#label> "Vastedda della valle del Bel\u00ECce"@it .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://kasabi.com/dataset/cheese/milk_source> <http://kasabi.com/dataset/cheese/SheepMilk> .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Cheese> .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vastedda della valle del Bel\u00ECce"@en .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vastedda della valle del Bel\u00ECce"@it .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://www.w3.org/2004/02/skos/core#altLabel> "Vastedda della valle del Bel\u00ECce (cheese)"@en .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://www.w3.org/2004/02/skos/core#altLabel> "Vastedda della valle del Bel\u00ECce (formaggio)"@it .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://kasabi.com/dataset/cheese/country> <http://dbpedia.org/resource/Italy> .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Agrigento> .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Trapani> .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://kasabi.com/dataset/cheese/province> <http://dbpedia.org/resource/Province_of_Palermo> .
+<http://kasabi.com/dataset/cheese/VasteddaDellaValleDelBelìce> <http://kasabi.com/dataset/cheese/region> <http://dbpedia.org/resource/Sicilia> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://www.w3.org/2000/01/rdf-schema#label> "Consorzio per la tutela del formaggio Asiago"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/resource/Consortium> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://xmlns.com/foaf/0.1/page> <http://www.asiagocheese.it/> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://schemas.talis.com/2005/address/schema#tel> "+39 0444 321758" .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://schemas.talis.com/2005/address/schema#fax> "+39 0444 326212" .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://schemas.talis.com/2005/address/schema#streetAddress> "Corso Fogazzaro, 18"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://schemas.talis.com/2005/address/schema#postalCode> "36100" .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://schemas.talis.com/2005/address/schema#localityName> "Vicenza"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://schemas.talis.com/2005/address/schema#regionName> "Veneto"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://schemas.talis.com/2005/address/schema#countryName> "Italy"@en .
+_:BX2D360c201aX3A133ecbae894X3AX2D7fff <http://schemas.talis.com/2005/address/schema#countryName> "Italia"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://www.w3.org/2000/01/rdf-schema#label> "Associazione Produttori \"Valli del Bitto\""@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/resource/Consortium> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://xmlns.com/foaf/0.1/page> <http://www.formaggiobitto.com/> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#tel> "+39 0342 690081" .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#streetAddress> "Via Nazionale, 31"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#localityName> "Gerola Alta (SO)"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#regionName> "Lombardia"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#countryName> "Italy"@en .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://schemas.talis.com/2005/address/schema#countryName> "Italia"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffd <http://xmlns.com/foaf/0.1/mbox> <file:///home/castagna/Desktop/cheese/info@formaggiobitto.com> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://www.w3.org/2000/01/rdf-schema#label> "Consorzio di tutela formaggio Bra DOP"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/resource/Consortium> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://xmlns.com/foaf/0.1/page> <http://www.assopiemonte.com/bra.asp> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#tel> "+39 011 0565985" .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#fax> "+39 011 0565989" .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#streetAddress> "Via Silvio Pellico, 10"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#postalCode> "10022" .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#localityName> "Carmagnola (TO)"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#regionName> "Piemonte"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#countryName> "Italy"@en .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://schemas.talis.com/2005/address/schema#countryName> "Italia"@it .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffb <http://xmlns.com/foaf/0.1/mbox> <file:///home/castagna/Desktop/cheese/promo.formaggi@produttorilattepiemonte.com> .
+<http://kasabi.com/dataset/cheese/CheeseTexture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/CheeseTexture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Texture"@en .
+<http://kasabi.com/dataset/cheese/CheeseTexture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Pasta"@it .
+<http://kasabi.com/dataset/cheese/CheeseProduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/CheeseProduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "type of production"@en .
+<http://kasabi.com/dataset/cheese/CheeseProduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "tipo di produzione"@it .
+<http://kasabi.com/dataset/cheese/FreshCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/CheeseTexture> .
+<http://kasabi.com/dataset/cheese/FreshCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/FreshCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "formaggio fresco"@it .
+<http://kasabi.com/dataset/cheese/FreshCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "fresh cheese"@en .
+<http://kasabi.com/dataset/cheese/Milk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .
+<http://kasabi.com/dataset/cheese/Milk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/PastourizedMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Milk> .
+<http://kasabi.com/dataset/cheese/PastourizedMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/MilkType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo di latte"@it .
+<http://kasabi.com/dataset/cheese/MilkType> <http://www.w3.org/2000/01/rdf-schema#label> "type of milk"@en .
+<http://kasabi.com/dataset/cheese/MilkType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/SemiSkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/MilkType> .
+<http://kasabi.com/dataset/cheese/SemiSkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#label> "latte parzialmente scremato"@it .
+<http://kasabi.com/dataset/cheese/SemiSkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#label> "semi skimmed milk"@en .
+<http://kasabi.com/dataset/cheese/SemiSkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#label> "semi skimmed milk"@en-UK .
+<http://kasabi.com/dataset/cheese/SemiSkimmedMilk> <http://www.w3.org/2000/01/rdf-schema#label> "lowfat milk"@en-US .
+<http://kasabi.com/dataset/cheese/SemiSkimmedMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/MilkSource> <http://www.w3.org/2000/01/rdf-schema#label> "origine del latte"@it .
+<http://kasabi.com/dataset/cheese/MilkSource> <http://www.w3.org/2000/01/rdf-schema#label> "milk source"@en .
+<http://kasabi.com/dataset/cheese/MilkSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/BuffaloMilk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Milk> .
+<http://kasabi.com/dataset/cheese/BuffaloMilk> <http://www.w3.org/2000/01/rdf-schema#label> "latte di bufala"@it .
+<http://kasabi.com/dataset/cheese/BuffaloMilk> <http://www.w3.org/2000/01/rdf-schema#label> "buffalo's milk"@en .
+<http://kasabi.com/dataset/cheese/BuffaloMilk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#MilkSource> .
+<http://kasabi.com/dataset/cheese/Certification> <http://www.w3.org/2000/01/rdf-schema#label> "Certificazione"@it .
+<http://kasabi.com/dataset/cheese/Certification> <http://www.w3.org/2000/01/rdf-schema#label> "Certification"@en .
+<http://kasabi.com/dataset/cheese/Certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/CertificationPDO> <http://www.w3.org/2000/01/rdf-schema#label> "PDO"@en .
+<http://kasabi.com/dataset/cheese/CertificationPDO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kasabi.com/dataset/cheese/Certification> .
+<http://kasabi.com/dataset/cheese/CertificationPDO> <http://www.w3.org/2004/02/skos/core#prefLabel> "PDO"@en .
+<http://kasabi.com/dataset/cheese/CertificationPDO> <http://www.w3.org/2004/02/skos/core#altLabel> "Denominazione di origine protetta (DOP)"@it .
+<http://kasabi.com/dataset/cheese/CertificationPDO> <http://www.w3.org/2004/02/skos/core#altLabel> "Protected Designation of Origin (PDO)"@en .
+<http://kasabi.com/dataset/cheese/CertificationPDO> <http://www.w3.org/2004/02/skos/core#altLabel> "P.D.O."@en .
+<http://kasabi.com/dataset/cheese/CertificationPDO> <http://www.w3.org/2002/07/owl#sameAs> <http://kasabi.com/dataset/cheese/CertificationDOP> .
+<http://kasabi.com/dataset/cheese/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Area"@it .
+<http://kasabi.com/dataset/cheese/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en .
+<http://kasabi.com/dataset/cheese/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Location> .
+<http://kasabi.com/dataset/cheese/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/resource/Country> .
+<http://kasabi.com/dataset/cheese/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<http://kasabi.com/dataset/cheese/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Nazione"@it .
+<http://kasabi.com/dataset/cheese/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Location> .
+<http://kasabi.com/dataset/cheese/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/resource/Region> .
+<http://kasabi.com/dataset/cheese/Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
+<http://kasabi.com/dataset/cheese/Region> <http://www.w3.org/2000/01/rdf-schema#label> "Regione"@it .
+<http://kasabi.com/dataset/cheese/Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/Province> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://kasabi.com/dataset/cheese/Location> .
+<http://kasabi.com/dataset/cheese/Province> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/resource/Province> .
+<http://kasabi.com/dataset/cheese/Province> <http://www.w3.org/2000/01/rdf-schema#label> "Province"@en .
+<http://kasabi.com/dataset/cheese/Province> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia"@it .
+<http://kasabi.com/dataset/cheese/Province> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://kasabi.com/dataset/cheese/Asiago> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> <http://kasabi.com/dataset/cheese/asiago_certification> .
+<http://kasabi.com/dataset/cheese/asiago_certification> <http://xmlns.com/foaf/0.1/page> _:BX2D33ae0507X3A133ecb81644X3AX2D7ffe <http://kasabi.com/dataset/cheese/asiago_certification_provenance> .
+<http://kasabi.com/dataset/cheese/asiago_certification> <http://xmlns.com/foaf/0.1/page> _:BX2D360c201aX3A133ecbae894X3AX2D7ffe <http://kasabi.com/dataset/cheese/asiago_certification_provenance> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffe <http://www.w3.org/2000/01/rdf-schema#label> "Commission Regulation (EC) No 1107/96"@en <http://kasabi.com/dataset/cheese/asiago_certification_provenance> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffe <http://www.w3.org/2000/01/rdf-schema#label> "Reg. CE 1107/96"@it <http://kasabi.com/dataset/cheese/asiago_certification_provenance> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffe <http://xmlns.com/foaf/0.1/page> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1107:EN:HTML> <http://kasabi.com/dataset/cheese/asiago_certification_provenance> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffe <http://www.w3.org/2000/01/rdf-schema#label> "Commission Regulation (EC) No 1107/96"@en <http://kasabi.com/dataset/cheese/asiago_certification_provenance> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffe <http://www.w3.org/2000/01/rdf-schema#label> "Reg. CE 1107/96"@it <http://kasabi.com/dataset/cheese/asiago_certification_provenance> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffe <http://xmlns.com/foaf/0.1/page> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31996R1107:EN:HTML> <http://kasabi.com/dataset/cheese/asiago_certification_provenance> .
+<http://kasabi.com/dataset/cheese/Bitto> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> <http://kasabi.com/dataset/cheese/bitto_certification> .
+<http://kasabi.com/dataset/cheese/bitto_certification> <http://xmlns.com/foaf/0.1/page> _:BX2D33ae0507X3A133ecb81644X3AX2D7ffc <http://kasabi.com/dataset/cheese/bitto_certification_provenance> .
+<http://kasabi.com/dataset/cheese/bitto_certification> <http://xmlns.com/foaf/0.1/page> _:BX2D360c201aX3A133ecbae894X3AX2D7ffc <http://kasabi.com/dataset/cheese/bitto_certification_provenance> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffc <http://www.w3.org/2000/01/rdf-schema#label> "Commission Regulation (EC) No 1138/2009"@en <http://kasabi.com/dataset/cheese/bitto_certification_provenance> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffc <http://www.w3.org/2000/01/rdf-schema#label> "Reg. CE 1138/2009"@it <http://kasabi.com/dataset/cheese/bitto_certification_provenance> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffc <http://xmlns.com/foaf/0.1/page> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:311:0023:01:EN:HTML> <http://kasabi.com/dataset/cheese/bitto_certification_provenance> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffc <http://www.w3.org/2000/01/rdf-schema#label> "Commission Regulation (EC) No 1138/2009"@en <http://kasabi.com/dataset/cheese/bitto_certification_provenance> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffc <http://www.w3.org/2000/01/rdf-schema#label> "Reg. CE 1138/2009"@it <http://kasabi.com/dataset/cheese/bitto_certification_provenance> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffc <http://xmlns.com/foaf/0.1/page> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:311:0023:01:EN:HTML> <http://kasabi.com/dataset/cheese/bitto_certification_provenance> .
+<http://kasabi.com/dataset/cheese/NostranoValtrompia> <http://kasabi.com/dataset/cheese/certification> <http://kasabi.com/dataset/cheese/CertificationDOP> <http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification> .
+<http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification> <http://xmlns.com/foaf/0.1/page> _:BX2D33ae0507X3A133ecb81644X3AX2D7ffa <http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification_provenance> .
+<http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification> <http://xmlns.com/foaf/0.1/page> _:BX2D360c201aX3A133ecbae894X3AX2D7ffa <http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification_provenance> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffa <http://www.w3.org/2000/01/rdf-schema#label> "52011XC1015(06)" <http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification_provenance> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffa <http://xmlns.com/foaf/0.1/page> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:52011XC1015%2806%29:EN:NOT> <http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification_provenance> .
+_:BX2D33ae0507X3A133ecb81644X3AX2D7ffa <http://purl.org/dc/elements/1.1/date> "2011-10-15"^^<http://www.w3.org/2001/XMLSchema#date> <http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification_provenance> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffa <http://www.w3.org/2000/01/rdf-schema#label> "52011XC1015(06)" <http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification_provenance> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffa <http://xmlns.com/foaf/0.1/page> <http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:52011XC1015%2806%29:EN:NOT> <http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification_provenance> .
+_:BX2D360c201aX3A133ecbae894X3AX2D7ffa <http://purl.org/dc/elements/1.1/date> "2011-10-15"^^<http://www.w3.org/2001/XMLSchema#date> <http://kasabi.com/dataset/cheese/nostrano_valtrompia_certification_provenance> .

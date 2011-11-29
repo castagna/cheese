@@ -39,9 +39,6 @@ cheese:GiacobinDeZena
     skos:altLabel "Giacobin de Zena (cheese)"@en ;
     skos:altLabel "Giacobin de Zena (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

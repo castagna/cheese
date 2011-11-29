@@ -40,9 +40,6 @@ cheese:StelvioStilfser
     skos:altLabel "Stelvio (cheese)"@en ;
     skos:altLabel "Stelvio (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

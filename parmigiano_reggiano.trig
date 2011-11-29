@@ -39,9 +39,6 @@ cheese:ParmigianoReggiano
     skos:altLabel "Parmigiano Reggiano (cheese)"@en ;
     skos:altLabel "Parmigiano Reggiano (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

@@ -39,9 +39,6 @@ cheese:CaciocavalloSilano
     skos:altLabel "Caciocavallo Silano (cheese)"@en ;
     skos:altLabel "Caciocavallo Silano (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

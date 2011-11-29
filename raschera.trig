@@ -39,9 +39,6 @@ cheese:Raschera
     skos:altLabel "Raschera (cheese)"@en ;
     skos:altLabel "Raschera (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

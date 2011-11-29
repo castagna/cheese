@@ -39,9 +39,6 @@ cheese:Montasio
     skos:altLabel "Montasio (cheese)"@en ;
     skos:altLabel "Montasio (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 

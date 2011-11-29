@@ -39,9 +39,6 @@ cheese:CanestratoPugliese
     skos:altLabel "Canestrato Pugliese (cheese)"@en ;
     skos:altLabel "Canestrato Pugliese (formaggio)"@it ;
 
-    cheese:milk cheese:? ;
-    cheese:texture cheese:? ;
-
     cheese:certification cheese:CertificationDOP ;
     .
 
