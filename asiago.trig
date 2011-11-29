@@ -104,8 +104,8 @@ cheese:Asiago
     cheese:WikipediaPageItalian <http://it.wikipedia.org/wiki/index.html?curid=241457> ;
 
     cheese:milk_source cheese:CowMilk ;
-    cheese:texture cheese:Semi-Hard ;
-    cheese:texture cheese:Hard ;
+    cheese:texture cheese:SemiHardCheese ;
+    cheese:texture cheese:HardCheese ;
 
     cheese:certification cheese:CertificationDOP ;
 
@@ -114,10 +114,10 @@ cheese:Asiago
     owl:sameAs <http://rdf.freebase.com/ns/guid.9202a8c04000641f80000000002896f2> ;
 
     cheese:country <http://dbpedia.org/resource/Italy> ;
-    cheese:province <http://dbpedia.org/resource/Province_of_Vicenza> ;
-    cheese:province <http://dbpedia.org/resource/Trento> ; # Province_of_Trento mistake on wikipedia!
     cheese:region <http://dbpedia.org/resource/Veneto> ;
     cheese:region <http://dbpedia.org/resource/Trentino> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Vicenza> ;
+    cheese:province <http://dbpedia.org/resource/Trento> ; # Province_of_Trento mistake on wikipedia!
 
     # you can use Google Maps to get lat/long: http://googlesystem.blogspot.com/2010/02/google-maps-labs.html
     geo:lat "45.875" ;

@@ -35,4 +35,7 @@ $JENAROOT/bin/tdbloader --loc /tmp/cheese cheese.ttl
 
 $JENAROOT/bin/tdbdump --loc /tmp/cheese > cheese.nq
 
+$JENAROOT/bin/tdbquery --loc /tmp/cheese --query ./sparql/lista_formaggi.rq
+$JENAROOT/bin/tdbquery --loc /tmp/cheese --query ./sparql/list_cheeses.rq
+
 

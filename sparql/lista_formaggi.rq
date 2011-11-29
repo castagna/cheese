@@ -1,0 +1,37 @@
+PREFIX rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:      <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cheese:    <http://kasabi.com/dataset/cheese/>
+
+SELECT ( str(?name) AS ?cheese ) ( str(?cert) AS ?certification ) ( str(?milk_source_label) AS ?source_of_milk ) ( str(?milk_type_label) AS ?type_of_milk ) ?region
+{ 
+    ?s rdf:type cheese:Cheese . 
+    ?s rdfs:label ?name . 
+    ?s cheese:certification ?c . 
+    ?c rdfs:label ?cert
+    FILTER langmatches( lang(?name), "it") .
+    FILTER langmatches( lang(?cert), "it") .
+
+    OPTIONAL {
+        ?s cheese:milk_source ?milk_source .
+        ?milk_source rdfs:label ?milk_source_label .
+        FILTER langmatches( lang(?milk_source_label), "it") .
+    }
+
+    OPTIONAL {
+        ?s cheese:texture ?milk_texture .
+        ?milk_texture rdfs:label ?milk_texture_label .
+        FILTER langmatches( lang(?milk_texture_label), "it") .
+    }
+
+    OPTIONAL {
+        ?s cheese:milk_type ?milk_type .
+        ?milk_type rdfs:label ?milk_type_label .
+        FILTER langmatches( lang(?milk_type_label), "it") .
+    }
+
+    OPTIONAL {
+        ?s cheese:region ?region .
+    }
+
+}
+ORDER BY ?name 
