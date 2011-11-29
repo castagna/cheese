@@ -39,6 +39,13 @@ cheese:ValtellinaCasera
     skos:altLabel "Valtellina Casera (cheese)"@en ;
     skos:altLabel "Valtellina Casera (formaggio)"@it ;
 
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Lombardia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Sondrio> ;
+
+    geo:lat "46.164" ;
+    geo:long "9.871" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

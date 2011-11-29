@@ -39,6 +39,9 @@ cheese:QuartiroloLombardo
     skos:altLabel "Quartirolo Lombardo (cheese)"@en ;
     skos:altLabel "Quartirolo Lombardo (formaggio)"@it ;
 
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Lombardia> ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

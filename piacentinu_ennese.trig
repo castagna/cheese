@@ -53,6 +53,9 @@ cheese:PiacentinuEnnese
     cheese:region <http://dbpedia.org/resource/Sicilia> ;
     cheese:province <http://dbpedia.org/resource/Province_of_Enna> ;
 
+    geo:lat "37.566" ;
+    geo:long "14.277" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

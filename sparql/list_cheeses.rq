@@ -1,8 +1,9 @@
 PREFIX rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX rdfs:      <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX cheese:    <http://kasabi.com/dataset/cheese/>
+PREFIX geo:       <http://www.w3.org/2003/01/geo/wgs84_pos#>
 
-SELECT ( str(?name) AS ?cheese ) ( str(?cert) AS ?certification ) ( str(?milk_source_label) AS ?source_of_milk ) ( str(?milk_type_label) AS ?type_of_milk ) ?region
+SELECT ( str(?name) AS ?cheese ) ( str(?cert) AS ?certification ) ( str(?milk_source_label) AS ?source_of_milk ) ( str(?milk_type_label) AS ?type_of_milk ) ?region ?lat ?long
 { 
     ?s rdf:type cheese:Cheese . 
     ?s rdfs:label ?name . 
@@ -31,6 +32,11 @@ SELECT ( str(?name) AS ?cheese ) ( str(?cert) AS ?certification ) ( str(?milk_so
 
     OPTIONAL {
         ?s cheese:region ?region .
+    }
+
+    OPTIONAL {
+        ?s geo:lat ?lat .
+        ?s geo:long ?long .
     }
 
 }

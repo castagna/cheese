@@ -39,6 +39,12 @@ cheese:ValleDAostaFromadzo
     skos:altLabel "Valle d'Aosta Fromadzo (cheese)"@en ;
     skos:altLabel "Valle d'Aosta Fromadzo (formaggio)"@it ;
 
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Aosta_Valley> ;
+
+    geo:lat "45.763" ;
+    geo:long "7.381" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

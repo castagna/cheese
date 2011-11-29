@@ -57,6 +57,9 @@ cheese:Piave
     cheese:location <http://dbpedia.org/resource/Feltre> ;
     cheese:location <http://dbpedia.org/page/Piave_(river)> ;
 
+    geo:lat "46.03968" ;
+    geo:long "11.98342" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

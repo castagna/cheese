@@ -59,7 +59,7 @@ cheese:FreshCheese
 cheese:SoftCheese
     rdf:type rdfs:Class ;
     rdfs:subClassOf cheese:CheeseTexture ;
-    rdfs:label "formaggio morbido"@it ;
+    rdfs:label "formaggio a pasta molle"@it ;
     rdfs:label "soft cheese"@en ;
     .
 

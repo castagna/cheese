@@ -39,6 +39,32 @@ cheese:Gorgonzola
     skos:altLabel "Gorgonzola (cheese)"@en ;
     skos:altLabel "Gorgonzola (formaggio)"@it ;
 
+    cheese:milk_type cheese:WholeMilk ;
+    cheese:milk_source cheese:CowMilk ;
+
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Lombardia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Bergamo> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Brescia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Como> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Cremona> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Lecco> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Lodi> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Milano> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Varese> ;
+
+    cheese:location <http://dbpedia.org/resource/Gorgonzola> ;
+
+    cheese:region <http://dbpedia.org/resource/Piemonte> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Biella> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Cuneo> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Novara> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Verbania> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Vercelli> ;
+
+    geo:lat "45.5334" ;
+    geo:long "9.4020" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

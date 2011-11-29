@@ -75,6 +75,9 @@ cheese:Bra
     cheese:location <http://dbpedia.org/resource/Bra,_Piedmont> ;
     cheese:location <http://dbpedia.org/resource/Villafranca_Piemonte> ;
 
+    geo:lat "44.6972" ;
+    geo:long "7.855" ;
+
     cheese:pasteurised cheese:NonPasteurisedMilk ;
     cheese:pasteurised cheese:PasteurisedMilk ;
 

@@ -44,9 +44,10 @@ cheese:SalvaCremasco
     skos:altLabel "Salva Cremasco (cheese)"@en ;
     skos:altLabel "Salva Cremasco (formaggio)"@it ;
 
-    cheese:textture cheese:SoftCheese ;
+    cheese:texture cheese:SoftCheese ;
     cheese:milk_source cheese:CowMilk ;
     cheese:milk_type cheese:RawMilk ;
+    cheese:milk_type cheese:WholeMilk ;
 
     cheese:country <http://dbpedia.org/resource/Italy> ;
     cheese:region <http://dbpedia.org/resource/Lombardia> ;
@@ -56,6 +57,9 @@ cheese:SalvaCremasco
     cheese:province <http://dbpedia.org/resource/Province_of_Lecco> ;
     cheese:province <http://dbpedia.org/resource/Province_of_Lodi> ;
     cheese:province <http://dbpedia.org/resource/Province_of_Milan> ;
+
+    geo:lat "45.1467" ;
+    geo:long "10.020" ;
 
     cheese:certification cheese:CertificationDOP ;
     .

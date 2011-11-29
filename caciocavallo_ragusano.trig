@@ -39,6 +39,16 @@ cheese:CaciocavalloRagusano
     skos:altLabel "Caciocavallo Ragusano (cheese)"@en ;
     skos:altLabel "Caciocavallo Ragusano (formaggio)"@it ;
 
+    # geo:lat "44.6972" ;
+    # geo:long "7.855" ;
+
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Sicilia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Ragusa> ;
+
+    geo:lat "36.922" ;
+    geo:long "14.730" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

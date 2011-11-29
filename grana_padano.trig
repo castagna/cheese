@@ -39,6 +39,48 @@ cheese:GranaPadano
     skos:altLabel "Grana Padano (cheese)"@en ;
     skos:altLabel "Grana Padano (formaggio)"@it ;
 
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+
+    cheese:region <http://dbpedia.org/resource/Emilia-Romagna> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Bologna> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Ferrara> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Forlì> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Piacenza> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Ravenna> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Rimini> ;
+
+    cheese:region <http://dbpedia.org/resource/Veneto> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Padova> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Rovigo> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Treviso> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Venezia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Verona> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Vicenza> ;
+
+
+    cheese:region <http://dbpedia.org/resource/Lombardia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Bergamo> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Brescia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Como> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Cremona> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Lodi> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Mantova> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Milano> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Pavia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Sondrio> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Varese> ;
+
+    cheese:region <http://dbpedia.org/resource/Piemonte> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Alessandria> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Asti> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Cuneo> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Novara> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Torino> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Vercelli> ;
+
+    geo:lat "45.21" ;
+    geo:long "9.38" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

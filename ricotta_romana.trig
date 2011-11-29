@@ -26,6 +26,9 @@
 @prefix :           <http://kasabi.com/dataset/cheese/> .
 @prefix cheese:     <http://kasabi.com/dataset/cheese/> .
 
+#
+# http://ec.europa.eu/agriculture/quality/door/documentDisplay.html?chkDocument=2973_1_it
+#
 
 {
 
@@ -38,6 +41,12 @@ cheese:RicottaRomana
     skos:prefLabel "Ricotta Romana"@it ;
     skos:altLabel "Ricotta Romana (cheese)"@en ;
     skos:altLabel "Ricotta Romana (formaggio)"@it ;
+
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Lazio> ;
+
+    geo:lat "41.62" ;
+    geo:long "12.98" ;
 
     cheese:certification cheese:CertificationDOP ;
     .

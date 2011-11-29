@@ -39,6 +39,9 @@ cheese:ProvoloneValpadana
     skos:altLabel "Provolone Valpadana (cheese)"@en ;
     skos:altLabel "Provolone Valpadana (formaggio)"@it ;
 
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Lombardia> ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

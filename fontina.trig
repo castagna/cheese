@@ -39,6 +39,12 @@ cheese:Fontina
     skos:altLabel "Fontina (cheese)"@en ;
     skos:altLabel "Fontina (formaggio)"@it ;
 
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Aosta_Valley> ;
+
+    geo:lat "45.724" ;
+    geo:long "7.429" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

@@ -39,6 +39,26 @@ cheese:Taleggio
     skos:altLabel "Taleggio (cheese)"@en ;
     skos:altLabel "Taleggio (formaggio)"@it ;
 
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Lombardia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Bergamo> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Brescia> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Como> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Cremona> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Lecco> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Lodi> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Milano> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Pavia> ;
+
+    cheese:region <http://dbpedia.org/resource/Piemonte> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Novara> ;
+
+    cheese:region <http://dbpedia.org/resource/Veneto> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Treviso> ;
+
+    geo:lat "45.8954" ;
+    geo:long "9.5629" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

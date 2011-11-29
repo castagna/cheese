@@ -39,6 +39,17 @@ cheese:RobiolaDiRoccaverano
     skos:altLabel "Robiola di Roccaverano (cheese)"@en ;
     skos:altLabel "Robiola di Roccaverano (formaggio)"@it ;
 
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+    cheese:region <http://dbpedia.org/resource/Piemonte> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Asti> ;
+    cheese:province <http://dbpedia.org/resource/Province_of_Alessandria> ;
+
+    cheese:location <http://dbpedia.org/resource/Roccaverano> ;
+    cheese:location <http://dbpedia.org/resource/Langhe> ;
+
+    geo:lat "44.602" ;
+    geo:long "8.289" ;
+
     cheese:certification cheese:CertificationDOP ;
     .
 

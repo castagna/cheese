@@ -44,6 +44,9 @@ cheese:Bitto
 
     cheese:milk_type cheese:WholeMilk ;
 
+    geo:lat "46.0597" ;
+    geo:long "9.5511" ;
+
     cheese:texture cheese:SemiHardCheese ; # semi dura: E' un formaggio d’alpe grasso a pasta semicotta, di media durezza e media stagionatura. -- http://www.formaggiobitto.com/formaggio_bitto_come_si_produce.html
 
     cheese:certification cheese:CertificationDOP ;
