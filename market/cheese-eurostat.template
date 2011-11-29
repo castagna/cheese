@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', {'packages':['motionchart']});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Country');
+        data.addColumn('date', 'Date');
+        data.addColumn('number', 'Production');
+        data.addRows(@@DATA@@);
+        var chart = new google.visualization.MotionChart(document.getElementById('chart_div'));
+        chart.draw(data, {width: 800, height: 600});
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="chart_div" style="width: 800px; height: 600px;"></div>
+  </body>
+</html>
