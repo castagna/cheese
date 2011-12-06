@@ -1,4 +1,4 @@
-package com.kasabi.labs.cheese;
+package com.kasabi.labs.datasets.cheese.visualizations;
 
 import java.io.BufferedReader;
 import java.io.File;
