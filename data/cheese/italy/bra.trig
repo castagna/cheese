@@ -81,6 +81,10 @@ cheese:Bra
     cheese:pasteurised cheese:NonPasteurisedMilk ;
     cheese:pasteurised cheese:PasteurisedMilk ;
 
+    cheese:country <http://dbpedia.org/resource/Italy> ;
+
+    cheese:certification cheese:CertificationDOP ;
+
     cheese:WikipediaPageEnglish <http://en.wikipedia.org/wiki/Bra_cheese> ;
     cheese:WikipediaPageItalian <http://it.wikipedia.org/wiki/Bra_(formaggio)> ;
 

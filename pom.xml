@@ -59,4 +59,15 @@ under the License.
     </plugins>
   </build>
 
+  <repositories>
+    <repository>
+      <id>talis-releases</id>
+      <url>http://oss.talisplatform.com/content/repositories/talis-releases</url>
+    </repository>
+    <repository>
+      <id>talis-snapshots</id>
+      <url>http://oss.talisplatform.com/content/repositories/talis-snapshots</url>
+    </repository>
+  </repositories>
+
 </project>
