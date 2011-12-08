@@ -1,4 +1,5 @@
 resources
 apache-jena*
 target
+velocity.log
 

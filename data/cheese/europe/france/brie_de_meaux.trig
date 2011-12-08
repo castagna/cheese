@@ -1,0 +1,44 @@
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix dc:         <http://purl.org/dc/elements/1.1/> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix yago:       <http://dbpedia.org/class/yago/> .
+@prefix dbpedia:    <http://dbpedia.org/resource/> .
+@prefix ov:         <http://open.vocab.org/terms/> .
+@prefix freebase:   <http://ids.freebaseapps.com/?id=/en/> .
+@prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
+@prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
+@prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+
+@prefix :           <http://data.kasabi.com/dataset/cheese/> .
+@prefix cheese:     <http://data.kasabi.com/dataset/cheese/> .
+
+
+{
+
+cheese:BriedeMeaux 
+
+    rdf:type cheese:Cheese ;
+
+    rdfs:label "Brie de Meaux"@en ;
+    skos:prefLabel "Brie de Meaux"@en ;
+
+    cheese:certification cheese:CertificationPDO ;
+    cheese:country <http://dbpedia.org/resource/France> ;
+    .
+
+}
+
+:BriedeMeauxCertification { cheese:BriedeMeaux  cheese:certification cheese:CertificationPDO . }
+
+:BriedeMeauxCertificationProvenance {
+    :BriedeMeauxCertification foaf:page [
+        rdfs:label "FR/PDO/0017/0110" ;
+        rdfs:comment "European Commission - DOOR database, dossier number: FR/PDO/0017/0110" ;
+        foaf:page <http://ec.europa.eu/agriculture/quality/door/list.html?filter.dossierNumber=FR/PDO/0017/0110> ;
+    ] ;
+    .
+}
