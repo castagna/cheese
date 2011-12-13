@@ -23,10 +23,9 @@
 @prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
 @prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
-@prefix :           <http://kasabi.com/dataset/cheese/> .
-@prefix cheese:     <http://kasabi.com/dataset/cheese/> .
+@prefix :     <http://data.kasabi.com/dataset/cheese/scheme/> .
 
-cheese:Cheese
+:Cheese
     rdf:type rdfs:Class ;
     rdf:type ov:Cheese ;
     rdf:type yago:Cheese ;
@@ -37,283 +36,314 @@ cheese:Cheese
     owl:sameAs yago:Cheese ;
     .
 
-cheese:CheeseTexture 
+
+:AgeingPeriod
+    rdf:type rdfs:Class ;
+    .
+
+
+
+:CheeseTexture 
     rdf:type rdfs:Class ;
     rdfs:label "Texture"@en ;
     rdfs:label "Pasta"@it ;
+    rdfs:comment "The texture of the cheese depend on the water content."@en ;
     .
 
-cheese:CheeseProduction 
+:CheeseProduction 
     rdf:type rdfs:Class ;
     rdfs:label "type of production"@en ;
     rdfs:label "tipo di produzione"@it ;
     .
 
-cheese:FreshCheese
+:FreshCheese
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:CheeseTexture ;
+    rdfs:subClassOf :CheeseTexture ;
     rdfs:label "formaggio fresco"@it ;
     rdfs:label "fresh cheese"@en ;
     .
 
-cheese:SoftCheese
+:SoftCheese
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:CheeseTexture ;
+    rdfs:subClassOf :CheeseTexture ;
     rdfs:label "formaggio a pasta molle"@it ;
     rdfs:label "soft cheese"@en ;
     .
 
-cheese:SemiHardCheese
+:SemiHardCheese
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:CheeseTexture ;
+    rdfs:subClassOf :CheeseTexture ;
     rdfs:label "formaggio a pasta semi dura"@it ;
     rdfs:label "semi-hard cheese"@en ;
     .
 
-cheese:HardCheese
+:HardCheese
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:CheeseTexture ;
+    rdfs:subClassOf :CheeseTexture ;
     rdfs:label "formaggio a pasta dura"@it ;
     rdfs:label "hard cheese"@en ;
     .
 
-cheese:VeryHardCheese
+:VeryHardCheese
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:CheeseTexture ;
+    rdfs:subClassOf :CheeseTexture ;
     rdfs:label "formaggio a pasta molto dura"@it ;
     rdfs:label "very-hard cheese"@en ;
     .
 
-cheese:Milk
+
+
+:Milk
     rdf:type rdfs:Class ;
     rdfs:subClassOf food:PotableLiquid ;
     .
 
-cheese:PastourizedMilk
+:MilkProcessing
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:Milk ;
     .
 
-cheese:RawMilk
+:PastourizedMilk
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:MilkType ;
+    rdfs:subClassOf :MilkProcessing ;
+    rdfs:label "latte pastorizzato"@it ;
+    rdfs:label "pasteurised milk"@en ;
     .
 
-cheese:WholeMilk
+:RawMilk
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:MilkType ;
+    rdfs:subClassOf :MilkProcessing ;
+    rdfs:label "latte crudo, non pastorizzato"@it ;
+    rdfs:label "non pasteurised milk"@en ;
+    .
+
+
+:MilkType 
+    rdf:type rdfs:Class ;
+    rdfs:label "tipo di latte"@it ;
+    rdfs:label "type of milk"@en ;
+    .
+
+:WholeMilk
+    rdf:type rdfs:Class ;
+    rdfs:subClassOf :MilkType ;
     rdfs:label "latte intero"@it ;
     rdfs:label "whole milk"@en ;
     rdfs:label "whole milk"@en-UK ;
     rdfs:label "whole milk"@en-US ;
     .
 
-cheese:SemiSkimmedMilk
+:SemiSkimmedMilk
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:MilkType ;
+    rdfs:subClassOf :MilkType ;
     rdfs:label "latte parzialmente scremato"@it ;
     rdfs:label "semi skimmed milk"@en ;
     rdfs:label "semi skimmed milk"@en-UK ;
     rdfs:label "lowfat milk"@en-US ;
     .
 
-cheese:SkimmedMilk
+:SkimmedMilk
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:MilkType ;
+    rdfs:subClassOf :MilkType ;
     rdfs:label "latte scremato"@it ;
     rdfs:label "skimmed milk"@en ;
     rdfs:label "skimmed milk"@en-UK ;
     rdfs:label "reduced-fat milk"@en-US ;
     .
 
-cheese:MilkType 
-    rdf:type rdfs:Class ;
-    rdfs:label "tipo di latte"@it ;
-    rdfs:label "type of milk"@en ;
-    .
 
-cheese:MilkSource 
+:MilkSource 
     rdf:type rdfs:Class ;
     rdfs:label "origine del latte"@it ;
     rdfs:label "milk source"@en ;
     .
 
-cheese:CowMilk
+:CowMilk
     rdf:type rdfs:MilkSource ;
-    rdfs:subClassOf cheese:Milk ;
+    rdfs:subClassOf :Milk ;
     rdfs:label "latte di mucca"@it ;
     skos:altLabel "latte vaccino"@it ;
     rdfs:label "cow's milk"@en ;
     .
 
-cheese:GoatMilk
+:GoatMilk
     rdf:type rdfs:MilkSource ;
-    rdfs:subClassOf cheese:Milk ;
+    rdfs:subClassOf :Milk ;
     rdfs:label "latte di capra"@it ;
     rdfs:label "goat's milk"@en ;
     .
 
-cheese:SheepMilk
+:SheepMilk
     rdf:type rdfs:MilkSource ;
-    rdfs:subClassOf cheese:Milk ;
+    rdfs:subClassOf :Milk ;
     rdfs:label "latte di pecora"@it ;
     rdfs:label "sheep's milk"@en ;
     .
 
-cheese:BuffaloMilk
+:BuffaloMilk
     rdf:type rdfs:MilkSource ;
-    rdfs:subClassOf cheese:Milk ;
+    rdfs:subClassOf :Milk ;
     rdfs:label "latte di bufala"@it ;
     rdfs:label "buffalo's milk"@en ;
     .
 
-cheese:certification
+:MixedMilk
+    rdf:type rdfs:MilkSource ;
+    rdfs:subClassOf :Milk ;
+    rdfs:label "latte misto"@it ;
+    rdfs:label "mixed milk"@en ;
+    .
+
+
+:certification
     rdf:type rdfs:Property ;
     rdfs:subPropertyOf <http://dbpedia.org/property/certification> ;
-    rdfs:domain cheese:Cheese ;
-    rdfs:range cheese:Certification ;
+    rdfs:domain :Cheese ;
+    rdfs:range :Certification ;
     .
 
-cheese:Certification
+:GeographicalIndication
     rdf:type rdfs:Class ;
-    rdfs:label "Certificazione"@it ;
-    rdfs:label "Certification"@en ;
+    rdfs:label "Indicazione geografica"@it ;
+    rdfs:label "Geographical Indication"@en ;
     .
 
-cheese:CertificationDOP
-    rdf:type cheese:Certification ;
+:PDO
+    rdf:type :GeographicalIndication ;
     rdfs:label "DOP"@it ;
     rdfs:label "PDO"@en ;
     skos:prefLabel "DOP"@it ;
+    skos:prefLabel "PDO"@en ;
     skos:altLabel "D.O.P."@it ;
+    skos:altLabel "P.D.O."@en ;
     skos:altLabel "Denominazione di origine protetta (DOP)"@it ; # http://it.wikipedia.org/wiki/Denominazione_di_origine_protetta
     skos:altLabel "Protected Designation of Origin (PDO)"@en ;
-    owl:sameAs cheese:CertificationPDO ;
     .
 
-cheese:CertificationPDO
-    rdf:type cheese:Certification ;
-    rdfs:label "PDO"@en ;
-    skos:prefLabel "PDO"@en ;
-    skos:altLabel "P.D.O."@en ;
-    skos:altLabel "Denominazione di origine protetta (DOP)"@it ;
-    skos:altLabel "Protected Designation of Origin (PDO)"@en ;
-    owl:sameAs cheese:CertificationDOP ;
+:PGI
+    rdf:type :GeographicalIndication ;
+    rdfs:label "IGP"@it ;
+    rdfs:label "PGI"@en ;
+    skos:prefLabel "IGP"@it ;
+    skos:prefLabel "PGI"@en ;
+    skos:altLabel "I.G.P."@it ;
+    skos:altLabel "P.G.I."@en ;
+    skos:altLabel "Indicazione geografica protetta (IGP)"@it ; # http://it.wikipedia.org/wiki/Indicazione_geografica_protetta
+    skos:altLabel "Protected Geographical Indication (PGI)"@en ;
     .
 
-cheese:milk_source
+:TSG
+    rdf:type :GeographicalIndication ;
+    rdfs:label "STG"@it ;
+    rdfs:label "TSG"@en ;
+    skos:prefLabel "STG"@it ;
+    skos:prefLabel "TSG"@en ;
+    skos:altLabel "S.T.G."@it ;
+    skos:altLabel "T.S.G."@en ;
+    skos:altLabel "Specialità tradizionale garantita (STG)"@it ; # http://it.wikipedia.org/wiki/Specialit%C3%A0_tradizionale_garantita
+    skos:altLabel "Traditional Speciality Guaranteed (TSG)"@en ;
+    .
+
+
+:milk_source
     rdf:type rdf:Property ;
     rdfs:subPropertyOf <http://dbpedia.org/property/source> ;
-    rdfs:domain cheese:Cheese ;
-    rdfs:range cheese:MilkSource ;
+    rdfs:domain :Cheese ;
+    rdfs:range :MilkSource ;
     rdfs:label "tipo di latte"@it ;
     rdfs:label "milk source"@en ;
     .
 
-cheese:milk_type
+:milk_type
     rdf:type rdf:Property ;
-    rdfs:domain cheese:Cheese ;
-    rdfs:range cheese:MilkType ;
+    rdfs:domain :Cheese ;
+    rdfs:range :MilkType ;
     rdfs:label "tipo di latte"@it ;
     rdfs:label "type of milk"@en ;
     .
 
-cheese:texture 
+:milk_processing
+    rdf:type rdf:Property ;
+    rdfs:domain :Cheese ;
+    rdfs:range :MilkProcessing ;
+    rdfs:label "tipo di trattamento del latte"@it ;
+    rdfs:label "type of milk processing"@en ;
+    .
+
+
+:texture 
     rdf:type rdf:Property ;
     rdfs:subPropertyOf <http://dbpedia.org/property/texture> ;
-    rdfs:domain cheese:Cheese ;
-    rdfs:range cheese:CheeseTexture ;
+    rdfs:domain :Cheese ;
+    rdfs:range :CheeseTexture ;
     .
 
-cheese:pasteurised
-    rdf:type rdf:Property ;
-    rdfs:subPropertyOf <http://dbpedia.org/property/pasteurised> ;
-    rdfs:domain cheese:Cheese ;
-    rdfs:range cheese:PasteurisedMilk ;
-    rdfs:range cheese:NonPasteurisedMilk ;
-    .
 
-cheese:PasteurisedMilk
-    rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:CheeseProduction ;
-    rdfs:subClassOf cheese:MilkType ;
-    rdfs:label "formaggio pastorizzato"@it ;
-    rdfs:label "pasteurised cheese"@en ;
-    .
 
-cheese:NonPasteurisedMilk
-    rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:CheeseProduction ;
-    rdfs:subClassOf cheese:MilkType ;
-    rdfs:label "formaggio non pastorizzato"@it ;
-    rdfs:label "non pasteurised cheese"@en ;
-    .
-
-cheese:location 
+:location 
     rdf:type rdf:Property ;
     rdfs:domain owl:Thing ;
-    rdfs:range cheese:Location ;
+    rdfs:range :Location ;
     rdfs:label "produced in"@en ;
     rdfs:label "prodotto in"@it ;
     .
 
-cheese:Location
+:Location
     rdf:type rdfs:Class ;
     rdfs:label "Area"@it ;
     rdfs:label "Location"@en ;
     .
 
-cheese:Country
+:Country
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:Location ;
+    rdfs:subClassOf :Location ;
     rdfs:subClassOf <http://dbpedia.org/resource/Country> ;
     rdfs:label "Country"@en ;
     rdfs:label "Nazione"@it ;
     .
 
-cheese:Region
+:Region
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:Location ;
+    rdfs:subClassOf :Location ;
     rdfs:subClassOf <http://dbpedia.org/resource/Region> ;
     rdfs:label "Region"@en ;
     rdfs:label "Regione"@it ;
     .
 
-cheese:Province
+:Province
     rdf:type rdfs:Class ;
-    rdfs:subClassOf cheese:Location ;
+    rdfs:subClassOf :Location ;
     rdfs:subClassOf <http://dbpedia.org/resource/Province> ;
     rdfs:label "Province"@en ;
     rdfs:label "Provincia"@it ;
     .
 
-cheese:country
+:country
     rdf:type rdf:Property ;
-    rdfs:subPropertyOf cheese:location ;
+    rdfs:subPropertyOf :location ;
     rdfs:subPropertyOf <http://dbpedia.org/property/country> ;
     rdfs:label "country"@en ;
     rdfs:label "nazione"@it ;
     rdfs:domain owl:Thing ;
-    rdfs:range cheese:Country ;
+    rdfs:range :Country ;
     .
 
-cheese:region
+:region
     rdf:type rdf:Property ;
-    rdfs:subPropertyOf cheese:location ;
+    rdfs:subPropertyOf :location ;
     rdfs:subPropertyOf <http://dbpedia.org/property/region> ;
     rdfs:label "region"@en ;
     rdfs:label "regione"@it ;
     rdfs:domain owl:Thing ;
-    rdfs:range cheese:Region ;
+    rdfs:range :Region ;
     .
 
-cheese:province
+:province
     rdf:type rdf:Property ;
-    rdfs:subPropertyOf cheese:location ;
+    rdfs:subPropertyOf :location ;
     rdfs:subPropertyOf <http://dbpedia.org/property/province> ;
     rdfs:label "province"@en ;
     rdfs:label "provincia"@it ;
     rdfs:domain owl:Thing ;
-    rdfs:range cheese:Province ;
+    rdfs:range :Province ;
     .
 
