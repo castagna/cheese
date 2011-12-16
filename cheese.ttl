@@ -9,19 +9,19 @@
 # Mountain View, California, 94041, USA.                                      #
 ###############################################################################
 
-@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc:         <http://purl.org/dc/elements/1.1/> .
 @prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
 @prefix yago:	    <http://dbpedia.org/class/yago/> .
 @prefix dbpedia:    <http://dbpedia.org/resource/> .
 @prefix ov:         <http://open.vocab.org/terms/> .
-@prefix freebase:   <http://ids.freebaseapps.com/?id=/en/> .
 @prefix food:       <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#> .
 @prefix addr:       <http://schemas.talis.com/2005/address/schema#> .
 @prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix fb:         <http://rdf.freebase.com/ns/> .
 
 @prefix :     <http://data.kasabi.com/dataset/cheese/scheme/> .
 
@@ -34,10 +34,11 @@
     rdfs:subClassOf food:EdibleThing ;
     owl:sameAs food:Cheese ;
     owl:sameAs yago:Cheese ;
+    owl:sameAs fb:food.cheese ;
     .
 
 
-:AgeingPeriod
+:AgingPeriod # or AgingTime?
     rdf:type rdfs:Class ;
     .
 
@@ -48,6 +49,7 @@
     rdfs:label "Texture"@en ;
     rdfs:label "Pasta"@it ;
     rdfs:comment "The texture of the cheese depend on the water content."@en ;
+    owl:sameAs fb:food.cheese.texture ;
     .
 
 :CheeseProduction 
@@ -197,8 +199,11 @@
 :certification
     rdf:type rdfs:Property ;
     rdfs:subPropertyOf <http://dbpedia.org/property/certification> ;
+    rdfs:label "indicazione geografica"@it ;
+    rdfs:label "geographical indication"@en ;
     rdfs:domain :Cheese ;
-    rdfs:range :Certification ;
+    rdfs:range :GeographicalIndication ;
+    owl:sameAs fb:food.cheese.certification ;    
     .
 
 :GeographicalIndication
@@ -251,6 +256,7 @@
     rdfs:range :MilkSource ;
     rdfs:label "tipo di latte"@it ;
     rdfs:label "milk source"@en ;
+    owl:sameAs fb:food.cheese.source_of_milk ;
     .
 
 :milk_type
@@ -277,10 +283,9 @@
     rdfs:range :CheeseTexture ;
     .
 
-
-
 :location 
     rdf:type rdf:Property ;
+    rdfs:domain :Cheese ;
     rdfs:domain owl:Thing ;
     rdfs:range :Location ;
     rdfs:label "produced in"@en ;
@@ -317,14 +322,23 @@
     rdfs:label "Provincia"@it ;
     .
 
+:Municipality
+    rdf:type rdfs:Class ;
+    rdfs:subClassOf :Location ;
+    rdfs:subClassOf <http://dbpedia.org/resource/Municipality> ;
+    rdfs:label "Municipality"@en ;
+    rdfs:label "Comune"@it ;
+    .
+
 :country
     rdf:type rdf:Property ;
     rdfs:subPropertyOf :location ;
     rdfs:subPropertyOf <http://dbpedia.org/property/country> ;
-    rdfs:label "country"@en ;
-    rdfs:label "nazione"@it ;
+    rdfs:label "country of origin"@en ;
+    rdfs:label "paese di provenienza"@it ;
     rdfs:domain owl:Thing ;
     rdfs:range :Country ;
+    owl:sameAs fb:food.cheese.country_of_origin ;
     .
 
 :region
@@ -335,6 +349,7 @@
     rdfs:label "regione"@it ;
     rdfs:domain owl:Thing ;
     rdfs:range :Region ;
+    owl:sameAs fb:food.cheese.region ;
     .
 
 :province
@@ -345,5 +360,15 @@
     rdfs:label "provincia"@it ;
     rdfs:domain owl:Thing ;
     rdfs:range :Province ;
+    .
+
+:municipality
+    rdf:type rdf:Property ;
+    rdfs:subPropertyOf :location ;
+    rdfs:subPropertyOf <http://dbpedia.org/property/comune> ;
+    rdfs:label "municipality"@en ;
+    rdfs:label "comune"@it ;
+    rdfs:domain owl:Thing ;
+    rdfs:range :Municipality ;
     .
 
