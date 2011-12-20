@@ -23,7 +23,7 @@
 @prefix geo:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix fb:         <http://rdf.freebase.com/ns/> .
 
-@prefix :     <http://data.kasabi.com/dataset/cheese/scheme/> .
+@prefix :     <http://data.kasabi.com/dataset/cheese/schema/> .
 
 :Cheese
     rdf:type rdfs:Class ;
@@ -160,6 +160,7 @@
     .
 
 :CowMilk
+    rdf:type rdfs:Class ;
     rdf:type rdfs:MilkSource ;
     rdfs:subClassOf :Milk ;
     rdfs:label "latte di mucca"@it ;
@@ -168,6 +169,7 @@
     .
 
 :GoatMilk
+    rdf:type rdfs:Class ;
     rdf:type rdfs:MilkSource ;
     rdfs:subClassOf :Milk ;
     rdfs:label "latte di capra"@it ;
@@ -175,6 +177,7 @@
     .
 
 :SheepMilk
+    rdf:type rdfs:Class ;
     rdf:type rdfs:MilkSource ;
     rdfs:subClassOf :Milk ;
     rdfs:label "latte di pecora"@it ;
@@ -182,6 +185,7 @@
     .
 
 :BuffaloMilk
+    rdf:type rdfs:Class ;
     rdf:type rdfs:MilkSource ;
     rdfs:subClassOf :Milk ;
     rdfs:label "latte di bufala"@it ;
@@ -189,6 +193,7 @@
     .
 
 :MixedMilk
+    rdf:type rdfs:Class ;
     rdf:type rdfs:MilkSource ;
     rdfs:subClassOf :Milk ;
     rdfs:label "latte misto"@it ;
@@ -196,8 +201,67 @@
     .
 
 
+:CheeseUse 
+    rdf:type rdfs:Class ;
+    rdfs:label "utilizzo suggerito"@it ;
+    rdfs:label "suggested use"@en ;
+    .
+
+:TableUse
+    rdf:type rdfs:Class ;
+    rdf:type rdfs:CheeseUse ;
+    rdfs:label "formaggio da tavola"@it ;
+    rdfs:label "table cheese"@en ;
+    .
+
+:GratingUse
+    rdf:type rdfs:Class ;
+    rdf:type rdfs:CheeseUse ;
+    rdfs:label "formaggio da grattuggiare"@it ;
+    rdfs:label "grating cheese"@en ;
+    .
+
+:CookingUse
+    rdf:type rdfs:Class ;
+    rdf:type rdfs:CheeseUse ;
+    rdfs:label "formaggio per cucinare"@it ;
+    rdfs:label "cooking cheese"@en ;
+    .
+
+:GrillingUse
+    rdf:type rdfs:Class ;
+    rdf:type rdfs:CheeseUse ;
+    rdfs:label "formaggio da grigliare"@it ;
+    rdfs:label "grilling cheese"@en ;
+    .
+
+:MeltingUse
+    rdf:type rdfs:Class ;
+    rdf:type rdfs:CheeseUse ;
+    rdfs:label "formaggio da fondere"@it ;
+    rdfs:label "melting cheese"@en ;
+    .
+
+:SpreadingUse
+    rdf:type rdfs:Class ;
+    rdf:type rdfs:CheeseUse ;
+    rdfs:label "formaggio da spalmare"@it ;
+    rdfs:label "spreading cheese"@en ;
+    .
+
+:use
+    rdf:type rdf:Property ;
+    rdfs:label "utilizzo suggerito"@it ;
+    rdfs:label "suggested use"@en ;
+    rdfs:domain :Cheese ;
+    rdfs:range :CheeseUse ;
+    .
+
+
+
+
 :certification
-    rdf:type rdfs:Property ;
+    rdf:type rdf:Property ;
     rdfs:subPropertyOf <http://dbpedia.org/property/certification> ;
     rdfs:label "indicazione geografica"@it ;
     rdfs:label "geographical indication"@en ;
@@ -249,7 +313,7 @@
     .
 
 
-:milk_source
+:milkSource
     rdf:type rdf:Property ;
     rdfs:subPropertyOf <http://dbpedia.org/property/source> ;
     rdfs:domain :Cheese ;
@@ -259,7 +323,7 @@
     owl:sameAs fb:food.cheese.source_of_milk ;
     .
 
-:milk_type
+:milkType
     rdf:type rdf:Property ;
     rdfs:domain :Cheese ;
     rdfs:range :MilkType ;
@@ -267,7 +331,7 @@
     rdfs:label "type of milk"@en ;
     .
 
-:milk_processing
+:milkProcessing
     rdf:type rdf:Property ;
     rdfs:domain :Cheese ;
     rdfs:range :MilkProcessing ;
@@ -281,6 +345,36 @@
     rdfs:subPropertyOf <http://dbpedia.org/property/texture> ;
     rdfs:domain :Cheese ;
     rdfs:range :CheeseTexture ;
+    .
+    
+:aging 
+    rdf:type rdf:Property ;
+    rdfs:domain :Cheese ;
+    rdfs:range rdfs:Literal ; # FIXME!
+    .
+    
+:shape 
+    rdf:type rdf:Property ;
+    rdfs:domain :Cheese ;
+    rdfs:range rdfs:Literal ; # FIXME!
+    .
+
+:diameter 
+    rdf:type rdf:Property ;
+    rdfs:domain :Cheese ;
+    rdfs:range rdfs:Literal ; # FIXME!
+    .
+
+:weight 
+    rdf:type rdf:Property ;
+    rdfs:domain :Cheese ;
+    rdfs:range rdfs:Literal ; # FIXME!
+    .
+
+:height 
+    rdf:type rdf:Property ;
+    rdfs:domain :Cheese ;
+    rdfs:range rdfs:Literal ; # FIXME!
     .
 
 :location 

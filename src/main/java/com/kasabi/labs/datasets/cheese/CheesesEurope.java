@@ -182,11 +182,11 @@ public class CheesesEurope {
 		}
 	}
 	
-	private static String filename(String name) {
+	public static String filename(String name) {
 		return name.replaceAll(" ", "_").toLowerCase();
 	}
 	
-	private static String[] normalizeName (String name) {
+	public static String[] normalizeName (String name) {
 		name = name.replaceAll(" cheese", "").replaceAll("  ", " ").trim();
 		String[] names = null;
 		if ( name.contains(" / ") ) {
@@ -199,7 +199,7 @@ public class CheesesEurope {
 		return titleCase(names);
 	}
 
-	private static String[] titleCase (String[] names) {
+	public static String[] titleCase (String[] names) {
 		String[] result = new String[names.length];
 		for ( int i=0; i < names.length; i++ ) {
 			result[i] = WordUtils.capitalizeFully(names[i])
@@ -246,7 +246,7 @@ public class CheesesEurope {
 		return result;
 	}
 	
-	private static String get(QuerySolution qs, String varName) {
+	public static String get(QuerySolution qs, String varName) {
 		RDFNode node = qs.get("\"" + varName + "\"") ;
 		if ( node != null ) return node.toString() ;
 		else return null ;
