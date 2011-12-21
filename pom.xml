@@ -74,6 +74,22 @@ under the License.
       <plugin>
         <artifactId>maven-eclipse-plugin</artifactId>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-remote-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>process</goal>
+            </goals>
+            <configuration>
+              <resourceBundles>
+                <resourceBundle>com.kasabi.labs:dataset-italy:0.1-SNAPSHOT</resourceBundle>             
+              </resourceBundles>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
 

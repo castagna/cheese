@@ -22,12 +22,13 @@ PREFIX italy-schema:     <http://data.kasabi.com/dataset/italy/schema/>
 SELECT * {
   ?s a cheese:Cheese .
   ?s skos:prefLabel ?label .
-  FILTER langmatches( lang(?label), "it") .
+  FILTER langmatches( lang(?label), "en") .
   BIND ( str(?label) AS ?name ) . 
   BIND ( ?s AS ?link )
 
   ?s cheese:country ?co .
-  ?co rdfs:label ?country .
+  ?co rdfs:label ?coul .
+  BIND ( str(?coul) AS ?country ) 
 
   OPTIONAL {
     ?s cheese:certification ?c .

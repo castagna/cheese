@@ -69,7 +69,7 @@ public class CheesesItalyFromTSV {
 //		ds.getDefaultModel().write(System.out, "TURTLE");
 		
 		Model model = ds.getDefaultModel();
-		FileManager.get().readModel(model, INPUT_PATH + File.separator + "italy" + File.separator + "kasabi-italy-1.4.ttl");
+		FileManager.get().readModel(model, INPUT_PATH + File.separator + "italy" + File.separator + "kasabi-italy-1.5.ttl");
 		
 		FileOutputStream out = new FileOutputStream(new File (INPUT_PATH, "cheeses-0.1.ttl") );
 		model.write(out, "TURTLE");
@@ -105,6 +105,7 @@ public class CheesesItalyFromTSV {
 			String names[] = CheesesEurope.normalizeName(CheesesEurope.name(sol));
 			String name = Utils.toSlug(names[0]);
 			Resource subject = ResourceFactory.createResource(NS + name);
+			model.add(subject, RDF.type, CHEESE.Cheese);
 			
 			Resource doorModelURI = ResourceFactory.createResource(NS + name + "-geographical-indication");
 			Model doorModel = ds.getNamedModel(doorModelURI.getURI());
@@ -141,7 +142,7 @@ public class CheesesItalyFromTSV {
 				String namespace = EUROPE_NS;
 				if ( country.toLowerCase().trim().equals("italy") ) namespace = ITALY_NS;
 				location ( country, namespace, subject, CHEESE.country, CHEESE.Country, model );
-				location ( country, namespace, subject, CHEESE.country, CHEESE.Country, doorModel );				
+				location ( country, namespace, subject, CHEESE.country, CHEESE.Country, doorModel );
 			}
 			
 			String dossier_number = get(sol, "Dossier Number");
@@ -447,7 +448,11 @@ public class CheesesItalyFromTSV {
 				Resource o = ResourceFactory.createResource(namespace + Utils.toSlug(l.trim()));
 				model.add(subject, property, o);
 				model.add(o, RDF.type, type);
-				model.add(o, RDFS.label, l.trim());
+				if ( namespace.equals(ITALY_NS) ) {
+					model.add(o, RDFS.label, l.trim(), "it");
+				} else {
+					model.add(o, RDFS.label, l.trim(), "en");
+				}
 			}
 		}
 	}

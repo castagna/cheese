@@ -30,7 +30,7 @@
             "number":         "$count",
 #if($milk)            "milk":           "$milk",
 #end#if($pasteurised)            "pasteurised":    "$pasteurised",
-#end#if($municipality)            "municipality":    "$municipality",
+#end#if($municipality)            "municipality":   "$municipality",
 #end#if($province)            "province":       "$province",
 #end#if($region)            "region":         "$region",
 #end#if($country)            "country":        "$country",
@@ -41,6 +41,23 @@
 #end
         },
 #set ( $count = $count + 1 )
+
+#set ( $name = false )
+#set ( $milk = false )
+#set ( $pasteurised = false )
+#set ( $link = false )
+#set ( $certification = false )
+#set ( $municipality = false )
+#set ( $municipality_lat = false )
+#set ( $municipality_long = false )
+#set ( $province = false )
+#set ( $province_lat = false )
+#set ( $province_long = false )
+#set ( $region = false )
+#set ( $region_lat = false )
+#set ( $region_long = false )
+#set ( $country = false )
+
 #end
 
     ],
