@@ -1,0 +1,3910 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix eurostat:  <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+@prefix kasabi:  <http://data.kasabi.com/dataset/> .
+@prefix ov:      <http://open.vocab.org/terms/> .
+@prefix wgs84_pos:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix nuts:    <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix geonames:  <http://www.geonames.org/ontology#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix gn:      <http://www.geonames.org/ontology#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix italy-schema:  <http://data.kasabi.com/dataset/italy/schema/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix java:    <java:com.kasabi.labs.arq.> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix italy:   <http://data.kasabi.com/dataset/italy/> .
+@prefix cc:      <http://creativecommons.org/ns#> .
+
+nuts:ITC14
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC14 - Verbano-Cusio-Ossola" ;
+      rdfs:seeAlso italy:verbano-cusio-ossola ;
+      eurostat:hasParentRegion
+              nuts:ITC1 ;
+      eurostat:level 3 ;
+      eurostat:name "Verbano-Cusio-Ossola" ;
+      eurostat:regionCode "ITC14" .
+
+<http://data.kasabi.com/dataset/italy/basilicata.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:basilicata .
+
+italy:PaoloCastagna
+      a       foaf:Person ;
+      rdfs:label "Paolo Castagna" ;
+      foaf:familyName "Castagna" ;
+      foaf:firstName "Paolo" ;
+      foaf:givenName "Paolo" ;
+      foaf:lastName "Castagna" ;
+      foaf:mbox <mailto:paolo.castagna@kasabi.com> ;
+      foaf:name "Paolo Castagna" ;
+      foaf:nick "casta" ;
+      foaf:page <http://github.com/castagna/> .
+
+nuts:ITE19
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE19 - Siena" ;
+      rdfs:seeAlso italy:siena ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Siena" ;
+      eurostat:regionCode "ITE19" .
+
+nuts:ITF34
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF34 - Avellino" ;
+      rdfs:seeAlso italy:avellino ;
+      eurostat:hasParentRegion
+              nuts:ITF3 ;
+      eurostat:level 3 ;
+      eurostat:name "Avellino" ;
+      eurostat:regionCode "ITF34" .
+
+nuts:ITC41
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC41 - Varese" ;
+      rdfs:seeAlso italy:varese ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Varese" ;
+      eurostat:regionCode "ITC41" .
+
+nuts:ITF44
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF44 - Brindisi" ;
+      rdfs:seeAlso italy:brindisi ;
+      eurostat:hasParentRegion
+              nuts:ITF4 ;
+      eurostat:level 3 ;
+      eurostat:name "Brindisi" ;
+      eurostat:regionCode "ITF44" .
+
+italy:medio_campidano
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Medio Campidano"@it ;
+      italy-schema:isContained
+              italy:sardegna ;
+      eurostat:regionCode "ITG2B" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population 102647 ;
+      owl:sameAs <http://sws.geonames.org/6457402/> ;
+      geo:lat "39.56296"^^xsd:float ;
+      geo:long "8.65345"^^xsd:float .
+
+italy:olbia-tempio
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Olbia-Tempio"@it ;
+      italy-schema:isContained
+              italy:sardegna ;
+      eurostat:regionCode "ITG29" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population 156121 ;
+      owl:sameAs <http://sws.geonames.org/6457401/> ;
+      geo:lat "40.92298"^^xsd:float ;
+      geo:long "9.49459"^^xsd:float .
+
+nuts:ITF14
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF14 - Chieti" ;
+      rdfs:seeAlso italy:chieti ;
+      eurostat:hasParentRegion
+              nuts:ITF1 ;
+      eurostat:level 3 ;
+      eurostat:name "Chieti" ;
+      eurostat:regionCode "ITF14" .
+
+italy:biella
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Biella"@it ;
+      italy:iso3166-2 "IT-BI" ;
+      italy-schema:isContained
+              italy:piemonte ;
+      eurostat:regionCode "ITC13" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population 186698 ;
+      owl:sameAs <http://sws.geonames.org/6457397/> ;
+      geo:lat "45.58713"^^xsd:float ;
+      geo:long "8.08594"^^xsd:float .
+
+nuts:ITG
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG - ISOLE" ;
+      rdfs:seeAlso italy:isole ;
+      eurostat:hasParentRegion
+              nuts:IT ;
+      eurostat:hasSubRegion
+              nuts:ITG1 , nuts:ITG2 ;
+      eurostat:level 1 ;
+      eurostat:name "ISOLE" ;
+      eurostat:regionCode "ITG" .
+
+italy:parma
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Parma"@it ;
+      italy:iso3166-2 "IT-PR" ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      eurostat:regionCode "ITD52" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 437349 ;
+      owl:sameAs <http://sws.geonames.org/3171456/> ;
+      geo:lat "44.7"^^xsd:float ;
+      geo:long "10.08333"^^xsd:float .
+
+nuts:ITF64
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF64 - Vibo Valentia" ;
+      rdfs:seeAlso italy:vibo_valentia ;
+      eurostat:hasParentRegion
+              nuts:ITF6 ;
+      eurostat:level 3 ;
+      eurostat:name "Vibo Valentia" ;
+      eurostat:regionCode "ITF64" .
+
+italy:emilia-romagna
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Emilia-Romagna"@it , "Emilia-Romagna"@en ;
+      italy:iso3166-2 "IT-45" ;
+      italy-schema:contains
+              italy:rimini , italy:piacenza , italy:parma , italy:bologna , italy:reggio_emilia , italy:ravenna , italy:modena , italy:ferrara , italy:forlì ;
+      eurostat:regionCode "ITD5" ;
+      dcterms:identifier "emilia-romagna" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 4395569 ;
+      owl:sameAs <http://sws.geonames.org/3177401/> , <http://dbpedia.org/resource/Emilia_%28region_of_Italy%29> , <http://dbpedia.org/resource/Romagna> ;
+      geo:lat "44.75"^^xsd:float ;
+      geo:long "11"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Romagna> , <http://en.wikipedia.org/wiki/Emilia_%28region_of_Italy%29> .
+
+nuts:ITG13
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG13 - Messina" ;
+      rdfs:seeAlso italy:messina ;
+      eurostat:hasParentRegion
+              nuts:ITG1 ;
+      eurostat:level 3 ;
+      eurostat:name "Messina" ;
+      eurostat:regionCode "ITG13" .
+
+italy:bergamo
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Bergamo"@it ;
+      italy:iso3166-2 "IT-BG" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC46" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 1087204 ;
+      owl:sameAs <http://sws.geonames.org/3182163/> ;
+      geo:lat "45.83333"^^xsd:float ;
+      geo:long "9.8"^^xsd:float .
+
+nuts:ITC4A
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC4A - Cremona" ;
+      rdfs:seeAlso italy:cremona ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Cremona" ;
+      eurostat:regionCode "ITC4A" .
+
+nuts:ITD53
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD53 - Reggio nell'Emilia" ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/reggio_nell'emilia> ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Reggio nell'Emilia" ;
+      eurostat:regionCode "ITD53" .
+
+italy:vicenza
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Vicenza"@it ;
+      italy:iso3166-2 "IT-VI" ;
+      italy-schema:isContained
+              italy:veneto ;
+      eurostat:regionCode "ITD32" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population 866398 ;
+      owl:sameAs <http://sws.geonames.org/3164418/> ;
+      geo:lat "45.66667"^^xsd:float ;
+      geo:long "11.45"^^xsd:float .
+
+italy:veneto
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Veneto"@en , "Veneto"@it ;
+      italy:iso3166-2 "IT-34" ;
+      italy-schema:contains
+              italy:treviso , italy:vicenza , italy:venezia , italy:rovigo , italy:padova , italy:belluno , italy:verona ;
+      eurostat:regionCode "ITD3" ;
+      dcterms:identifier "veneto" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 4912438 ;
+      owl:sameAs <http://sws.geonames.org/3164604/> , <http://dbpedia.org/resource/Veneto> ;
+      geo:lat "45.5"^^xsd:float ;
+      geo:long "11.75"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Veneto> .
+
+italy:vercelli
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Vercelli"@it ;
+      italy:iso3166-2 "IT-VC" ;
+      italy-schema:isContained
+              italy:piemonte ;
+      eurostat:regionCode "ITC12" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population 179798 ;
+      owl:sameAs <http://sws.geonames.org/3164564/> ;
+      geo:lat "45.33188"^^xsd:float ;
+      geo:long "8.41415"^^xsd:float .
+
+nuts:ITC15
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC15 - Novara" ;
+      rdfs:seeAlso italy:novara ;
+      eurostat:hasParentRegion
+              nuts:ITC1 ;
+      eurostat:level 3 ;
+      eurostat:name "Novara" ;
+      eurostat:regionCode "ITC15" .
+
+italy:macerata
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Macerata"@it ;
+      italy:iso3166-2 "IT-MC" ;
+      italy-schema:isContained
+              italy:marche ;
+      eurostat:regionCode "ITE33" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population 324369 ;
+      owl:sameAs <http://sws.geonames.org/3174379/> ;
+      geo:lat "43.2"^^xsd:float ;
+      geo:long "13.16667"^^xsd:float .
+
+italy:siena
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Siena"@it ;
+      italy:iso3166-2 "IT-SI" ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE19" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 271365 ;
+      owl:sameAs <http://sws.geonames.org/3166546/> ;
+      geo:lat "43.21667"^^xsd:float ;
+      geo:long "11.4"^^xsd:float .
+
+nuts:ITF43
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF43 - Taranto" ;
+      rdfs:seeAlso italy:taranto ;
+      eurostat:hasParentRegion
+              nuts:ITF4 ;
+      eurostat:level 3 ;
+      eurostat:name "Taranto" ;
+      eurostat:regionCode "ITF43" .
+
+italy:trapani
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Trapani"@it ;
+      italy:iso3166-2 "IT-TP" ;
+      italy-schema:isContained
+              italy:sicilia ;
+      eurostat:regionCode "ITG11" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population 436283 ;
+      owl:sameAs <http://sws.geonames.org/2522875/> ;
+      geo:lat "37.83333"^^xsd:float ;
+      geo:long "12.66667"^^xsd:float .
+
+nuts:ITD5
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD5 - Emilia-Romagna" ;
+      rdfs:seeAlso italy:emilia-romagna ;
+      eurostat:hasParentRegion
+              nuts:ITD ;
+      eurostat:hasSubRegion
+              nuts:ITD59 , nuts:ITD54 , nuts:ITD51 , nuts:ITD57 , nuts:ITD52 , nuts:ITD56 , nuts:ITD53 , nuts:ITD55 , nuts:ITD58 ;
+      eurostat:level 2 ;
+      eurostat:name "Emilia-Romagna" ;
+      eurostat:regionCode "ITD5" .
+
+nuts:ITF33
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF33 - Napoli" ;
+      rdfs:seeAlso italy:napoli ;
+      eurostat:hasParentRegion
+              nuts:ITF3 ;
+      eurostat:level 3 ;
+      eurostat:name "Napoli" ;
+      eurostat:regionCode "ITF33" .
+
+italy:alessandria
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Alessandria"@it ;
+      italy:iso3166-2 "IT-AL" ;
+      italy-schema:isContained
+              italy:piemonte ;
+      eurostat:regionCode "ITC18" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population 439414 ;
+      owl:sameAs <http://sws.geonames.org/3183298/> ;
+      geo:lat "44.81667"^^xsd:float ;
+      geo:long "8.7"^^xsd:float .
+
+nuts:ITF13
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF13 - Pescara" ;
+      rdfs:seeAlso italy:pescara ;
+      eurostat:hasParentRegion
+              nuts:ITF1 ;
+      eurostat:level 3 ;
+      eurostat:name "Pescara" ;
+      eurostat:regionCode "ITF13" .
+
+italy:toscana
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Toscana"@it , "Tuscany"@en ;
+      italy:iso3166-2 "IT-52" ;
+      italy-schema:contains
+              italy:livorno , italy:pistoia , italy:grosseto , italy:prato , italy:arezzo , italy:massa-carrara , italy:lucca , italy:firenze , italy:siena , italy:pisa ;
+      eurostat:regionCode "ITE1" ;
+      dcterms:identifier "toscana" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 3730130 ;
+      owl:sameAs <http://sws.geonames.org/3165361/> , <http://dbpedia.org/resource/Tuscany> ;
+      geo:lat "43.41667"^^xsd:float ;
+      geo:long "11"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Tuscany> .
+
+nuts:ITD54
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD54 - Modena" ;
+      rdfs:seeAlso italy:modena ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Modena" ;
+      eurostat:regionCode "ITD54" .
+
+italy:crotone
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Crotone"@it ;
+      italy:iso3166-2 "IT-KR" ;
+      italy-schema:isContained
+              italy:calabria ;
+      eurostat:regionCode "ITF62" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population 173812 ;
+      owl:sameAs <http://sws.geonames.org/6458615/> ;
+      geo:lat "39.12007"^^xsd:float ;
+      geo:long "17.08134"^^xsd:float .
+
+italy:grosseto
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Grosseto"@it ;
+      italy:iso3166-2 "IT-GR" ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE1A" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 227063 ;
+      owl:sameAs <http://dbpedia.org/resource/Province_of_Grosseto> , <http://sws.geonames.org/3175784/> ;
+      geo:lat "42.83333"^^xsd:float ;
+      geo:long "11.25"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Province_of_Grosseto> .
+
+<http://data.kasabi.com/dataset/italy/lazio.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:lazio .
+
+<http://data.kasabi.com/dataset/italy/emilia-romagna.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:emilia-romagna .
+
+italy:prato
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Prato"@it ;
+      italy:iso3166-2 "IT-PO" ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE15" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 248174 ;
+      owl:sameAs <http://sws.geonames.org/6458618/> ;
+      geo:lat "43.87698"^^xsd:float ;
+      geo:long "11.12503"^^xsd:float .
+
+italy:udine
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Udine"@it ;
+      italy:iso3166-2 "IT-UD" ;
+      italy-schema:isContained
+              italy:friuli_venezia_giulia ;
+      eurostat:regionCode "ITD42" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population 541036 ;
+      owl:sameAs <http://sws.geonames.org/3165071/> , <http://dbpedia.org/resource/Friuli> ;
+      geo:lat "46.16667"^^xsd:float ;
+      geo:long "13"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Friuli> .
+
+nuts:ITF63
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF63 - Catanzaro" ;
+      rdfs:seeAlso italy:catanzaro ;
+      eurostat:hasParentRegion
+              nuts:ITF6 ;
+      eurostat:level 3 ;
+      eurostat:name "Catanzaro" ;
+      eurostat:regionCode "ITF63" .
+
+nuts:ITG12
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG12 - Palermo" ;
+      rdfs:seeAlso italy:palermo ;
+      eurostat:hasParentRegion
+              nuts:ITG1 ;
+      eurostat:level 3 ;
+      eurostat:name "Palermo" ;
+      eurostat:regionCode "ITG12" .
+
+nuts:ITC4B
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC4B - Mantova" ;
+      rdfs:seeAlso italy:mantova ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Mantova" ;
+      eurostat:regionCode "ITC4B" .
+
+italy:puglia
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Puglia"@it , "Apulia"@en ;
+      italy:iso3166-2 "IT-75" ;
+      italy-schema:contains
+              italy:brindisi , italy:bari , italy:lecce , italy:barletta_-_andria_-_trani , italy:foggia , italy:taranto ;
+      eurostat:regionCode "ITF4" ;
+      dcterms:identifier "puglia" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 4084035 ;
+      owl:sameAs <http://dbpedia.org/resource/Apulia> , <http://sws.geonames.org/3169778/> ;
+      geo:lat "41.25"^^xsd:float ;
+      geo:long "16.25"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Apulia> .
+
+italy:campobasso
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Campobasso"@it ;
+      italy:iso3166-2 "IT-CB" ;
+      italy-schema:isContained
+              italy:molise ;
+      eurostat:regionCode "ITF22" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3173222/> ;
+      gn:population 231440 ;
+      owl:sameAs <http://sws.geonames.org/3180990/> ;
+      geo:lat "41.63333"^^xsd:float ;
+      geo:long "14.58333"^^xsd:float .
+
+nuts:ITF22
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF22 - Campobasso" ;
+      rdfs:seeAlso italy:campobasso ;
+      eurostat:hasParentRegion
+              nuts:ITF2 ;
+      eurostat:level 3 ;
+      eurostat:name "Campobasso" ;
+      eurostat:regionCode "ITF22" .
+
+nuts:ITC16
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC16 - Cuneo" ;
+      rdfs:seeAlso italy:cuneo ;
+      eurostat:hasParentRegion
+              nuts:ITC1 ;
+      eurostat:level 3 ;
+      eurostat:name "Cuneo" ;
+      eurostat:regionCode "ITC16" .
+
+<http://data.kasabi.com/dataset/italy/valle_d’aosta.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic <http://data.kasabi.com/dataset/italy/valle_d’aosta> .
+
+nuts:ITF42
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF42 - Bari" ;
+      rdfs:seeAlso italy:bari ;
+      eurostat:hasParentRegion
+              nuts:ITF4 ;
+      eurostat:level 3 ;
+      eurostat:name "Bari" ;
+      eurostat:regionCode "ITF42" .
+
+nuts:ITE17
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE17 - Pisa" ;
+      rdfs:seeAlso italy:pisa ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Pisa" ;
+      eurostat:regionCode "ITE17" .
+
+italy:novara
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Novara"@it ;
+      italy:iso3166-2 "IT-NO" ;
+      italy-schema:isContained
+              italy:piemonte ;
+      eurostat:regionCode "ITC15" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population 368864 ;
+      owl:sameAs <http://sws.geonames.org/3172188/> ;
+      geo:lat "45.58533"^^xsd:float ;
+      geo:long "8.57781"^^xsd:float .
+
+nuts:ITD10
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD10 - Bolzano-Bozen" ;
+      rdfs:seeAlso italy:bolzano-bozen ;
+      eurostat:hasParentRegion
+              nuts:ITD1 ;
+      eurostat:level 3 ;
+      eurostat:name "Bolzano-Bozen" ;
+      eurostat:regionCode "ITD10" .
+
+nuts:ITG26
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG26 - Nuoro" ;
+      rdfs:seeAlso italy:nuoro ;
+      eurostat:hasParentRegion
+              nuts:ITG2 ;
+      eurostat:level 3 ;
+      eurostat:name "Nuoro" ;
+      eurostat:regionCode "ITG26" .
+
+nuts:ITG25
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG25 - Sassari" ;
+      rdfs:seeAlso italy:sassari ;
+      eurostat:hasParentRegion
+              nuts:ITG2 ;
+      eurostat:level 3 ;
+      eurostat:name "Sassari" ;
+      eurostat:regionCode "ITG25" .
+
+italy:cosenza
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Cosenza"@it ;
+      italy:iso3166-2 "IT-CS" ;
+      italy-schema:isContained
+              italy:calabria ;
+      eurostat:regionCode "ITF61" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population 734652 ;
+      owl:sameAs <http://sws.geonames.org/2524906/> ;
+      geo:lat "39.46667"^^xsd:float ;
+      geo:long "16.41667"^^xsd:float .
+
+italy:caltanissetta
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Caltanissetta"@it ;
+      italy:iso3166-2 "IT-CL" ;
+      italy-schema:isContained
+              italy:sicilia ;
+      eurostat:regionCode "ITG15" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population 272052 ;
+      owl:sameAs <http://sws.geonames.org/2525447/> ;
+      geo:lat "37.37448"^^xsd:float ;
+      geo:long "14.06421"^^xsd:float .
+
+nuts:ITE16
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE16 - Livorno" ;
+      rdfs:seeAlso italy:livorno ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Livorno" ;
+      eurostat:regionCode "ITE16" .
+
+italy:padova
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Padova"@it ;
+      italy:iso3166-2 "IT-PD" ;
+      italy-schema:isContained
+              italy:veneto ;
+      eurostat:regionCode "ITD36" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population 927730 ;
+      owl:sameAs <http://sws.geonames.org/3171727/> ;
+      geo:lat "45.35"^^xsd:float ;
+      geo:long "11.81667"^^xsd:float .
+
+nuts:ITD41
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD41 - Pordenone" ;
+      rdfs:seeAlso italy:pordenone ;
+      eurostat:hasParentRegion
+              nuts:ITD4 ;
+      eurostat:level 3 ;
+      eurostat:name "Pordenone" ;
+      eurostat:regionCode "ITD41" .
+
+italy:brescia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Brescia"@it ;
+      italy:iso3166-2 "IT-BS" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC47" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 1242923 ;
+      owl:sameAs <http://sws.geonames.org/3181553/> ;
+      geo:lat "45.63333"^^xsd:float ;
+      geo:long "10.3"^^xsd:float .
+
+nuts:ITD51
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD51 - Piacenza" ;
+      rdfs:seeAlso italy:piacenza ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Piacenza" ;
+      eurostat:regionCode "ITD51" .
+
+<http://data.kasabi.com/dataset/italy/marche.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:marche .
+
+italy:verona
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Verona"@it ;
+      italy:iso3166-2 "IT-VR" ;
+      italy-schema:isContained
+              italy:veneto ;
+      eurostat:regionCode "ITD31" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population 914382 ;
+      owl:sameAs <http://dbpedia.org/resource/Province_of_Verona> , <http://sws.geonames.org/3164526/> ;
+      geo:lat "45.41667"^^xsd:float ;
+      geo:long "11.03333"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Province_of_Verona> .
+
+nuts:ITG11
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG11 - Trapani" ;
+      rdfs:seeAlso italy:trapani ;
+      eurostat:hasParentRegion
+              nuts:ITG1 ;
+      eurostat:level 3 ;
+      eurostat:name "Trapani" ;
+      eurostat:regionCode "ITG11" .
+
+nuts:ITF62
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF62 - Crotone" ;
+      rdfs:seeAlso italy:crotone ;
+      eurostat:hasParentRegion
+              nuts:ITF6 ;
+      eurostat:level 3 ;
+      eurostat:name "Crotone" ;
+      eurostat:regionCode "ITF62" .
+
+<http://data.kasabi.com/dataset/italy/sardegna.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:sardegna .
+
+nuts:ITC17
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC17 - Asti" ;
+      rdfs:seeAlso italy:asti ;
+      eurostat:hasParentRegion
+              nuts:ITC1 ;
+      eurostat:level 3 ;
+      eurostat:name "Asti" ;
+      eurostat:regionCode "ITC17" .
+
+nuts:ITZ
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITZ - EXTRA-REGIO" ;
+      rdfs:seeAlso italy:extra-regio ;
+      eurostat:hasParentRegion
+              nuts:IT ;
+      eurostat:hasSubRegion
+              nuts:ITZZ ;
+      eurostat:level 1 ;
+      eurostat:name "EXTRA-REGIO" ;
+      eurostat:regionCode "ITZ" .
+
+nuts:ITF21
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF21 - Isernia" ;
+      rdfs:seeAlso italy:isernia ;
+      eurostat:hasParentRegion
+              nuts:ITF2 ;
+      eurostat:level 3 ;
+      eurostat:name "Isernia" ;
+      eurostat:regionCode "ITF21" .
+
+nuts:ITF41
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF41 - Foggia" ;
+      rdfs:seeAlso italy:foggia ;
+      eurostat:hasParentRegion
+              nuts:ITF4 ;
+      eurostat:level 3 ;
+      eurostat:name "Foggia" ;
+      eurostat:regionCode "ITF41" .
+
+italy:friuli-veneziagiulia
+      italy:iso3166-2 "IT-36" .
+
+nuts:ITF35
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF35 - Salerno" ;
+      rdfs:seeAlso italy:salerno ;
+      eurostat:hasParentRegion
+              nuts:ITF3 ;
+      eurostat:level 3 ;
+      eurostat:name "Salerno" ;
+      eurostat:regionCode "ITF35" .
+
+italy:taranto
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Taranto"@it ;
+      italy:iso3166-2 "IT-TA" ;
+      italy-schema:isContained
+              italy:puglia ;
+      eurostat:regionCode "ITF43" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population 580525 ;
+      owl:sameAs <http://sws.geonames.org/3165924/> ;
+      geo:lat "40.61667"^^xsd:float ;
+      geo:long "17.25"^^xsd:float .
+
+italy:forlì
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Forlì"@it ;
+      italy:iso3166-2 "IT-FO" ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 392329 ;
+      owl:sameAs <http://sws.geonames.org/3176745/> ;
+      geo:lat "44.08333"^^xsd:float ;
+      geo:long "12.03333"^^xsd:float .
+
+nuts:ITE18
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE18 - Arezzo" ;
+      rdfs:seeAlso italy:arezzo ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Arezzo" ;
+      eurostat:regionCode "ITE18" .
+
+italy:fermo
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Fermo"@it ;
+      italy-schema:isContained
+              italy:marche ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population 177480 ;
+      owl:sameAs <http://sws.geonames.org/6955471/> ;
+      geo:lat "43.16537"^^xsd:float ;
+      geo:long "13.72424"^^xsd:float .
+
+italy:chieti
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Chieti"@it ;
+      italy:iso3166-2 "IT-CH" ;
+      italy-schema:isContained
+              italy:abruzzo ;
+      eurostat:regionCode "ITF14" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population 396852 ;
+      owl:sameAs <http://sws.geonames.org/3178795/> ;
+      geo:lat "42.11667"^^xsd:float ;
+      geo:long "14.35"^^xsd:float .
+
+italy:rovigo
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Rovigo"@it ;
+      italy:iso3166-2 "IT-RO" ;
+      italy-schema:isContained
+              italy:veneto ;
+      eurostat:regionCode "ITD37" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population 247297 ;
+      owl:sameAs <http://sws.geonames.org/3168842/> ;
+      geo:lat "45.03333"^^xsd:float ;
+      geo:long "11.83333"^^xsd:float .
+
+italy:cuneo
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Cuneo"@it ;
+      italy:iso3166-2 "IT-CN" ;
+      italy-schema:isContained
+              italy:piemonte ;
+      eurostat:regionCode "ITC16" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population 589586 ;
+      owl:sameAs <http://sws.geonames.org/3177699/> ;
+      geo:lat "44.51667"^^xsd:float ;
+      geo:long "7.56667"^^xsd:float .
+
+nuts:ITD42
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD42 - Udine" ;
+      rdfs:seeAlso italy:udine ;
+      eurostat:hasParentRegion
+              nuts:ITD4 ;
+      eurostat:level 3 ;
+      eurostat:name "Udine" ;
+      eurostat:regionCode "ITD42" .
+
+italy:lombardia
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Lombardia"@it , "Lombardy"@en ;
+      italy:iso3166-2 "IT-25" ;
+      italy-schema:contains
+              italy:mantova , italy:lecco , italy:cremona , italy:monza_e_della_brianza , italy:pavia , italy:brescia , italy:bergamo , italy:sondrio , italy:varese , italy:lodi , italy:milan , italy:como ;
+      eurostat:regionCode "ITC4" ;
+      dcterms:identifier "lombardia" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 9826141 ;
+      owl:sameAs <http://sws.geonames.org/3174618/> , <http://dbpedia.org/resource/Lombardy> ;
+      geo:lat "45.66667"^^xsd:float ;
+      geo:long "9.5"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Lombardy> .
+
+nuts:ITD52
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD52 - Parma" ;
+      rdfs:seeAlso italy:parma ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Parma" ;
+      eurostat:regionCode "ITD52" .
+
+italy:pescara
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Pescara"@it ;
+      italy:iso3166-2 "IT-PE" ;
+      italy-schema:isContained
+              italy:abruzzo ;
+      eurostat:regionCode "ITF13" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population 321192 ;
+      owl:sameAs <http://sws.geonames.org/3171163/> ;
+      geo:lat "42.33333"^^xsd:float ;
+      geo:long "13.95"^^xsd:float .
+
+nuts:ITF61
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF61 - Cosenza" ;
+      rdfs:seeAlso italy:cosenza ;
+      eurostat:hasParentRegion
+              nuts:ITF6 ;
+      eurostat:level 3 ;
+      eurostat:name "Cosenza" ;
+      eurostat:regionCode "ITF61" .
+
+italy:frosinone
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Frosinone"@it ;
+      italy:iso3166-2 "IT-FR" ;
+      italy-schema:isContained
+              italy:lazio ;
+      eurostat:regionCode "ITE45" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population 497849 ;
+      owl:sameAs <http://sws.geonames.org/3176513/> ;
+      geo:lat "41.61667"^^xsd:float ;
+      geo:long "13.45"^^xsd:float .
+
+italy:enna
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Enna"@it ;
+      italy:iso3166-2 "IT-EN" ;
+      italy-schema:isContained
+              italy:sicilia ;
+      eurostat:regionCode "ITG16" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population 173009 ;
+      owl:sameAs <http://sws.geonames.org/2524818/> ;
+      geo:lat "37.58333"^^xsd:float ;
+      geo:long "14.43333"^^xsd:float .
+
+italy:massa-carrara
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Massa-Carrara"@it ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE11" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 203642 ;
+      owl:sameAs <http://sws.geonames.org/3173767/> ;
+      geo:lat "44.25"^^xsd:float ;
+      geo:long "10.05"^^xsd:float .
+
+nuts:ITC45
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC45 - Milano" ;
+      rdfs:seeAlso italy:milano ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Milano" ;
+      eurostat:regionCode "ITC45" .
+
+italy:firenze
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Firenze"@it ;
+      italy:iso3166-2 "IT-FI" ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE14" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 991862 ;
+      owl:sameAs <http://sws.geonames.org/3176958/> ;
+      geo:lat "43.83333"^^xsd:float ;
+      geo:long "11.33333"^^xsd:float .
+
+nuts:ITC31
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC31 - Imperia" ;
+      rdfs:seeAlso italy:imperia ;
+      eurostat:hasParentRegion
+              nuts:ITC3 ;
+      eurostat:level 3 ;
+      eurostat:name "Imperia" ;
+      eurostat:regionCode "ITC31" .
+
+italy:lecce
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Lecce"@it ;
+      italy:iso3166-2 "IT-LE" ;
+      italy-schema:isContained
+              italy:puglia ;
+      eurostat:regionCode "ITF45" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population 813556 ;
+      owl:sameAs <http://sws.geonames.org/3174952/> ;
+      geo:lat "40.21667"^^xsd:float ;
+      geo:long "18.16667"^^xsd:float .
+
+italy:vibovalentia
+      italy:iso3166-2 "IT-W" .
+
+italy:lucca
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Lucca"@it ;
+      italy:iso3166-2 "IT-LU" ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE12" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 392182 ;
+      owl:sameAs <http://sws.geonames.org/3174529/> ;
+      geo:lat "44.03333"^^xsd:float ;
+      geo:long "10.45"^^xsd:float .
+
+nuts:ITC
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC - NORD-OVEST" ;
+      rdfs:seeAlso italy:nord-ovest ;
+      eurostat:hasParentRegion
+              nuts:IT ;
+      eurostat:hasSubRegion
+              nuts:ITC1 , nuts:ITC4 , nuts:ITC3 , nuts:ITC2 ;
+      eurostat:level 1 ;
+      eurostat:name "NORD-OVEST" ;
+      eurostat:regionCode "ITC" .
+
+nuts:ITE14
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE14 - Firenze" ;
+      rdfs:seeAlso italy:firenze ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Firenze" ;
+      eurostat:regionCode "ITE14" .
+
+italy:torino
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Torino"@it ;
+      italy:iso3166-2 "IT-TO" ;
+      italy-schema:isContained
+              italy:piemonte ;
+      eurostat:regionCode "ITC11" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population 2297598 ;
+      owl:sameAs <http://sws.geonames.org/3165523/> ;
+      geo:lat "45.13333"^^xsd:float ;
+      geo:long "7.36667"^^xsd:float .
+
+italy-schema:Region
+      a       owl:Class , rdfs:Class ;
+      rdfs:comment "A geographical region (i.e. the first-level administrative divisions of a state). For example, Italy is divided in 20 regions."@en , "Una regione costituisce il primo livello di suddivisione di uno stato. L'Italia, per esempio, e' suddivisa in 20 regioni."@it ;
+      rdfs:isDefinedBy italy-schema: ;
+      rdfs:label "Region"@en , "Regione"@it ;
+      rdfs:seeAlso <http://en.wikipedia.org/wiki/Region_of_Italy> , <http://en.wikipedia.org/wiki/index.html?curid=55633> , <http://en.wikipedia.org/wiki/Region> ;
+      rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
+      owl:sameAs <http://rdf.freebase.com/ns/m/0fg5q> , <http://dbpedia.org/resource/Region_of_Italy> , <http://dbpedia.org/class/yago/RegionsOfItaly> , <http://dbpedia.org/resource/Italian_NUTS_level_1_regions> ;
+      foaf:page <http://en.wikipedia.org/wiki/Region_of_Italy> .
+
+italy:monza_e_della_brianza
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Monza e della Brianza"@it ;
+      italy-schema:isContained
+              italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 840711 ;
+      owl:sameAs <http://sws.geonames.org/6955700/> ;
+      geo:lat "45.59674"^^xsd:float ;
+      geo:long "9.21616"^^xsd:float .
+
+italy:cremona
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Cremona"@it ;
+      italy:iso3166-2 "IT-CR" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC4A" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 362061 ;
+      owl:sameAs <http://sws.geonames.org/3177837/> ;
+      geo:lat "45.23333"^^xsd:float ;
+      geo:long "9.93333"^^xsd:float .
+
+<http://data.kasabi.com/dataset/italy/valled'aosta>
+      italy:iso3166-2 "IT-23" .
+
+italy:oristano
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Oristano"@it ;
+      italy:iso3166-2 "IT-OR" ;
+      italy-schema:isContained
+              italy:sardegna ;
+      eurostat:regionCode "ITG28" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population 166712 ;
+      owl:sameAs <http://sws.geonames.org/2523962/> ;
+      geo:lat "39.9"^^xsd:float ;
+      geo:long "8.6"^^xsd:float .
+
+italy:pordenone
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Pordenone"@it ;
+      italy:iso3166-2 "IT-PN" ;
+      italy-schema:isContained
+              italy:friuli_venezia_giulia ;
+      eurostat:regionCode "ITD41" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population 313870 ;
+      owl:sameAs <http://sws.geonames.org/3170146/> ;
+      geo:lat "45.95"^^xsd:float ;
+      geo:long "12.65"^^xsd:float .
+
+italy:campania
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Campania"@en , "Campania"@it ;
+      italy:iso3166-2 "IT-72" ;
+      italy-schema:contains
+              italy:caserta , italy:avellino , italy:salerno , italy:napoli , italy:benevento ;
+      eurostat:regionCode "ITF3" ;
+      dcterms:identifier "campania" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 5824662 ;
+      owl:sameAs <http://sws.geonames.org/3181042/> , <http://dbpedia.org/resource/Campania> ;
+      geo:lat "41"^^xsd:float ;
+      geo:long "14.5"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Campania> .
+
+nuts:ITC44
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC44 - Sondrio" ;
+      rdfs:seeAlso italy:sondrio ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Sondrio" ;
+      eurostat:regionCode "ITC44" .
+
+italy:aosta
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Aosta"@it ;
+      italy:iso3166-2 "IT-AO" ;
+      italy-schema:isContained
+              <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
+      eurostat:regionCode "ITF20" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164857/> ;
+      gn:population 127866 ;
+      owl:sameAs <http://sws.geonames.org/3182996/> ;
+      geo:lat "45.76667"^^xsd:float ;
+      geo:long "7.41667"^^xsd:float .
+
+nuts:ITC11
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC11 - Torino" ;
+      rdfs:seeAlso italy:torino ;
+      eurostat:hasParentRegion
+              nuts:ITC1 ;
+      eurostat:level 3 ;
+      eurostat:name "Torino" ;
+      eurostat:regionCode "ITC11" .
+
+italy:brindisi
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Brindisi"@it ;
+      italy:iso3166-2 "IT-BR" ;
+      italy-schema:isContained
+              italy:puglia ;
+      eurostat:regionCode "ITF44" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population 403096 ;
+      owl:sameAs <http://sws.geonames.org/3181526/> ;
+      geo:lat "40.58333"^^xsd:float ;
+      geo:long "17.66667"^^xsd:float .
+
+italy:pavia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Pavia"@it ;
+      italy:iso3166-2 "IT-PV" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC48" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 544230 ;
+      owl:sameAs <http://sws.geonames.org/3171364/> ;
+      geo:lat "45.11667"^^xsd:float ;
+      geo:long "9.13333"^^xsd:float .
+
+kasabi:italy
+      a       void:Dataset , void:Linkset ;
+      rdfs:label "Italia"@it , "Italy"@en ;
+      dcterms:contributor italy:PaoloCastagna ;
+      dcterms:created "2011-12-05"^^xsd:date ;
+      dcterms:description "Italy dataset contiene informazioni sulle 20 regioni, 110 province e ~8,000 comuni d'Italia."@it , "Italy dataset provides information on Italy and it's 20 regions, 110 provinces and ~8,000 municipalities."@en ;
+      dcterms:issued "2011-12-05"^^xsd:date ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/> ;
+      dcterms:modified "2011-12-05"^^xsd:date ;
+      dcterms:publisher <http://kasabi.com/> ;
+      dcterms:source <http://dbpedia.org/resource/Eurostat> , <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008.rdf> , <http://download.geonames.org/all-geonames-rdf.zip> , <http://dbpedia.org/resource/GeoNames> ;
+      dcterms:subject <http://dbpedia.org/resource/Region> , <http://dbpedia.org/resource/Italy> , <http://dbpedia.org/resource/Location> , <http://dbpedia.org/resource/Comune> , <http://dbpedia.org/resource/Provinces_of_Italy> , <http://dbpedia.org/resource/Province> , <http://dbpedia.org/resource/Regions_of_Italy> , <http://dbpedia.org/resource/Comuni_of_Italy> ;
+      dcterms:title "Italia - regioni, province e comuni."@it , "Italy - regions, provinces and municipalities."@en ;
+      void:classes 10 ;
+      void:dataDump <https://raw.github.com/castagna/italy/master/data/vocabularies/kasabi-italy-v1.2.ttl> ;
+      void:distinctObjects
+              130 ;
+      void:distinctSubjects
+              130 ;
+      void:documents 130 ;
+      void:entities 130 ;
+      void:exampleResource
+              italy:sicilia , italy:milano , italy:roma ;
+      void:feature <http://www.w3.org/ns/formats/Turtle> , italy:etags , <http://www.w3.org/ns/formats/RDF_XML> , <http://www.w3.org/ns/formats/N-Triples> ;
+      void:properties 14 ;
+      void:rootResource italy:marche , italy:veneto , italy:sardegna , <http://data.kasabi.com/dataset/italy/valle_d’aosta> , italy:campania , italy:liguria , italy:calabria , italy:umbria , italy:piemonte , italy:toscana , italy:trentino-alto_adige , italy:molise , italy:friuli-venezia_giulia , italy:abruzzo , italy:emilia-romagna , italy:sicilia , italy:lombardia , italy:lazio , italy:basilicata , italy:puglia ;
+      void:triples 1911 ;
+      void:uriSpace "http://data.kasabi.com/dataset/italy/" ;
+      void:vocabulary void: , rdf: , rdfs: , foaf: , geo: , eurostat: , dcterms: , owl: , gn: ;
+      foaf:homepage <http://kasabi.com/dataset/italy> ;
+      foaf:page kasabi:italy , <http://kasabi.github.com/italy/> , <https://github.com/castagna/italy> .
+
+italy:nuoro
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Nuoro"@it ;
+      italy:iso3166-2 "IT-NU" ;
+      italy-schema:isContained
+              italy:sardegna ;
+      eurostat:regionCode "ITG26" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population 161020 ;
+      owl:sameAs <http://sws.geonames.org/3172153/> ;
+      geo:lat "40.16667"^^xsd:float ;
+      geo:long "9.33333"^^xsd:float .
+
+nuts:ITD
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD - NORD-EST" ;
+      rdfs:seeAlso italy:nord-est ;
+      eurostat:hasParentRegion
+              nuts:IT ;
+      eurostat:hasSubRegion
+              nuts:ITD4 , nuts:ITD3 , nuts:ITD1 , nuts:ITD5 , nuts:ITD2 ;
+      eurostat:level 1 ;
+      eurostat:name "NORD-EST" ;
+      eurostat:regionCode "ITD" .
+
+<http://data.kasabi.com/dataset/italy/friuli-venezia_giulia.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:friuli-venezia_giulia .
+
+nuts:ITE15
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE15 - Prato" ;
+      rdfs:seeAlso italy:prato ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Prato" ;
+      eurostat:regionCode "ITE15" .
+
+nuts:ITC33
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC33 - Genova" ;
+      rdfs:seeAlso italy:genova ;
+      eurostat:hasParentRegion
+              nuts:ITC3 ;
+      eurostat:level 3 ;
+      eurostat:name "Genova" ;
+      eurostat:regionCode "ITC33" .
+
+italy:links2dbpedia
+      a       void:Linkset ;
+      void:linkPredicate owl:sameAs ;
+      void:objectsTarget italy:dbpedia ;
+      void:subjectsTarget italy:dataset ;
+      void:target italy:dbpedia ;
+      void:triples 130 .
+
+nuts:ITC43
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC43 - Lecco" ;
+      rdfs:seeAlso italy:lecco ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Lecco" ;
+      eurostat:regionCode "ITC43" .
+
+nuts:ITC12
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC12 - Vercelli" ;
+      rdfs:seeAlso italy:vercelli ;
+      eurostat:hasParentRegion
+              nuts:ITC1 ;
+      eurostat:level 3 ;
+      eurostat:name "Vercelli" ;
+      eurostat:regionCode "ITC12" .
+
+italy:calabria
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Calabria"@it , "Calabria"@en ;
+      italy:iso3166-2 "IT-78" ;
+      italy-schema:contains
+              italy:cosenza , italy:crotone , italy:catanzaro , italy:reggio_di_calabria , italy:vibo-valentia ;
+      eurostat:regionCode "ITF6" ;
+      dcterms:identifier "calabria" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 2009330 ;
+      owl:sameAs <http://dbpedia.org/resource/Calabria> , <http://sws.geonames.org/2525468/> ;
+      geo:lat "39"^^xsd:float ;
+      geo:long "16.5"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Calabria> .
+
+italy:viterbo
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Viterbo"@it ;
+      italy:iso3166-2 "IT-VT" ;
+      italy-schema:isContained
+              italy:lazio ;
+      eurostat:regionCode "ITE41" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population 318139 ;
+      owl:sameAs <http://sws.geonames.org/3164038/> ;
+      geo:lat "42.41667"^^xsd:float ;
+      geo:long "12.08333"^^xsd:float .
+
+italy:sondrio
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Sondrio"@it ;
+      italy:iso3166-2 "IT-SO" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC44" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 182709 ;
+      owl:sameAs <http://sws.geonames.org/3166396/> ;
+      geo:lat "46.16667"^^xsd:float ;
+      geo:long "10.05"^^xsd:float .
+
+nuts:ITF52
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF52 - Matera" ;
+      rdfs:seeAlso italy:matera ;
+      eurostat:hasParentRegion
+              nuts:ITF5 ;
+      eurostat:level 3 ;
+      eurostat:name "Matera" ;
+      eurostat:regionCode "ITF52" .
+
+<http://data.kasabi.com/dataset/italy/l'aquila>
+      italy:iso3166-2 "IT-AQ" .
+
+italy:piemonte
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Piemonte"@it , "Piedmont"@en ;
+      italy:iso3166-2 "IT-21" ;
+      italy-schema:contains
+              italy:biella , italy:vercelli , italy:cuneo , italy:provincia_verbano-cusio-ossola , italy:novara , italy:torino , italy:alessandria , italy:asti ;
+      eurostat:regionCode "ITC1" ;
+      dcterms:identifier "piemonte" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 4446230 ;
+      owl:sameAs <http://dbpedia.org/resource/Piedmont> , <http://sws.geonames.org/3170831/> ;
+      geo:lat "45"^^xsd:float ;
+      geo:long "8"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Piedmont> .
+
+italy:asti
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Asti"@it ;
+      italy:iso3166-2 "IT-AT" ;
+      italy-schema:isContained
+              italy:piemonte ;
+      eurostat:regionCode "ITC17" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population 221151 ;
+      owl:sameAs <http://sws.geonames.org/3182712/> ;
+      geo:lat "44.91667"^^xsd:float ;
+      geo:long "8.16667"^^xsd:float .
+
+nuts:ITZZ
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITZZ - Extra-Regio" ;
+      rdfs:seeAlso italy:extra-regio ;
+      eurostat:hasParentRegion
+              nuts:ITZ ;
+      eurostat:hasSubRegion
+              nuts:ITZZZ ;
+      eurostat:level 2 ;
+      eurostat:name "Extra-Regio" ;
+      eurostat:regionCode "ITZZ" .
+
+italy-schema:PaoloCastagna
+      a       foaf:Person .
+
+nuts:ITC4
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC4 - Lombardia" ;
+      rdfs:seeAlso italy:lombardia ;
+      eurostat:hasParentRegion
+              nuts:ITC ;
+      eurostat:hasSubRegion
+              nuts:ITC42 , nuts:ITC43 , nuts:ITC47 , nuts:ITC48 , nuts:ITC49 , nuts:ITC46 , nuts:ITC45 , nuts:ITC4B , nuts:ITC44 , nuts:ITC4A , nuts:ITC41 ;
+      eurostat:level 2 ;
+      eurostat:name "Lombardia" ;
+      eurostat:regionCode "ITC4" .
+
+italy:reggio_emilia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Reggio Emilia"@it ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 525267 ;
+      owl:sameAs <http://sws.geonames.org/3169524/> ;
+      geo:lat "44.61667"^^xsd:float ;
+      geo:long "10.61667"^^xsd:float .
+
+italy:roma
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Roma"@it ;
+      italy:iso3166-2 "IT-RM" ;
+      italy-schema:isContained
+              italy:lazio ;
+      eurostat:regionCode "ITE43" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population 4154684 ;
+      owl:sameAs <http://sws.geonames.org/3169069/> ;
+      geo:lat "41.96667"^^xsd:float ;
+      geo:long "12.66667"^^xsd:float .
+
+italy:varese
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Varese"@it ;
+      italy:iso3166-2 "IT-VA" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC41" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 876705 ;
+      owl:sameAs <http://sws.geonames.org/3164697/> ;
+      geo:lat "45.8"^^xsd:float ;
+      geo:long "8.8"^^xsd:float .
+
+nuts:ITG2
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG2 - Sardegna" ;
+      rdfs:seeAlso italy:sardegna ;
+      eurostat:hasParentRegion
+              nuts:ITG ;
+      eurostat:hasSubRegion
+              nuts:ITG25 , nuts:ITG2A , nuts:ITG27 , nuts:ITG28 , nuts:ITG2B , nuts:ITG29 , nuts:ITG2C , nuts:ITG26 ;
+      eurostat:level 2 ;
+      eurostat:name "Sardegna" ;
+      eurostat:regionCode "ITG2" .
+
+<http://data.kasabi.com/dataset/italy/veneto.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:veneto .
+
+nuts:ITE12
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE12 - Lucca" ;
+      rdfs:seeAlso italy:lucca ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Lucca" ;
+      eurostat:regionCode "ITE12" .
+
+nuts:ITE
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE - CENTRO (I)" ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/centro_(i)> ;
+      eurostat:hasParentRegion
+              nuts:IT ;
+      eurostat:hasSubRegion
+              nuts:ITE3 , nuts:ITE4 , nuts:ITE2 , nuts:ITE1 ;
+      eurostat:level 1 ;
+      eurostat:name "CENTRO (I)" ;
+      eurostat:regionCode "ITE" .
+
+nuts:ITF12
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF12 - Teramo" ;
+      rdfs:seeAlso italy:teramo ;
+      eurostat:hasParentRegion
+              nuts:ITF1 ;
+      eurostat:level 3 ;
+      eurostat:name "Teramo" ;
+      eurostat:regionCode "ITF12" .
+
+nuts:ITC42
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC42 - Como" ;
+      rdfs:seeAlso italy:como ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Como" ;
+      eurostat:regionCode "ITC42" .
+
+<http://data.kasabi.com/dataset/italy/puglia.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:puglia .
+
+nuts:ITF51
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF51 - Potenza" ;
+      rdfs:seeAlso italy:potenza ;
+      eurostat:hasParentRegion
+              nuts:ITF5 ;
+      eurostat:level 3 ;
+      eurostat:name "Potenza" ;
+      eurostat:regionCode "ITF51" .
+
+italy:piacenza
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Piacenza"@it ;
+      italy:iso3166-2 "IT-PC" ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      eurostat:regionCode "ITD51" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 288003 ;
+      owl:sameAs <http://sws.geonames.org/3171057/> ;
+      geo:lat "44.88333"^^xsd:float ;
+      geo:long "9.58333"^^xsd:float .
+
+nuts:ITC13
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC13 - Biella" ;
+      rdfs:seeAlso italy:biella ;
+      eurostat:hasParentRegion
+              nuts:ITC1 ;
+      eurostat:level 3 ;
+      eurostat:name "Biella" ;
+      eurostat:regionCode "ITC13" .
+
+<http://data.kasabi.com/dataset/italy/valle_d’aosta>
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Aosta Valley"@en , "Valle d’Aosta"@it ;
+      italy-schema:contains
+              italy:aosta ;
+      eurostat:regionCode "ITC2" , "ITC20" ;
+      dcterms:identifier "valle_d’aosta" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 127866 ;
+      owl:sameAs <http://sws.geonames.org/3164857/> , <http://dbpedia.org/resource/Aosta_Valley> ;
+      geo:lat "45.75"^^xsd:float ;
+      geo:long "7.25"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Aosta_Valley> .
+
+italy:ravenna
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Ravenna"@it ;
+      italy:iso3166-2 "IT-RA" ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      eurostat:regionCode "ITD57" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 389509 ;
+      owl:sameAs <http://sws.geonames.org/3169560/> ;
+      geo:lat "44.41667"^^xsd:float ;
+      geo:long "11.98333"^^xsd:float .
+
+italy:liguria
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Liguria"@en , "Liguria"@it ;
+      italy:iso3166-2 "IT-42" ;
+      italy-schema:contains
+              italy:genova , italy:savona , italy:la_spezia , italy:imperia ;
+      eurostat:regionCode "ITC3" ;
+      dcterms:identifier "liguria" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 1615986 ;
+      owl:sameAs <http://dbpedia.org/resource/Liguria> , <http://sws.geonames.org/3174725/> ;
+      geo:lat "44.5"^^xsd:float ;
+      geo:long "8.83333"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Liguria> .
+
+italy:savona
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Savona"@it ;
+      italy:iso3166-2 "IT-SV" ;
+      italy-schema:isContained
+              italy:liguria ;
+      eurostat:regionCode "ITC32" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population 287315 ;
+      owl:sameAs <http://sws.geonames.org/3167021/> ;
+      geo:lat "44.3"^^xsd:float ;
+      geo:long "8.26667"^^xsd:float .
+
+nuts:ITC32
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC32 - Savona" ;
+      rdfs:seeAlso italy:savona ;
+      eurostat:hasParentRegion
+              nuts:ITC3 ;
+      eurostat:level 3 ;
+      eurostat:name "Savona" ;
+      eurostat:regionCode "ITC32" .
+
+italy:modena
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Modena"@it ;
+      italy:iso3166-2 "IT-MO" ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      eurostat:regionCode "ITD54" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 694579 ;
+      owl:sameAs <http://sws.geonames.org/3173330/> ;
+      geo:lat "44.5"^^xsd:float ;
+      geo:long "10.9"^^xsd:float .
+
+<http://data.kasabi.com/dataset/italy/l’aquila>
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "L’Aquila"@it ;
+      italy-schema:isContained
+              italy:abruzzo ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population 309264 ;
+      owl:sameAs <http://sws.geonames.org/3175120/> ;
+      geo:lat "42.08333"^^xsd:float ;
+      geo:long "13.66667"^^xsd:float .
+
+italy-schema:Province
+      a       owl:Class , rdfs:Class ;
+      rdfs:comment "In Italy is an administrative division of intermediate level between a municipality (comune) and a region (regione)."@en , "Ente locale territoriale il cui territorio è per estensione inferiore a quello della regione (della quale, a sua volta, fa parte) e comprende il territorio di più comuni."@it ;
+      rdfs:isDefinedBy italy-schema: ;
+      rdfs:label "Province"@en , "Provincia"@it ;
+      rdfs:seeAlso <http://en.wikipedia.org/wiki/index.html?curid=15489197> , <http://en.wikipedia.org/wiki/Province> , <http://en.wikipedia.org/wiki/Provinces_of_Italy> ;
+      rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
+      owl:sameAs <http://dbpedia.org/class/yago/ProvincesOfItaly> , <http://dbpedia.org/resource/Provinces_of_Italy> , <http://rdf.freebase.com/ns/m/0fkxj> ;
+      foaf:page <http://en.wikipedia.org/wiki/Provinces_of_Italy> .
+
+italy:palermo
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Palermo"@it ;
+      italy:iso3166-2 "IT-PA" ;
+      italy-schema:isContained
+              italy:sicilia ;
+      eurostat:regionCode "ITG12" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population 1246094 ;
+      owl:sameAs <http://sws.geonames.org/2523918/> ;
+      geo:lat "37.81667"^^xsd:float ;
+      geo:long "13.58333"^^xsd:float .
+
+nuts:ITC3
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC3 - Liguria" ;
+      rdfs:seeAlso italy:liguria ;
+      eurostat:hasParentRegion
+              nuts:ITC ;
+      eurostat:hasSubRegion
+              nuts:ITC33 , nuts:ITC31 , nuts:ITC34 , nuts:ITC32 ;
+      eurostat:level 2 ;
+      eurostat:name "Liguria" ;
+      eurostat:regionCode "ITC3" .
+
+<http://data.kasabi.com/dataset/italy/lombardia.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:lombardia .
+
+italy-schema:iso3166-2
+      a       rdf:Property ;
+      rdfs:comment "ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code. It was first published in 1998."@en , "L' ISO 3166-2 è la seconda parte dello standard ISO 3166. È stato creato per codificare i nomi delle suddivisioni territoriali delle nazioni e delle aree dipendenti. Lo scopo dello standard è quello di stabilire una serie di abbreviazioni internazionali dei luoghi, da utilizzare per le etichette di spedizione, i contenitori, e più in generale, ovunque un codice alfanumerico possa essere usato per indicare una località in modo meno ambiguo e più pratico del nome completo."@it ;
+      rdfs:isDefinedBy italy-schema: ;
+      rdfs:label "Codice ISO 3166-2"@it , "ISO 3166-2 code"@en ;
+      rdfs:seeAlso <http://en.wikipedia.org/wiki/ISO_3166-2> ;
+      owl:sameAs <http://dbpedia.org/resource/ISO_3166-2> ;
+      foaf:page <http://en.wikipedia.org/wiki/ISO_3166-2> .
+
+nuts:ITG1
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG1 - Sicilia" ;
+      rdfs:seeAlso italy:sicilia ;
+      eurostat:hasParentRegion
+              nuts:ITG ;
+      eurostat:hasSubRegion
+              nuts:ITG14 , nuts:ITG19 , nuts:ITG16 , nuts:ITG12 , nuts:ITG13 , nuts:ITG15 , nuts:ITG17 , nuts:ITG18 , nuts:ITG11 ;
+      eurostat:level 2 ;
+      eurostat:name "Sicilia" ;
+      eurostat:regionCode "ITG1" .
+
+nuts:ITF65
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF65 - Reggio di Calabria" ;
+      rdfs:seeAlso italy:reggio_di_calabria ;
+      eurostat:hasParentRegion
+              nuts:ITF6 ;
+      eurostat:level 3 ;
+      eurostat:name "Reggio di Calabria" ;
+      eurostat:regionCode "ITF65" .
+
+nuts:ITE13
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE13 - Pistoia" ;
+      rdfs:seeAlso italy:pistoia ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Pistoia" ;
+      eurostat:regionCode "ITE13" .
+
+nuts:ITF11
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF11 - L'Aquila" ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/l'aquila> ;
+      eurostat:hasParentRegion
+              nuts:ITF1 ;
+      eurostat:level 3 ;
+      eurostat:name "L'Aquila" ;
+      eurostat:regionCode "ITF11" .
+
+italy:lazio
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Lazio"@it , "Lazio"@en ;
+      italy:iso3166-2 "IT-62" ;
+      italy-schema:contains
+              italy:rieti , italy:latina , italy:viterbo , italy:roma , italy:frosinone ;
+      eurostat:regionCode "ITE4" ;
+      dcterms:identifier "lazio" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 5681868 ;
+      owl:sameAs <http://dbpedia.org/resource/Lazio> , <http://sws.geonames.org/3174976/> ;
+      geo:lat "42"^^xsd:float ;
+      geo:long "12.5"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Lazio> .
+
+italy:basilicata
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Basilicata"@it , "Basilicate"@en ;
+      italy:iso3166-2 "IT-77" ;
+      italy-schema:contains
+              italy:matera , italy:potenza ;
+      eurostat:regionCode "ITF5" ;
+      dcterms:identifier "basilicata" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 588879 ;
+      owl:sameAs <http://dbpedia.org/resource/Basilicata> , <http://sws.geonames.org/3182306/> ;
+      geo:lat "40.5"^^xsd:float ;
+      geo:long "16.5"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Basilicata> .
+
+nuts:ITF
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF - SUD" ;
+      rdfs:seeAlso italy:sud ;
+      eurostat:hasParentRegion
+              nuts:IT ;
+      eurostat:hasSubRegion
+              nuts:ITF1 , nuts:ITF2 , nuts:ITF5 , nuts:ITF4 , nuts:ITF6 , nuts:ITF3 ;
+      eurostat:level 1 ;
+      eurostat:name "SUD" ;
+      eurostat:regionCode "ITF" .
+
+italy:pisa
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Pisa"@it ;
+      italy:iso3166-2 "IT-PI" ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE17" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 414154 ;
+      owl:sameAs <http://sws.geonames.org/3170646/> ;
+      geo:lat "43.41667"^^xsd:float ;
+      geo:long "10.71667"^^xsd:float .
+
+nuts:ITC1
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC1 - Piemonte" ;
+      rdfs:seeAlso italy:piemonte ;
+      eurostat:hasParentRegion
+              nuts:ITC ;
+      eurostat:hasSubRegion
+              nuts:ITC15 , nuts:ITC16 , nuts:ITC17 , nuts:ITC14 , nuts:ITC13 , nuts:ITC12 , nuts:ITC18 , nuts:ITC11 ;
+      eurostat:level 2 ;
+      eurostat:name "Piemonte" ;
+      eurostat:regionCode "ITC1" .
+
+italy:marche
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Marche"@it , "The Marches"@en ;
+      italy:iso3166-2 "IT-57" ;
+      italy-schema:contains
+              italy:fermo , italy:ancona , italy:ascoli_piceno , italy:macerata , italy:pesaro_e_urbino ;
+      eurostat:regionCode "ITE3" ;
+      dcterms:identifier "marche" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 1559542 ;
+      owl:sameAs <http://sws.geonames.org/3174004/> , <http://dbpedia.org/resource/Marche> ;
+      geo:lat "43.5"^^xsd:float ;
+      geo:long "13.25"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Marche> .
+
+italy:trento
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Trento"@it ;
+      italy:iso3166-2 "IT-TN" ;
+      italy-schema:isContained
+              italy:trentino-alto_adige ;
+      eurostat:regionCode "ITD20" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165244/> ;
+      gn:population 524826 ;
+      owl:sameAs <http://sws.geonames.org/3165241/> ;
+      geo:lat "46.06966"^^xsd:float ;
+      geo:long "11.12177"^^xsd:float .
+
+<http://data.kasabi.com/dataset/italy/sicilia.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:sicilia .
+
+nuts:ITE11
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE11 - Massa-Carrara" ;
+      rdfs:seeAlso italy:massa-carrara ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Massa-Carrara" ;
+      eurostat:regionCode "ITE11" .
+
+nuts:ITE21
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE21 - Perugia" ;
+      rdfs:seeAlso italy:perugia ;
+      eurostat:hasParentRegion
+              nuts:ITE2 ;
+      eurostat:level 3 ;
+      eurostat:name "Perugia" ;
+      eurostat:regionCode "ITE21" .
+
+italy:napoli
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Napoli"@it ;
+      italy:iso3166-2 "IT-NA" ;
+      italy-schema:isContained
+              italy:campania ;
+      eurostat:regionCode "ITF33" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population 3079685 ;
+      owl:sameAs <http://sws.geonames.org/3172391/> ;
+      geo:lat "40.88333"^^xsd:float ;
+      geo:long "14.41667"^^xsd:float .
+
+italy:pesaro_e_urbino
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Pesaro e Urbino"@it ;
+      italy-schema:isContained
+              italy:marche ;
+      eurostat:regionCode "ITE31" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population 365788 ;
+      owl:sameAs <http://sws.geonames.org/3171172/> ;
+      geo:lat "43.66667"^^xsd:float ;
+      geo:long "12.63333"^^xsd:float .
+
+italy:friuli_venezia_giulia
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Friuli Venezia Giulia"@en , "Friuli Venezia Giulia"@it ;
+      italy-schema:contains
+              italy:trieste , italy:gorizia , italy:udine , italy:pordenone ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 1234079 ;
+      owl:sameAs <http://dbpedia.org/resource/Friuli%E2%80%93Venezia_Giulia> , <http://sws.geonames.org/3176525/> ;
+      geo:lat "46"^^xsd:float ;
+      geo:long "13"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Friuli%E2%80%93Venezia_Giulia> .
+
+italy:milano
+      italy:iso3166-2 "IT-MI" .
+
+nuts:ITF4
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF4 - Puglia" ;
+      rdfs:seeAlso italy:puglia ;
+      eurostat:hasParentRegion
+              nuts:ITF ;
+      eurostat:hasSubRegion
+              nuts:ITF45 , nuts:ITF42 , nuts:ITF41 , nuts:ITF43 , nuts:ITF44 ;
+      eurostat:level 2 ;
+      eurostat:name "Puglia" ;
+      eurostat:regionCode "ITF4" .
+
+nuts:ITZZZ
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITZZZ - Extra-Regio" ;
+      rdfs:seeAlso italy:extra-regio ;
+      eurostat:hasParentRegion
+              nuts:ITZZ ;
+      eurostat:level 3 ;
+      eurostat:name "Extra-Regio" ;
+      eurostat:regionCode "ITZZZ" .
+
+italy:pesaro
+      italy:iso3166-2 "IT-PS" .
+
+italy:sassari
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Sassari"@it ;
+      italy:iso3166-2 "IT-SS" ;
+      italy-schema:isContained
+              italy:sardegna ;
+      eurostat:regionCode "ITG25" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population 336632 ;
+      owl:sameAs <http://sws.geonames.org/3167094/> ;
+      geo:lat "40.77014"^^xsd:float ;
+      geo:long "8.75885"^^xsd:float .
+
+nuts:ITE1A
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE1A - Grosseto" ;
+      rdfs:seeAlso italy:grosseto ;
+      eurostat:hasParentRegion
+              nuts:ITE1 ;
+      eurostat:level 3 ;
+      eurostat:name "Grosseto" ;
+      eurostat:regionCode "ITE1A" .
+
+italy:venezia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Venezia"@it ;
+      italy:iso3166-2 "IT-VE" ;
+      italy-schema:isContained
+              italy:veneto ;
+      eurostat:regionCode "ITD35" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population 858915 ;
+      owl:sameAs <http://sws.geonames.org/3164600/> ;
+      geo:lat "45.44045"^^xsd:float ;
+      geo:long "12.32632"^^xsd:float .
+
+italy:isernia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Isernia"@it ;
+      italy:iso3166-2 "IT-IS" ;
+      italy-schema:isContained
+              italy:molise ;
+      eurostat:regionCode "ITF21" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3173222/> ;
+      gn:population 88789 ;
+      owl:sameAs <http://sws.geonames.org/3175444/> , <http://dbpedia.org/resource/Province_of_Isernia> ;
+      geo:lat "41.66667"^^xsd:float ;
+      geo:long "14.25"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Province_of_Isernia> .
+
+<http://data.kasabi.com/dataset/italy/piemonte.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:piemonte .
+
+italy:massa
+      italy:iso3166-2 "IT-MS" .
+
+nuts:ITC20
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC20 - Valle d'Aosta/Vallée d'Aoste" ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
+      eurostat:hasParentRegion
+              nuts:ITC2 ;
+      eurostat:level 3 ;
+      eurostat:name "Valle d'Aosta/Vallée d'Aoste" ;
+      eurostat:regionCode "ITC20" .
+
+nuts:ITC49
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC49 - Lodi" ;
+      rdfs:seeAlso italy:lodi ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Lodi" ;
+      eurostat:regionCode "ITC49" .
+
+nuts:ITD33
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD33 - Belluno" ;
+      rdfs:seeAlso italy:belluno ;
+      eurostat:hasParentRegion
+              nuts:ITD3 ;
+      eurostat:level 3 ;
+      eurostat:name "Belluno" ;
+      eurostat:regionCode "ITD33" .
+
+italy:cagliari
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Cagliari"@it ;
+      italy:iso3166-2 "IT-CA" ;
+      italy-schema:isContained
+              italy:sardegna ;
+      eurostat:regionCode "ITG27" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population 561080 ;
+      owl:sameAs <http://dbpedia.org/resource/Province_of_Cagliari> , <http://sws.geonames.org/2525471/> ;
+      geo:lat "39.24502"^^xsd:float ;
+      geo:long "9.09119"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Province_of_Cagliari> .
+
+nuts:ITE1
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE1 - Toscana" ;
+      rdfs:seeAlso italy:toscana ;
+      eurostat:hasParentRegion
+              nuts:ITE ;
+      eurostat:hasSubRegion
+              nuts:ITE1A , nuts:ITE16 , nuts:ITE11 , nuts:ITE13 , nuts:ITE19 , nuts:ITE15 , nuts:ITE17 , nuts:ITE14 , nuts:ITE18 , nuts:ITE12 ;
+      eurostat:level 2 ;
+      eurostat:name "Toscana" ;
+      eurostat:regionCode "ITE1" .
+
+nuts:ITE31
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE31 - Pesaro e Urbino" ;
+      rdfs:seeAlso italy:pesaro_e_urbino ;
+      eurostat:hasParentRegion
+              nuts:ITE3 ;
+      eurostat:level 3 ;
+      eurostat:name "Pesaro e Urbino" ;
+      eurostat:regionCode "ITE31" .
+
+<http://data.kasabi.com/dataset/italy/campania.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:campania .
+
+nuts:ITE41
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE41 - Viterbo" ;
+      rdfs:seeAlso italy:viterbo ;
+      eurostat:hasParentRegion
+              nuts:ITE4 ;
+      eurostat:level 3 ;
+      eurostat:name "Viterbo" ;
+      eurostat:regionCode "ITE41" .
+
+italy:mantova
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Mantova"@it ;
+      italy:iso3166-2 "IT-MN" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC4B" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 412606 ;
+      owl:sameAs <http://sws.geonames.org/3174050/> ;
+      geo:lat "45.16667"^^xsd:float ;
+      geo:long "10.78333"^^xsd:float .
+
+italy:genova
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Genova"@it ;
+      italy:iso3166-2 "IT-GE" ;
+      italy-schema:isContained
+              italy:liguria ;
+      eurostat:regionCode "ITC33" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population 883180 ;
+      owl:sameAs <http://sws.geonames.org/3176217/> ;
+      geo:lat "44.5"^^xsd:float ;
+      geo:long "9.06667"^^xsd:float .
+
+italy:etags
+      a       void:TechnicalFeature ;
+      rdfs:comment "the dataset supports HTTP caching using ETags" ;
+      rdfs:label "HTTP ETag support" ;
+      rdfs:seeAlso <http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#> .
+
+italy:verbano-cusio-ossola
+      italy:iso3166-2 "IT-VB" .
+
+italy:gorizia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Gorizia"@it ;
+      italy:iso3166-2 "IT-GO" ;
+      italy-schema:isContained
+              italy:friuli_venezia_giulia ;
+      eurostat:regionCode "ITD43" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population 142627 ;
+      owl:sameAs <http://dbpedia.org/resource/Province_of_Gorizia> , <http://sws.geonames.org/3175985/> ;
+      geo:lat "45.91667"^^xsd:float ;
+      geo:long "13.5"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Province_of_Gorizia> .
+
+italy:siracusa
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Siracusa"@it ;
+      italy:iso3166-2 "IT-SR" ;
+      italy-schema:isContained
+              italy:sicilia ;
+      eurostat:regionCode "ITG19" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population 403356 ;
+      owl:sameAs <http://sws.geonames.org/2523082/> ;
+      geo:lat "37.08805"^^xsd:float ;
+      geo:long "15.27924"^^xsd:float .
+
+<http://data.kasabi.com/dataset/italy/trentino-alto_adige.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:trentino-alto_adige .
+
+italy:potenza
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Potenza"@it ;
+      italy:iso3166-2 "IT-PZ" ;
+      italy-schema:isContained
+              italy:basilicata ;
+      eurostat:regionCode "ITF51" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3182306/> ;
+      gn:population 385309 ;
+      owl:sameAs <http://sws.geonames.org/3170025/> ;
+      geo:lat "40.58333"^^xsd:float ;
+      geo:long "15.73333"^^xsd:float .
+
+italy:reggioemilia
+      italy:iso3166-2 "IT-RE" .
+
+nuts:ITC2
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC2 - Valle d'Aosta/Vallée d'Aoste" ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/valle_d’aosta> ;
+      eurostat:hasParentRegion
+              nuts:ITC ;
+      eurostat:hasSubRegion
+              nuts:ITC20 ;
+      eurostat:level 2 ;
+      eurostat:name "Valle d'Aosta/Vallée d'Aoste" ;
+      eurostat:regionCode "ITC2" .
+
+nuts:ITF3
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF3 - Campania" ;
+      rdfs:seeAlso italy:campania ;
+      eurostat:hasParentRegion
+              nuts:ITF ;
+      eurostat:hasSubRegion
+              nuts:ITF32 , nuts:ITF31 , nuts:ITF34 , nuts:ITF35 , nuts:ITF33 ;
+      eurostat:level 2 ;
+      eurostat:name "Campania" ;
+      eurostat:regionCode "ITF3" .
+
+nuts:ITC48
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC48 - Pavia" ;
+      rdfs:seeAlso italy:pavia ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Pavia" ;
+      eurostat:regionCode "ITC48" .
+
+italy:friuli-venezia_giulia
+      dcterms:identifier "friuli-venezia_giulia" .
+
+nuts:ITD34
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD34 - Treviso" ;
+      rdfs:seeAlso italy:treviso ;
+      eurostat:hasParentRegion
+              nuts:ITD3 ;
+      eurostat:level 3 ;
+      eurostat:name "Treviso" ;
+      eurostat:regionCode "ITD34" .
+
+italy:latina
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Latina"@it ;
+      italy:iso3166-2 "IT-LT" ;
+      italy-schema:isContained
+              italy:lazio ;
+      eurostat:regionCode "ITE44" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population 551217 ;
+      owl:sameAs <http://sws.geonames.org/3175057/> ;
+      geo:lat "41.45"^^xsd:float ;
+      geo:long "13.1"^^xsd:float .
+
+<http://data.kasabi.com/dataset/italy/umbria.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:umbria .
+
+nuts:ITD20
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD20 - Trento" ;
+      rdfs:seeAlso italy:trento ;
+      eurostat:hasParentRegion
+              nuts:ITD2 ;
+      eurostat:level 3 ;
+      eurostat:name "Trento" ;
+      eurostat:regionCode "ITD20" .
+
+nuts:ITE2
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE2 - Umbria" ;
+      rdfs:seeAlso italy:umbria ;
+      eurostat:hasParentRegion
+              nuts:ITE ;
+      eurostat:hasSubRegion
+              nuts:ITE21 , nuts:ITE22 ;
+      eurostat:level 2 ;
+      eurostat:name "Umbria" ;
+      eurostat:regionCode "ITE2" .
+
+nuts:ITC34
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC34 - La Spezia" ;
+      rdfs:seeAlso italy:la_spezia ;
+      eurostat:hasParentRegion
+              nuts:ITC3 ;
+      eurostat:level 3 ;
+      eurostat:name "La Spezia" ;
+      eurostat:regionCode "ITC34" .
+
+italy:barletta_-_andria_-_trani
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Barletta - Andria - Trani"@it ;
+      italy-schema:isContained
+              italy:puglia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population 391506 ;
+      owl:sameAs <http://sws.geonames.org/6955699/> ;
+      geo:lat "41.25097"^^xsd:float ;
+      geo:long "16.17599"^^xsd:float .
+
+nuts:ITD59
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD59 - Rimini" ;
+      rdfs:seeAlso italy:rimini ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Rimini" ;
+      eurostat:regionCode "ITD59" .
+
+italy:rieti
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Rieti"@it ;
+      italy:iso3166-2 "IT-RI" ;
+      italy-schema:isContained
+              italy:lazio ;
+      eurostat:regionCode "ITE42" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174976/> ;
+      gn:population 159979 ;
+      owl:sameAs <http://sws.geonames.org/3169411/> ;
+      geo:lat "42.3"^^xsd:float ;
+      geo:long "12.86667"^^xsd:float .
+
+<http://data.kasabi.com/dataset/italy/toscana.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:toscana .
+
+italy:reggiocalabria
+      italy:iso3166-2 "IT-RC" .
+
+nuts:ITF2
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF2 - Molise" ;
+      rdfs:seeAlso italy:molise ;
+      eurostat:hasParentRegion
+              nuts:ITF ;
+      eurostat:hasSubRegion
+              nuts:ITF22 , nuts:ITF21 ;
+      eurostat:level 2 ;
+      eurostat:name "Molise" ;
+      eurostat:regionCode "ITF2" .
+
+<http://data.kasabi.com/dataset/italy/calabria.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:calabria .
+
+italy:trieste
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Trieste"@it ;
+      italy:iso3166-2 "IT-TS" ;
+      italy-schema:isContained
+              italy:friuli_venezia_giulia ;
+      eurostat:regionCode "ITD44" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3176525/> ;
+      gn:population 236546 ;
+      owl:sameAs <http://sws.geonames.org/3165184/> ;
+      geo:lat "45.66426"^^xsd:float ;
+      geo:long "13.80655"^^xsd:float .
+
+italy:lecco
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Lecco"@it ;
+      italy:iso3166-2 "IT-LC" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC43" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 337912 ;
+      owl:sameAs <http://sws.geonames.org/6458616/> ;
+      geo:lat "45.85397"^^xsd:float ;
+      geo:long "9.39001"^^xsd:float .
+
+nuts:ITD31
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD31 - Verona" ;
+      rdfs:seeAlso italy:verona ;
+      eurostat:hasParentRegion
+              nuts:ITD3 ;
+      eurostat:level 3 ;
+      eurostat:name "Verona" ;
+      eurostat:regionCode "ITD31" .
+
+italy:matera
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Matera"@it ;
+      italy:iso3166-2 "IT-MT" ;
+      italy-schema:isContained
+              italy:basilicata ;
+      eurostat:regionCode "ITF52" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3182306/> ;
+      gn:population 203570 ;
+      owl:sameAs <http://sws.geonames.org/3173718/> ;
+      geo:lat "40.5"^^xsd:float ;
+      geo:long "16.41667"^^xsd:float .
+
+nuts:ITG2B
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG2B - Medio Campidano" ;
+      rdfs:seeAlso italy:medio_campidano ;
+      eurostat:hasParentRegion
+              nuts:ITG2 ;
+      eurostat:level 3 ;
+      eurostat:name "Medio Campidano" ;
+      eurostat:regionCode "ITG2B" .
+
+nuts:ITC47
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC47 - Brescia" ;
+      rdfs:seeAlso italy:brescia ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Brescia" ;
+      eurostat:regionCode "ITC47" .
+
+nuts:ITE43
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE43 - Roma" ;
+      rdfs:seeAlso italy:roma ;
+      eurostat:hasParentRegion
+              nuts:ITE4 ;
+      eurostat:level 3 ;
+      eurostat:name "Roma" ;
+      eurostat:regionCode "ITE43" .
+
+italy:provincia_verbano-cusio-ossola
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Provincia Verbano-Cusio-Ossola"@it ;
+      italy-schema:isContained
+              italy:piemonte ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3170831/> ;
+      gn:population 163121 ;
+      owl:sameAs <http://sws.geonames.org/3164567/> , <http://dbpedia.org/resource/Verbania> ;
+      geo:lat "45.93333"^^xsd:float ;
+      geo:long "8.55"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Verbania> .
+
+italy:foggia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Foggia"@it ;
+      italy:iso3166-2 "IT-FG" ;
+      italy-schema:isContained
+              italy:puglia ;
+      eurostat:regionCode "ITF41" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population 640891 ;
+      owl:sameAs <http://sws.geonames.org/3176884/> ;
+      geo:lat "41.45"^^xsd:float ;
+      geo:long "15.53333"^^xsd:float .
+
+italy:terni
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Terni"@it ;
+      italy:iso3166-2 "IT-TR" ;
+      italy-schema:isContained
+              italy:umbria ;
+      eurostat:regionCode "ITE22" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165048/> ;
+      gn:population 233719 ;
+      owl:sameAs <http://sws.geonames.org/3165770/> ;
+      geo:lat "42.68333"^^xsd:float ;
+      geo:long "12.31667"^^xsd:float .
+
+italy:imperia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Imperia"@it ;
+      italy:iso3166-2 "IT-IM" ;
+      italy-schema:isContained
+              italy:liguria ;
+      eurostat:regionCode "ITC31" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population 221885 ;
+      owl:sameAs <http://sws.geonames.org/3175531/> ;
+      geo:lat "43.96667"^^xsd:float ;
+      geo:long "7.78333"^^xsd:float .
+
+italy:treviso
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Treviso"@it ;
+      italy:iso3166-2 "IT-TV" ;
+      italy-schema:isContained
+              italy:veneto ;
+      eurostat:regionCode "ITD34" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population 883840 ;
+      owl:sameAs <http://sws.geonames.org/3165200/> ;
+      geo:lat "45.83333"^^xsd:float ;
+      geo:long "12.21667"^^xsd:float .
+
+italy:mesaina
+      italy:iso3166-2 "IT-ME" .
+
+italy:rimini
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Rimini"@it ;
+      italy:iso3166-2 "IT-RN" ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      eurostat:regionCode "ITD59" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 325219 ;
+      owl:sameAs <http://sws.geonames.org/6457404/> ;
+      geo:lat "44.02405"^^xsd:float ;
+      geo:long "12.51858"^^xsd:float .
+
+italy:arezzo
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Arezzo"@it ;
+      italy:iso3166-2 "IT-AR" ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE18" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 348127 ;
+      owl:sameAs <http://sws.geonames.org/3182882/> ;
+      geo:lat "43.53333"^^xsd:float ;
+      geo:long "11.83333"^^xsd:float .
+
+nuts:IT
+      a       eurostat:NUTSRegion ;
+      rdfs:label "IT - ITALIA" ;
+      rdfs:seeAlso italy:italia ;
+      eurostat:hasSubRegion
+              nuts:ITG , nuts:ITZ , nuts:ITC , nuts:ITD , nuts:ITF , nuts:ITE ;
+      eurostat:level 0 ;
+      eurostat:name "ITALIA" ;
+      eurostat:regionCode "IT" .
+
+<http://data.kasabi.com/dataset/italy/abruzzo.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:abruzzo .
+
+nuts:ITF1
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF1 - Abruzzo" ;
+      rdfs:seeAlso italy:abruzzo ;
+      eurostat:hasParentRegion
+              nuts:ITF ;
+      eurostat:hasSubRegion
+              nuts:ITF14 , nuts:ITF13 , nuts:ITF11 , nuts:ITF12 ;
+      eurostat:level 2 ;
+      eurostat:name "Abruzzo" ;
+      eurostat:regionCode "ITF1" .
+
+italy:la_spezia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "La Spezia"@it ;
+      italy-schema:isContained
+              italy:liguria ;
+      eurostat:regionCode "ITC34" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174725/> ;
+      gn:population 223606 ;
+      owl:sameAs <http://sws.geonames.org/3175080/> ;
+      geo:lat "44.25"^^xsd:float ;
+      geo:long "9.7"^^xsd:float .
+
+nuts:ITE22
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE22 - Terni" ;
+      rdfs:seeAlso italy:terni ;
+      eurostat:hasParentRegion
+              nuts:ITE2 ;
+      eurostat:level 3 ;
+      eurostat:name "Terni" ;
+      eurostat:regionCode "ITE22" .
+
+italy-schema:contains
+      a       rdf:Property ;
+      rdfs:comment "a geographical area or an administrative area contains another one."@en , "un'area geografica o amministrativa contiene un'altra area geografica o amministrativa."@it ;
+      rdfs:isDefinedBy italy-schema: ;
+      rdfs:label "contains"@en , "contiene"@it .
+
+nuts:ITG2A
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG2A - Ogliastra" ;
+      rdfs:seeAlso italy:ogliastra ;
+      eurostat:hasParentRegion
+              nuts:ITG2 ;
+      eurostat:level 3 ;
+      eurostat:name "Ogliastra" ;
+      eurostat:regionCode "ITG2A" .
+
+nuts:ITE42
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE42 - Rieti" ;
+      rdfs:seeAlso italy:rieti ;
+      eurostat:hasParentRegion
+              nuts:ITE4 ;
+      eurostat:level 3 ;
+      eurostat:name "Rieti" ;
+      eurostat:regionCode "ITE42" .
+
+nuts:ITG19
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG19 - Siracusa" ;
+      rdfs:seeAlso italy:siracusa ;
+      eurostat:hasParentRegion
+              nuts:ITG1 ;
+      eurostat:level 3 ;
+      eurostat:name "Siracusa" ;
+      eurostat:regionCode "ITG19" .
+
+italy:catanzaro
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Catanzaro"@it ;
+      italy:iso3166-2 "IT-CZ" ;
+      italy-schema:isContained
+              italy:calabria ;
+      eurostat:regionCode "ITF63" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population 368219 ;
+      owl:sameAs <http://sws.geonames.org/2525058/> ;
+      geo:lat "38.91667"^^xsd:float ;
+      geo:long "16.43333"^^xsd:float .
+
+nuts:ITC46
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC46 - Bergamo" ;
+      rdfs:seeAlso italy:bergamo ;
+      eurostat:hasParentRegion
+              nuts:ITC4 ;
+      eurostat:level 3 ;
+      eurostat:name "Bergamo" ;
+      eurostat:regionCode "ITC46" .
+
+italy:milan
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Milan"@it ;
+      italy-schema:isContained
+              italy:lombardia ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 3123205 ;
+      owl:sameAs <http://sws.geonames.org/3173434/> ;
+      geo:lat "45.5"^^xsd:float ;
+      geo:long "9.5"^^xsd:float .
+
+nuts:ITD32
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD32 - Vicenza" ;
+      rdfs:seeAlso italy:vicenza ;
+      eurostat:hasParentRegion
+              nuts:ITD3 ;
+      eurostat:level 3 ;
+      eurostat:name "Vicenza" ;
+      eurostat:regionCode "ITD32" .
+
+italy-schema:Comune
+      a       owl:Class , rdfs:Class ;
+      rdfs:comment "In Italy, the 'comune' is the basic administrative division, and may be approximated in casual speech by the English word township or municipality."@en , "In Italia il comune è un ente locale autonomo ed indipendente. Può essere suddiviso in frazioni ed appartiene a una provincia."@it ;
+      rdfs:isDefinedBy italy-schema: ;
+      rdfs:label "Municipality"@en , "Comune"@it ;
+      rdfs:seeAlso <http://en.wikipedia.org/wiki/List_of_comuni_of_Italy> , <http://en.wikipedia.org/wiki/Comune> , <http://en.wikipedia.org/wiki/index.html?curid=457055> ;
+      rdfs:subClassOf <http://dbpedia.org/resource/Category:Types_of_country_subdivisions> ;
+      owl:sameAs <http://dbpedia.org/class/yago/MunicipalitiesOfItaly> , <http://dbpedia.org/resource/Comune> , <http://rdf.freebase.com/ns/m/02bsc3> ;
+      foaf:page <http://en.wikipedia.org/wiki/Comune> .
+
+nuts:ITD43
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD43 - Gorizia" ;
+      rdfs:seeAlso italy:gorizia ;
+      eurostat:hasParentRegion
+              nuts:ITD4 ;
+      eurostat:level 3 ;
+      eurostat:name "Gorizia" ;
+      eurostat:regionCode "ITD43" .
+
+italy:sardegna
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Sardinia"@en , "della Sardegna"@it ;
+      italy:iso3166-2 "IT-88" ;
+      italy-schema:contains
+              italy:carbonia-iglesias , italy:oristano , italy:cagliari , italy:nuoro , italy:olbia-tempio , italy:sassari , italy:medio_campidano , italy:ogliastra ;
+      eurostat:regionCode "ITG2" ;
+      dcterms:identifier "sardegna" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 1672404 ;
+      owl:sameAs <http://sws.geonames.org/2523228/> , <http://dbpedia.org/resource/Sardinia> ;
+      geo:lat "40"^^xsd:float ;
+      geo:long "9"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Sardinia> .
+
+italy:benevento
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Benevento"@it ;
+      italy:iso3166-2 "IT-BN" ;
+      italy-schema:isContained
+              italy:campania ;
+      eurostat:regionCode "ITF32" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population 288283 ;
+      owl:sameAs <http://sws.geonames.org/3182178/> ;
+      geo:lat "41.21792"^^xsd:float ;
+      geo:long "14.7464"^^xsd:float .
+
+nuts:ITD57
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD57 - Ravenna" ;
+      rdfs:seeAlso italy:ravenna ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Ravenna" ;
+      eurostat:regionCode "ITD57" .
+
+<http://data.kasabi.com/dataset/italy/liguria.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:liguria .
+
+italy:ferrara
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Ferrara"@it ;
+      italy:iso3166-2 "IT-FE" ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      eurostat:regionCode "ITD56" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 358972 ;
+      owl:sameAs <http://sws.geonames.org/3177088/> ;
+      geo:lat "44.8"^^xsd:float ;
+      geo:long "11.83333"^^xsd:float .
+
+italy:vibo-valentia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Vibo-Valentia"@it ;
+      italy-schema:isContained
+              italy:calabria ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population 166891 ;
+      owl:sameAs <http://sws.geonames.org/6457405/> ;
+      geo:lat "38.69958"^^xsd:float ;
+      geo:long "16.12741"^^xsd:float .
+
+italy:ascolipiceno
+      italy:iso3166-2 "IT-AP" .
+
+italy:caserta
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Caserta"@it ;
+      italy:iso3166-2 "IT-CE" ;
+      italy-schema:isContained
+              italy:campania ;
+      eurostat:regionCode "ITF31" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population 910006 ;
+      owl:sameAs <http://sws.geonames.org/3179865/> ;
+      geo:lat "41.23333"^^xsd:float ;
+      geo:long "14.16667"^^xsd:float .
+
+italy:molise
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Molise"@en , "Molise"@it ;
+      italy:iso3166-2 "IT-67" ;
+      italy-schema:contains
+              italy:isernia , italy:campobasso ;
+      eurostat:regionCode "ITF2" ;
+      dcterms:identifier "molise" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 320229 ;
+      owl:sameAs <http://dbpedia.org/resource/Molise> , <http://sws.geonames.org/3173222/> ;
+      geo:lat "41.66667"^^xsd:float ;
+      geo:long "14.5"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Molise> .
+
+nuts:ITG28
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG28 - Oristano" ;
+      rdfs:seeAlso italy:oristano ;
+      eurostat:hasParentRegion
+              nuts:ITG2 ;
+      eurostat:level 3 ;
+      eurostat:name "Oristano" ;
+      eurostat:regionCode "ITG28" .
+
+nuts:ITD37
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD37 - Rovigo" ;
+      rdfs:seeAlso italy:rovigo ;
+      eurostat:hasParentRegion
+              nuts:ITD3 ;
+      eurostat:level 3 ;
+      eurostat:name "Rovigo" ;
+      eurostat:regionCode "ITD37" .
+
+italy:bologna
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Bologna"@it ;
+      italy:iso3166-2 "IT-BO" ;
+      italy-schema:isContained
+              italy:emilia-romagna ;
+      eurostat:regionCode "ITD55" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3177401/> ;
+      gn:population 984342 ;
+      owl:sameAs <http://sws.geonames.org/3181927/> ;
+      geo:lat "44.46667"^^xsd:float ;
+      geo:long "11.43333"^^xsd:float .
+
+italy:abruzzo
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Abruzzo"@en , "Abruzzo"@it ;
+      italy:iso3166-2 "IT-65" ;
+      italy-schema:contains
+              italy:chieti , italy:teramo , italy:pescara , <http://data.kasabi.com/dataset/italy/l’aquila> ;
+      eurostat:regionCode "ITF1" ;
+      dcterms:identifier "abruzzo" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 1338898 ;
+      owl:sameAs <http://sws.geonames.org/3183560/> , <http://dbpedia.org/resource/Abruzzo> ;
+      geo:lat "42.25"^^xsd:float ;
+      geo:long "13.75"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Abruzzo> .
+
+nuts:ITE45
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE45 - Frosinone" ;
+      rdfs:seeAlso italy:frosinone ;
+      eurostat:hasParentRegion
+              nuts:ITE4 ;
+      eurostat:level 3 ;
+      eurostat:name "Frosinone" ;
+      eurostat:regionCode "ITE45" .
+
+italy:belluno
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Belluno"@it ;
+      italy:iso3166-2 "IT-BL" ;
+      italy-schema:isContained
+              italy:veneto ;
+      eurostat:regionCode "ITD33" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3164604/> ;
+      gn:population 213876 ;
+      owl:sameAs <http://sws.geonames.org/3182209/> ;
+      geo:lat "46.25"^^xsd:float ;
+      geo:long "12.13333"^^xsd:float .
+
+nuts:ITD1
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD1 - Provincia Autonoma Bolzano/Bozen" ;
+      rdfs:seeAlso <http://data.kasabi.com/dataset/italy/autonoma_bolzano/bozen> ;
+      eurostat:hasParentRegion
+              nuts:ITD ;
+      eurostat:hasSubRegion
+              nuts:ITD10 ;
+      eurostat:level 2 ;
+      eurostat:name "Provincia Autonoma Bolzano/Bozen" ;
+      eurostat:regionCode "ITD1" .
+
+nuts:ITG18
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG18 - Ragusa" ;
+      rdfs:seeAlso italy:ragusa ;
+      eurostat:hasParentRegion
+              nuts:ITG1 ;
+      eurostat:level 3 ;
+      eurostat:name "Ragusa" ;
+      eurostat:regionCode "ITG18" .
+
+italy:pistoia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Pistoia"@it ;
+      italy:iso3166-2 "IT-PT" ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE13" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 292108 ;
+      owl:sameAs <http://sws.geonames.org/3170620/> ;
+      geo:lat "43.96667"^^xsd:float ;
+      geo:long "10.83333"^^xsd:float .
+
+italy-schema:
+      a       owl:Ontology ;
+      ov:defines italy-schema:Comune , italy-schema:iso3166-2 , italy-schema:contains , italy-schema:Province , italy-schema:Region ;
+      dc:created "2011-12-09"^^xsd:date ;
+      dc:description "A small RDF vocabulary to represent the 20 Italian regions and 110 provinces."@en ;
+      dc:title "Italia"@en , "Italy"@en ;
+      owl:versionInfo "1.2" ;
+      foaf:maker italy-schema:PaoloCastagna .
+
+italy:bari
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Bari"@it ;
+      italy:iso3166-2 "IT-BA" ;
+      italy-schema:isContained
+              italy:puglia ;
+      eurostat:regionCode "ITF42" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3169778/> ;
+      gn:population 1254461 ;
+      owl:sameAs <http://sws.geonames.org/3182350/> ;
+      geo:lat "40.93333"^^xsd:float ;
+      geo:long "16.66667"^^xsd:float .
+
+nuts:ITD44
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD44 - Trieste" ;
+      rdfs:seeAlso italy:trieste ;
+      eurostat:hasParentRegion
+              nuts:ITD4 ;
+      eurostat:level 3 ;
+      eurostat:name "Trieste" ;
+      eurostat:regionCode "ITD44" .
+
+italy:umbria
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Umbria"@en , "Umbria"@it ;
+      italy:iso3166-2 "IT-55" ;
+      italy-schema:contains
+              italy:terni , italy:perugia ;
+      eurostat:regionCode "ITE2" ;
+      dcterms:identifier "umbria" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 900790 ;
+      owl:sameAs <http://dbpedia.org/resource/Umbria> , <http://sws.geonames.org/3165048/> ;
+      geo:lat "43"^^xsd:float ;
+      geo:long "12.5"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Umbria> .
+
+italy:reggio_di_calabria
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Reggio di Calabria"@it ;
+      italy-schema:isContained
+              italy:calabria ;
+      eurostat:regionCode "ITF65" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2525468/> ;
+      gn:population 565756 ;
+      owl:sameAs <http://sws.geonames.org/2523629/> ;
+      geo:lat "38.31667"^^xsd:float ;
+      geo:long "16.08333"^^xsd:float .
+
+nuts:ITD58
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD58 - Forlì-Cesena" ;
+      rdfs:seeAlso italy:forlì-cesena ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Forlì-Cesena" ;
+      eurostat:regionCode "ITD58" .
+
+italy:ogliastra
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Ogliastra"@it ;
+      italy-schema:isContained
+              italy:sardegna ;
+      eurostat:regionCode "ITG2A" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population 58006 ;
+      owl:sameAs <http://sws.geonames.org/6457403/> ;
+      geo:lat "39.80814"^^xsd:float ;
+      geo:long "9.44481"^^xsd:float .
+
+italy:carbonia-iglesias
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Carbonia-Iglesias"@it ;
+      italy-schema:isContained
+              italy:sardegna ;
+      eurostat:regionCode "ITG2C" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523228/> ;
+      gn:population 130186 ;
+      owl:sameAs <http://sws.geonames.org/6457400/> ;
+      geo:lat "39.3258"^^xsd:float ;
+      geo:long "8.58032"^^xsd:float .
+
+nuts:ITG27
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG27 - Cagliari" ;
+      rdfs:seeAlso italy:cagliari ;
+      eurostat:hasParentRegion
+              nuts:ITG2 ;
+      eurostat:level 3 ;
+      eurostat:name "Cagliari" ;
+      eurostat:regionCode "ITG27" .
+
+nuts:ITE34
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE34 - Ascoli Piceno" ;
+      rdfs:seeAlso italy:ascoli_piceno ;
+      eurostat:hasParentRegion
+              nuts:ITE3 ;
+      eurostat:level 3 ;
+      eurostat:name "Ascoli Piceno" ;
+      eurostat:regionCode "ITE34" .
+
+italy:trentino-alteadige
+      italy:iso3166-2 "IT-32" .
+
+italy:sicilia
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Sicilia"@it , "Sicily"@en ;
+      italy:iso3166-2 "IT-82" ;
+      italy-schema:contains
+              italy:palermo , italy:catania , italy:enna , italy:caltanissetta , italy:agrigento , italy:siracusa , italy:messina , italy:trapani , italy:ragusa ;
+      eurostat:regionCode "ITG1" ;
+      dcterms:identifier "sicilia" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 5042992 ;
+      owl:sameAs <http://dbpedia.org/resource/Sicily> , <http://sws.geonames.org/2523119/> ;
+      geo:lat "37.75"^^xsd:float ;
+      geo:long "14.25"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Sicily> .
+
+nuts:ITE44
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE44 - Latina" ;
+      rdfs:seeAlso italy:latina ;
+      eurostat:hasParentRegion
+              nuts:ITE4 ;
+      eurostat:level 3 ;
+      eurostat:name "Latina" ;
+      eurostat:regionCode "ITE44" .
+
+nuts:ITG2C
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG2C - Carbonia-Iglesias" ;
+      rdfs:seeAlso italy:carbonia-iglesias ;
+      eurostat:hasParentRegion
+              nuts:ITG2 ;
+      eurostat:level 3 ;
+      eurostat:name "Carbonia-Iglesias" ;
+      eurostat:regionCode "ITG2C" .
+
+italy:bolzano
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Bolzano"@it ;
+      italy:iso3166-2 "IT-BZ" ;
+      italy-schema:isContained
+              italy:trentino-alto_adige ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165244/> ;
+      gn:population 503434 ;
+      owl:sameAs <http://sws.geonames.org/3181912/> ;
+      geo:lat "46.71667"^^xsd:float ;
+      geo:long "11.5"^^xsd:float .
+
+italy:lodi
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Lodi"@it ;
+      italy:iso3166-2 "IT-LO" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC49" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 225825 ;
+      owl:sameAs <http://sws.geonames.org/6458617/> ;
+      geo:lat "45.29638"^^xsd:float ;
+      geo:long "9.52858"^^xsd:float .
+
+nuts:ITC18
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC18 - Alessandria" ;
+      rdfs:seeAlso italy:alessandria ;
+      eurostat:hasParentRegion
+              nuts:ITC1 ;
+      eurostat:level 3 ;
+      eurostat:name "Alessandria" ;
+      eurostat:regionCode "ITC18" .
+
+nuts:ITG17
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG17 - Catania" ;
+      rdfs:seeAlso italy:catania ;
+      eurostat:hasParentRegion
+              nuts:ITG1 ;
+      eurostat:level 3 ;
+      eurostat:name "Catania" ;
+      eurostat:regionCode "ITG17" .
+
+italy:perugia
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Perugia"@it ;
+      italy:iso3166-2 "IT-PG" ;
+      italy-schema:isContained
+              italy:umbria ;
+      eurostat:regionCode "ITE21" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165048/> ;
+      gn:population 667071 ;
+      owl:sameAs <http://sws.geonames.org/3171179/> ;
+      geo:lat "43.05"^^xsd:float ;
+      geo:long "12.55"^^xsd:float .
+
+nuts:ITD2
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD2 - Provincia Autonoma Trento" ;
+      rdfs:seeAlso italy:autonoma_trento ;
+      eurostat:hasParentRegion
+              nuts:ITD ;
+      eurostat:hasSubRegion
+              nuts:ITD20 ;
+      eurostat:level 2 ;
+      eurostat:name "Provincia Autonoma Trento" ;
+      eurostat:regionCode "ITD2" .
+
+italy:avellino
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Avellino"@it ;
+      italy:iso3166-2 "IT-AV" ;
+      italy-schema:isContained
+              italy:campania ;
+      eurostat:regionCode "ITF34" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population 439036 ;
+      owl:sameAs <http://sws.geonames.org/3182649/> ;
+      geo:lat "40.98333"^^xsd:float ;
+      geo:long "15.15"^^xsd:float .
+
+italy:agrigento
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Agrigento"@it ;
+      italy:iso3166-2 "IT-AG" ;
+      italy-schema:isContained
+              italy:sicilia ;
+      eurostat:regionCode "ITG14" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population 454593 ;
+      owl:sameAs <http://sws.geonames.org/2525763/> ;
+      geo:lat "37.45"^^xsd:float ;
+      geo:long "13.5"^^xsd:float .
+
+nuts:ITD55
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD55 - Bologna" ;
+      rdfs:seeAlso italy:bologna ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Bologna" ;
+      eurostat:regionCode "ITD55" .
+
+nuts:ITF6
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF6 - Calabria" ;
+      rdfs:seeAlso italy:calabria ;
+      eurostat:hasParentRegion
+              nuts:ITF ;
+      eurostat:hasSubRegion
+              nuts:ITF64 , nuts:ITF63 , nuts:ITF65 , nuts:ITF61 , nuts:ITF62 ;
+      eurostat:level 2 ;
+      eurostat:name "Calabria" ;
+      eurostat:regionCode "ITF6" .
+
+italy:ancona
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Ancona"@it ;
+      italy:iso3166-2 "IT-AN" ;
+      italy-schema:isContained
+              italy:marche ;
+      eurostat:regionCode "ITE32" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population 478319 ;
+      owl:sameAs <http://sws.geonames.org/3183087/> ;
+      geo:lat "43.55"^^xsd:float ;
+      geo:long "13.16667"^^xsd:float .
+
+nuts:ITF45
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF45 - Lecce" ;
+      rdfs:seeAlso italy:lecce ;
+      eurostat:hasParentRegion
+              nuts:ITF4 ;
+      eurostat:level 3 ;
+      eurostat:name "Lecce" ;
+      eurostat:regionCode "ITF45" .
+
+italy:trentino-alto_adige
+      a       gn:Feature , italy-schema:Region ;
+      rdfs:label "Trentino-Alto Adige"@en , "Trentino-Alto Adige"@it ;
+      italy-schema:contains
+              italy:trento , italy:bolzano ;
+      dcterms:identifier "trentino-alto_adige" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM1> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3175395/> ;
+      gn:population 1028260 ;
+      owl:sameAs <http://sws.geonames.org/3165244/> , <http://dbpedia.org/resource/Trentino-Alto_Adige%2FS%C3%BCdtirol> ;
+      geo:lat "46.5"^^xsd:float ;
+      geo:long "11.33333"^^xsd:float ;
+      foaf:page <http://en.wikipedia.org/wiki/Trentino-Alto_Adige%2FS%C3%BCdtirol> .
+
+nuts:ITE33
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE33 - Macerata" ;
+      rdfs:seeAlso italy:macerata ;
+      eurostat:hasParentRegion
+              nuts:ITE3 ;
+      eurostat:level 3 ;
+      eurostat:name "Macerata" ;
+      eurostat:regionCode "ITE33" .
+
+nuts:ITE3
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE3 - Marche" ;
+      rdfs:seeAlso italy:marche ;
+      eurostat:hasParentRegion
+              nuts:ITE ;
+      eurostat:hasSubRegion
+              nuts:ITE32 , nuts:ITE33 , nuts:ITE34 , nuts:ITE31 ;
+      eurostat:level 2 ;
+      eurostat:name "Marche" ;
+      eurostat:regionCode "ITE3" .
+
+italy:messina
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Messina"@it ;
+      italy-schema:isContained
+              italy:sicilia ;
+      eurostat:regionCode "ITG13" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population 653810 ;
+      owl:sameAs <http://sws.geonames.org/2524169/> ;
+      geo:lat "38.05"^^xsd:float ;
+      geo:long "14.86667"^^xsd:float .
+
+nuts:ITD35
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD35 - Venezia" ;
+      rdfs:seeAlso italy:venezia ;
+      eurostat:hasParentRegion
+              nuts:ITD3 ;
+      eurostat:level 3 ;
+      eurostat:name "Venezia" ;
+      eurostat:regionCode "ITD35" .
+
+nuts:ITF31
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF31 - Caserta" ;
+      rdfs:seeAlso italy:caserta ;
+      eurostat:hasParentRegion
+              nuts:ITF3 ;
+      eurostat:level 3 ;
+      eurostat:name "Caserta" ;
+      eurostat:regionCode "ITF31" .
+
+nuts:ITD3
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD3 - Veneto" ;
+      rdfs:seeAlso italy:veneto ;
+      eurostat:hasParentRegion
+              nuts:ITD ;
+      eurostat:hasSubRegion
+              nuts:ITD31 , nuts:ITD36 , nuts:ITD37 , nuts:ITD35 , nuts:ITD34 , nuts:ITD33 , nuts:ITD32 ;
+      eurostat:level 2 ;
+      eurostat:name "Veneto" ;
+      eurostat:regionCode "ITD3" .
+
+nuts:ITG16
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG16 - Enna" ;
+      rdfs:seeAlso italy:enna ;
+      eurostat:hasParentRegion
+              nuts:ITG1 ;
+      eurostat:level 3 ;
+      eurostat:name "Enna" ;
+      eurostat:regionCode "ITG16" .
+
+italy:como
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Como"@it ;
+      italy:iso3166-2 "IT-CO" ;
+      italy-schema:isContained
+              italy:lombardia ;
+      eurostat:regionCode "ITC42" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174618/> ;
+      gn:population 590050 ;
+      owl:sameAs <http://sws.geonames.org/3178227/> ;
+      geo:lat "45.98333"^^xsd:float ;
+      geo:long "9.21667"^^xsd:float .
+
+<http://data.kasabi.com/dataset/italy/molise.rdf>
+      void:inDataset kasabi:italy ;
+      foaf:primaryTopic italy:molise .
+
+italy:catania
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Catania"@it ;
+      italy:iso3166-2 "IT-CT" ;
+      italy-schema:isContained
+              italy:sicilia ;
+      eurostat:regionCode "ITG17" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population 1087682 ;
+      owl:sameAs <http://sws.geonames.org/2525065/> ;
+      geo:lat "37.38333"^^xsd:float ;
+      geo:long "14.66667"^^xsd:float .
+
+italy:livorno
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Livorno"@it ;
+      italy:iso3166-2 "IT-LI" ;
+      italy-schema:isContained
+              italy:toscana ;
+      eurostat:regionCode "ITE16" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3165361/> ;
+      gn:population 341453 ;
+      owl:sameAs <http://sws.geonames.org/3174658/> ;
+      geo:lat "43.23333"^^xsd:float ;
+      geo:long "10.58333"^^xsd:float .
+
+italy:laspezia
+      italy:iso3166-2 "IT-SP" .
+
+italy:ascoli_piceno
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Ascoli Piceno"@it ;
+      italy-schema:isContained
+              italy:marche ;
+      eurostat:regionCode "ITE34" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3174004/> ;
+      gn:population 213586 ;
+      owl:sameAs <http://sws.geonames.org/3182748/> ;
+      geo:lat "42.88443"^^xsd:float ;
+      geo:long "13.55306"^^xsd:float .
+
+nuts:ITG14
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG14 - Agrigento" ;
+      rdfs:seeAlso italy:agrigento ;
+      eurostat:hasParentRegion
+              nuts:ITG1 ;
+      eurostat:level 3 ;
+      eurostat:name "Agrigento" ;
+      eurostat:regionCode "ITG14" .
+
+nuts:ITF5
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF5 - Basilicata" ;
+      rdfs:seeAlso italy:basilicata ;
+      eurostat:hasParentRegion
+              nuts:ITF ;
+      eurostat:hasSubRegion
+              nuts:ITF51 , nuts:ITF52 ;
+      eurostat:level 2 ;
+      eurostat:name "Basilicata" ;
+      eurostat:regionCode "ITF5" .
+
+nuts:ITD56
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD56 - Ferrara" ;
+      rdfs:seeAlso italy:ferrara ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Ferrara" ;
+      eurostat:regionCode "ITD56" .
+
+italy:ragusa
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Ragusa"@it ;
+      italy:iso3166-2 "IT-RG" ;
+      italy-schema:isContained
+              italy:sicilia ;
+      eurostat:regionCode "ITG18" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/2523119/> ;
+      gn:population 316113 ;
+      owl:sameAs <http://sws.geonames.org/2523649/> ;
+      geo:lat "36.91667"^^xsd:float ;
+      geo:long "14.6"^^xsd:float .
+
+italy:salerno
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Salerno"@it ;
+      italy:iso3166-2 "IT-SA" ;
+      italy-schema:isContained
+              italy:campania ;
+      eurostat:regionCode "ITF35" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3181042/> ;
+      gn:population 1107652 ;
+      owl:sameAs <http://sws.geonames.org/3168670/> ;
+      geo:lat "40.45"^^xsd:float ;
+      geo:long "15.26667"^^xsd:float .
+
+nuts:ITE32
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE32 - Ancona" ;
+      rdfs:seeAlso italy:ancona ;
+      eurostat:hasParentRegion
+              nuts:ITE3 ;
+      eurostat:level 3 ;
+      eurostat:name "Ancona" ;
+      eurostat:regionCode "ITE32" .
+
+nuts:ITD36
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD36 - Padova" ;
+      rdfs:seeAlso italy:padova ;
+      eurostat:hasParentRegion
+              nuts:ITD3 ;
+      eurostat:level 3 ;
+      eurostat:name "Padova" ;
+      eurostat:regionCode "ITD36" .
+
+nuts:ITD4
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD4 - Friuli-Venezia Giulia" ;
+      rdfs:seeAlso italy:friuli-venezia_giulia ;
+      eurostat:hasParentRegion
+              nuts:ITD ;
+      eurostat:hasSubRegion
+              nuts:ITD43 , nuts:ITD41 , nuts:ITD42 , nuts:ITD44 ;
+      eurostat:level 2 ;
+      eurostat:name "Friuli-Venezia Giulia" ;
+      eurostat:regionCode "ITD4" .
+
+nuts:ITG29
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG29 - Olbia-Tempio" ;
+      rdfs:seeAlso italy:olbia-tempio ;
+      eurostat:hasParentRegion
+              nuts:ITG2 ;
+      eurostat:level 3 ;
+      eurostat:name "Olbia-Tempio" ;
+      eurostat:regionCode "ITG29" .
+
+italy:teramo
+      a       gn:Feature , italy-schema:Province ;
+      rdfs:label "Teramo"@it ;
+      italy:iso3166-2 "IT-TE" ;
+      italy-schema:isContained
+              italy:abruzzo ;
+      eurostat:regionCode "ITF12" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3183560/> ;
+      gn:population 311590 ;
+      owl:sameAs <http://sws.geonames.org/3165802/> ;
+      geo:lat "42.65"^^xsd:float ;
+      geo:long "13.68333"^^xsd:float .
+
+nuts:ITF32
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF32 - Benevento" ;
+      rdfs:seeAlso italy:benevento ;
+      eurostat:hasParentRegion
+              nuts:ITF3 ;
+      eurostat:level 3 ;
+      eurostat:name "Benevento" ;
+      eurostat:regionCode "ITF32" .
+
+nuts:ITE4
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITE4 - Lazio" ;
+      rdfs:seeAlso italy:lazio ;
+      eurostat:hasParentRegion
+              nuts:ITE ;
+      eurostat:hasSubRegion
+              nuts:ITE43 , nuts:ITE42 , nuts:ITE44 , nuts:ITE45 , nuts:ITE41 ;
+      eurostat:level 2 ;
+      eurostat:name "Lazio" ;
+      eurostat:regionCode "ITE4" .
+
+nuts:ITG15
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITG15 - Caltanissetta" ;
+      rdfs:seeAlso italy:caltanissetta ;
+      eurostat:hasParentRegion
+              nuts:ITG1 ;
+      eurostat:level 3 ;
+      eurostat:name "Caltanissetta" ;
+      eurostat:regionCode "ITG15" .

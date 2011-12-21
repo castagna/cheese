@@ -1,0 +1,19 @@
+PREFIX cheese:  <http://data.kasabi.com/dataset/cheese/schema/>
+
+
+PREFIX rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:             <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:              <http://www.w3.org/2002/07/owl#>
+PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
+PREFIX foaf:             <http://xmlns.com/foaf/0.1/>
+PREFIX skos:             <http://www.w3.org/2004/02/skos/core#>
+PREFIX cc:               <http://creativecommons.org/ns#>
+PREFIX dcterms:          <http://purl.org/dc/terms/>
+PREFIX wgs84_pos:        <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geo:              <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames:         <http://www.geonames.org/ontology#>
+PREFIX eurostat:         <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#>
+PREFIX nuts:             <http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008/>
+PREFIX italy:            <http://data.kasabi.com/dataset/italy/>
+PREFIX java:             <java:com.kasabi.labs.arq.>
+PREFIX italy-schema:     <http://data.kasabi.com/dataset/italy/schema/>

@@ -1,0 +1,54 @@
+/*
+ *  This work is licensed under the
+ *  Creative Commons Attribution-ShareAlike 3.0 Unported License.
+ *  To view a copy of this license, visit  
+ *  http://creativecommons.org/licenses/by-sa/3.0/ 
+ */
+
+{
+    "items": [
+#set ( $count = 1 )
+#foreach( $solution in $resultset )
+#set ( $name = $solution.get("name") )
+#set ( $milk = $solution.get("milk") )
+#set ( $pasteurised = $solution.get("pasteurised") )
+#set ( $link = $solution.get("link") )
+#set ( $certification = $solution.get("certification") )
+#set ( $municipality = $solution.get("municipality") )
+#set ( $municipality_lat = $solution.get("municipality_lat") )
+#set ( $municipality_long = $solution.get("municipality_long") )
+#set ( $province = $solution.get("province") )
+#set ( $province_lat = $solution.get("province_lat") )
+#set ( $province_long = $solution.get("province_long") )
+#set ( $region = $solution.get("region") )
+#set ( $region_lat = $solution.get("region_lat") )
+#set ( $region_long = $solution.get("region_long") )
+#set ( $country = $solution.get("country") )
+        {   
+            "label":          "$name",
+            "type":           "Cheese",
+            "number":         "$count",
+#if($milk)            "milk":           "$milk",
+#end#if($pasteurised)            "pasteurised":    "$pasteurised",
+#end#if($municipality)            "municipality":    "$municipality",
+#end#if($province)            "province":       "$province",
+#end#if($region)            "region":         "$region",
+#end#if($country)            "country":        "$country",
+#end#if($province_lat && $province_long)            "latLng":         "$province_lat, $province_long",
+#elseif($region_lat && $region_long)            "latLng":         "$region_lat, $region_long",
+#end#if($link)            "link":           "$link",
+#end#if($certification)            "certification":  "$certification"
+#end
+        },
+#set ( $count = $count + 1 )
+#end
+
+    ],
+    types: {
+        'Cheese': {
+            pluralLabel: 'Cheeses'
+        }
+    },
+    properties: {
+    }
+}

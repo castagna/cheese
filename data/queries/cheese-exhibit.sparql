@@ -1,0 +1,54 @@
+
+SELECT * {
+  ?s a cheese:Cheese .
+  ?s skos:prefLabel ?label .
+  FILTER langmatches( lang(?label), "it") .
+  BIND ( str(?label) AS ?name ) . 
+  BIND ( ?s AS ?link )
+
+  ?s cheese:country ?co .
+  ?co rdfs:label ?country .
+
+  OPTIONAL {
+    ?s cheese:certification ?c .
+    ?c rdfs:label ?cl .
+    FILTER langmatches( lang(?cl), "en") .
+    BIND ( str(?cl) AS ?certification ) 
+  }
+
+  OPTIONAL {
+    ?s cheese:milkSource ?ms .
+    ?ms rdfs:label ?msl .
+    FILTER langmatches( lang(?msl), "en") .
+    BIND ( str(?msl) AS ?milk )
+  }
+  
+  OPTIONAL {
+    ?s cheese:milkProcessing ?mp .
+    ?mp rdfs:label ?mpl .
+    FILTER langmatches( lang(?mpl), "en") .
+    BIND ( str(?mpl) AS ?pasteurised )
+  }
+  
+  OPTIONAL {
+    ?s cheese:region ?r .
+    ?r rdfs:label ?rl .
+    ?r geo:lat ?rla .
+    ?r geo:long ?rlo .
+    FILTER langmatches( lang(?rl), "it") .
+    BIND ( str (?rla) AS ?region_lat )
+    BIND ( str (?rlo) AS ?region_long )
+    BIND ( str (?rl) AS ?region )
+  }
+
+  OPTIONAL {
+    ?s cheese:province ?p .
+    ?p rdfs:label ?pl .
+    ?p geo:lat ?pla .
+    ?p geo:long ?plo .
+    FILTER langmatches( lang(?pl), "it") .
+    BIND ( str (?pla) AS ?province_lat )
+    BIND ( str (?plo) AS ?province_long )
+    BIND ( str (?pl) AS ?province )
+  }
+}
