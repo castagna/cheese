@@ -28,7 +28,7 @@
                     >
                     <div class="map-lens" ex:role="lens" style="display: none;">
                         <div><b ex:content=".label"></b>
-                            <span ex:if-exists=".origin">from <span ex:content=".origin"></span></span>
+                            <span ex:if-exists=".region">from <span ex:content=".region"></span></span>
                         </div>
                         <div><span ex:content=".milk"></span> milk</div>
                     </div>
@@ -36,8 +36,8 @@
                 <div ex:role="view"
                     ex:viewClass="Tabular"
                     ex:label="Tabular View"
-                    ex:columns=".label, .milk, .origin"
-                    ex:columnLabels="name, source of milk, country of origin"
+                    ex:columns=".label, .milk, .pasteurised, .province, .region, .country"
+                    ex:columnLabels="name, source of milk, pasteurised milk, province of origin, region of origin, country of origin"
                     ex:sortColumn="0"
                     ex:sortAscending="true"
                     ></div>
@@ -48,9 +48,12 @@
 
             <hr/>
             <div ex:role="facet" ex:expression=".label" ex:facetLabel="Cheese" ex:height="10em"></div>
-            <div ex:role="facet" ex:expression=".milk" ex:facetLabel="Milk Source" ex:height="10em"></div>
-            <div ex:role="facet" ex:expression=".origin" ex:facetLabel="Countries of Origin" ex:height="10em"></div>
-        
+            <div ex:role="facet" ex:expression=".milk" ex:facetLabel="Milk Source" ex:height="7em"></div>
+            <div ex:role="facet" ex:expression=".pasteurised" ex:facetLabel="Milk Pasteurisation" ex:height="4em"></div>
+            <div ex:role="facet" ex:expression=".province" ex:facetLabel="Province of Origin" ex:height="10em"></div>
+            <div ex:role="facet" ex:expression=".region" ex:facetLabel="Region of Origin" ex:height="10em"></div>
+            <div ex:role="facet" ex:expression=".country" ex:facetLabel="Country of Origin" ex:height="3em"></div>
+            <div ex:role="facet" ex:expression=".certification" ex:facetLabel="Geographical Indication" ex:height="5em"></div>
         
             <div style="text-align: center; margin: 2em;">
                 <div ex:role="logo" ex:color="Azure"></div>

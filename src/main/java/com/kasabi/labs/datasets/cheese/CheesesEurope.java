@@ -173,7 +173,7 @@ public class CheesesEurope {
 		log.debug("Found {} cheeses", count++);
 	}
 	
-	private static String name(QuerySolution qs) {
+	public static String name(QuerySolution qs) {
 		String name = get(qs, "Latin Transcription");
 		if ( name != null ) {
 			return name ;
