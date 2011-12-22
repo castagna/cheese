@@ -819,7 +819,7 @@ nuts:ITD42
       cheese:region italy:veneto , italy:trentino-alto-adige , italy:lombardia , italy:emiglia-romagna , italy:piemonte ;
       cheese:shape "circle"@en ;
       cheese:texture cheese:HardCheese ;
-      cheese:use cheese:GratingUse ;
+      cheese:use cheese:GratingUse , cheese:TableUse ;
       cheese:weight "24-40 kg" ;
       owl:sameAs <http://rdf.freebase.com/ns/m/08bgdn> , dbpedia:Grana_Padano ;
       skos:altLabel "Grana Padano (cheese)"@en , "Grana Padano (formaggio)"@it ;
@@ -962,7 +962,7 @@ nuts:ITC31
       cheese:region italy:sardegna ;
       cheese:shape "pear-like"@en ;
       cheese:texture cheese:SoftCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:SpreadingUse , cheese:TableUse ;
       skos:altLabel "Callu de Cabreddu (cheese)"@en , "Callu de Cabreddu (formaggio)"@it ;
       skos:prefLabel "Callu de Cabreddu"@it , "Callu de Cabreddu"@en .
 
@@ -1478,7 +1478,7 @@ italy:reggio-emilia
       cheese:province italy:treviso , italy:cremona , italy:pavia , italy:brescia , italy:bergamo , italy:milano , italy:lodi , italy:novara , italy:como ;
       cheese:region italy:veneto , italy:lombardia , italy:piemonte ;
       cheese:shape "squared"@en ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
       cheese:weight "1.7-2.2 kg" ;
       owl:sameAs <http://dbpedia.org/resource/Taleggio_%28cheese%29> ;
       skos:altLabel "Taleggio (formaggio)"@it , "Taleggio (cheese)"@en ;
@@ -1614,7 +1614,7 @@ italy:piacenza
       cheese:municipality italy:melzo ;
       cheese:province italy:milano ;
       cheese:region italy:lombardia ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:MeltingUse , cheese:TableUse ;
       owl:sameAs <http://rdf.freebase.com/ns/m/02bkb7> , <http://dbpedia.org/resource/Bel_Paese_%28cheese%29> ;
       skos:altLabel "Bel Paese (formaggio)"@it , "Bel Paese (cheese)"@en ;
       skos:prefLabel "Bel Paese"@it , "Bel Paese"@en ;
@@ -1966,7 +1966,7 @@ nuts:ITF4
       cheese:province italy:biella , italy:vercelli , italy:cuneo , italy:novara , italy:alessandria , italy:torino , italy:asti ;
       cheese:region italy:piemonte ;
       cheese:texture cheese:SemiHardCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:GrillingUse , cheese:TableUse ;
       cheese:weight "2-8 kg" ;
       owl:sameAs dbpedia:Toma_Piemontese ;
       skos:altLabel "Toma Piemontese (formaggio)"@it , "Toma Piemontese (cheese)"@en ;
@@ -2203,7 +2203,7 @@ italy:potenza
       cheese:milkType cheese:WholeMilk ;
       cheese:province italy:mantova , italy:vicenza , italy:cremona , italy:rovigo , italy:padova , italy:piacenza , italy:trento , italy:brescia , italy:bergamo , italy:milano , italy:verona ;
       cheese:region italy:veneto , italy:emilia-romagna , italy:trentino-alto-adige , italy:lombardia ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
       cheese:weight "1-100 kg" ;
       skos:altLabel "Provolone Valpadana (cheese)"@en , "Provolone Valpadana (formaggio)"@it ;
       skos:prefLabel "Provolone Valpadana"@it , "Provolone Valpadana"@en .
@@ -2614,7 +2614,7 @@ nuts:ITE43
       cheese:municipality italy:casale-monferrato ;
       cheese:province italy:cremona , italy:vercelli , italy:pavia , italy:cuneo , italy:brescia , italy:milano , italy:bergamo , italy:lodi , italy:novara , italy:como ;
       cheese:region italy:lombardia , italy:piemonte ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:SpreadingUse , cheese:TableUse ;
       cheese:weight "6-13 kg" ;
       owl:sameAs dbpedia:Gorgonzola_cheese ;
       skos:altLabel "Gorgonzola (cheese)"@en , "Gorgonzola (formaggio)"@it ;
@@ -2735,7 +2735,7 @@ italy:rimini
       cheese:milkSource cheese:CowMilk ;
       cheese:milkType cheese:WholeMilk ;
       cheese:texture cheese:SoftCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
       owl:sameAs dbpedia:Dolcelatte , <http://rdf.freebase.com/ns/m/0644kz> ;
       skos:altLabel "Dolcelatte (cheese)"@en , "Dolcelatte (formaggio)"@it ;
       skos:hiddenLabel "Gorgonzola Dolce"@it , "Gorgonzola Dolce"@en ;
@@ -2752,7 +2752,7 @@ italy:rimini
       cheese:milkSource cheese:SheepMilk ;
       cheese:province italy:foggia ;
       cheese:region italy:puglia ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:GratingUse , cheese:TableUse ;
       skos:altLabel "Canestrato Pugliese (formaggio)"@it , "Canestrato Pugliese (cheese)"@en ;
       skos:prefLabel "Canestrato Pugliese"@it , "Canestrato Pugliese"@en .
 
@@ -2791,7 +2791,7 @@ nuts:ITE22
       cheese:municipality italy:asiago ;
       cheese:province italy:treviso , italy:vicenza , italy:padova , italy:trento ;
       cheese:region italy:veneto , italy:trentino-alto-adige ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:GratingUse , cheese:TableUse ;
       owl:sameAs <http://rdf.freebase.com/ns/m/02k5rl> , dbpedia:Asiago_cheese ;
       skos:altLabel "Asiago d'Allevo (formaggio)"@it , "Asiago d'Allevo (cheese)"@en ;
       skos:hiddenLabel "Asiago"@it , "Asiago"@en ;
@@ -2855,7 +2855,7 @@ italy:san-nicolo-gerrei
       cheese:region italy:lombardia ;
       cheese:shape "circle"@en ;
       cheese:texture cheese:SemiHardCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
       cheese:weight "8-25 kg" ;
       owl:sameAs dbpedia:Bitto , <http://rdf.freebase.com/ns/m/0gtwf6w> ;
       skos:altLabel "Bitto (cheese)"@en , "Bitto (formaggio)"@it ;
@@ -2906,7 +2906,7 @@ nuts:ITD32
       cheese:province italy:cuneo ;
       cheese:region italy:piemonte ;
       cheese:texture cheese:SoftCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:SpreadingUse , cheese:TableUse ;
       skos:altLabel "Bruss (formaggio)"@it , "Bruss (cheese)"@en ;
       skos:hiddenLabel "Bross"@it , "Bross"@en ;
       skos:prefLabel "Bruss"@it , "Bruss"@en .
@@ -2924,7 +2924,7 @@ nuts:ITD32
       cheese:region italy:sardegna ;
       cheese:shape "circle"@en ;
       cheese:texture cheese:HardCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
       cheese:weight "1.5-3.5 kg" ;
       skos:altLabel "Caprino a Latte Crudo (formaggio)"@it , "Caprino a Latte Crudo (cheese)"@en ;
       skos:hiddenLabel "Caprino"@it , "Caprino"@en ;
@@ -3093,7 +3093,7 @@ nuts:ITD37
       cheese:region italy:lombardia ;
       cheese:shape "circle"@en ;
       cheese:texture cheese:HardCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:GratingUse , cheese:TableUse ;
       cheese:weight "15-16 kg" ;
       skos:altLabel "Bagòss (formaggio)"@it , "Bagòss (cheese)"@en ;
       skos:prefLabel "Bagòss"@it , "Bagòss"@en .
@@ -3661,7 +3661,7 @@ nuts:ITD56
       cheese:milkSource cheese:CowMilk ;
       cheese:shape "pear-like"@en ;
       cheese:texture cheese:SoftCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:GrillingUse , cheese:CookingUse , cheese:TableUse ;
       skos:altLabel "Scamorza (cheese)"@en , "Scamorza (formaggio)"@it ;
       skos:prefLabel "Scamorza"@it , "Scamorza"@en .
 
@@ -4611,7 +4611,7 @@ italy:chieti
 
 italy:valle-daosta
       a       gn:Feature , cheese:Region , italy-schema:Region ;
-      rdfs:label "Valle d'Aosta"@it , "Aosta Valley"@en , "Valle d’Aosta"@it ;
+      rdfs:label "Valle d'Aosta"@it , "Aosta Valley"@en ;
       italy-schema:contains
               italy:aosta ;
       italy-schema:iso3166-2
@@ -5080,7 +5080,7 @@ italy:campania
       cheese:region italy:sardegna ;
       cheese:shape "circle"@en ;
       cheese:texture cheese:HardCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:GratingUse , cheese:TableUse ;
       cheese:weight "16-18 kg" ;
       skos:altLabel "Gransardo (formaggio)"@it , "Gransardo (cheese)"@en ;
       skos:hiddenLabel "Grana"@it , "Grana"@en ;
@@ -5195,7 +5195,7 @@ italy:brindisi
       cheese:province italy:cuneo , italy:torino ;
       cheese:region italy:piemonte ;
       cheese:texture cheese:HardCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:MeltingUse , cheese:TableUse ;
       owl:sameAs <http://dbpedia.org/resource/Bra_%28cheese%29> , <http://rdf.freebase.com/ns/m/03h4kpc> ;
       skos:altLabel "Bra (formaggio)"@it , "Bra (cheese)"@en ;
       skos:hiddenLabel "Bra"@it , "Bra"@en ;
@@ -5772,7 +5772,7 @@ italy:isernia
       cheese:province italy:cremona , italy:pavia , italy:brescia , italy:milano , italy:bergamo , italy:lodi , italy:varese , italy:como ;
       cheese:region italy:lombardia ;
       cheese:shape "squared"@en ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
       cheese:weight "1.5-3.5 kg" ;
       skos:altLabel "Quartirolo Lombardo (formaggio)"@it , "Quartirolo Lombardo (cheese)"@en ;
       skos:prefLabel "Quartirolo Lombardo"@it , "Quartirolo Lombardo"@en .
@@ -6216,7 +6216,7 @@ italy:rendena
       cheese:region italy:valle-daosta ;
       cheese:shape "circle"@en ;
       cheese:texture cheese:SemiHardCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
       cheese:weight "8-12 kg" ;
       owl:sameAs <http://rdf.freebase.com/ns/m/083rwm> , dbpedia:Fontina ;
       skos:altLabel "Fontina (cheese)"@en , "Fontina (formaggio)"@it ;
@@ -6546,7 +6546,7 @@ italy-schema:Comune
       cheese:region italy:sardegna ;
       cheese:shape "circle"@en ;
       cheese:texture cheese:FreshCheese ;
-      cheese:use cheese:CookingUse ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
       cheese:weight "1.5-2 kg" ;
       skos:altLabel "Ricotta Gentile (cheese)"@en , "Ricotta Gentile (formaggio)"@it ;
       skos:hiddenLabel "Ricotta"@it , "Ricotta"@en ;
@@ -6762,7 +6762,7 @@ italy:belluno
 
 italy:friuli-venezia-giulia
       a       gn:Feature , cheese:Region , italy-schema:Region ;
-      rdfs:label "Friuli Venezia Giulia"@en , "Friuli Venezia Giulia"@it , "Friuli-Venezia Giulia"@it ;
+      rdfs:label "Friuli Venezia Giulia"@en , "Friuli-Venezia Giulia"@it ;
       italy-schema:contains
               italy:trieste , italy:gorizia , italy:udine , italy:pordenone ;
       italy-schema:iso3166-2
@@ -7132,7 +7132,7 @@ italy:avellino
       cheese:milkType cheese:WholeMilk ;
       cheese:region italy:sardegna ;
       cheese:texture cheese:FreshCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:SpreadingUse , cheese:TableUse ;
       skos:altLabel "Gioddu (formaggio)"@it , "Gioddu (cheese)"@en ;
       skos:hiddenLabel "Mizzurado"@it , "Mizzurado"@en ;
       skos:prefLabel "Gioddu"@it , "Gioddu"@en .
@@ -7448,7 +7448,7 @@ nuts:ITD4
       cheese:region italy:veneto ;
       cheese:shape "circle"@en ;
       cheese:texture cheese:HardCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:use cheese:GratingUse , cheese:TableUse ;
       cheese:weight "6-6.5 kg" ;
       skos:altLabel "Carnia (cheese)"@en , "Carnia (formaggio)"@it ;
       skos:prefLabel "Carnia"@it , "Carnia"@en .

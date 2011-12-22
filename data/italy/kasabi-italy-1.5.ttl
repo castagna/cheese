@@ -1030,7 +1030,7 @@ italy:rovigo
 
 italy:valle-daosta
       a       gn:Feature , italy-schema:Region ;
-      rdfs:label "Aosta Valley"@en , "Valle d’Aosta"@it ;
+      rdfs:label "Valle d'Aosta"@it , "Aosta Valley"@en ;
       italy-schema:contains
               italy:aosta ;
       italy-schema:iso3166-2
@@ -3304,7 +3304,7 @@ italy:belluno
 
 italy:friuli-venezia-giulia
       a       gn:Feature , italy-schema:Region ;
-      rdfs:label "Friuli Venezia Giulia"@en , "Friuli Venezia Giulia"@it ;
+      rdfs:label "Friuli Venezia Giulia"@en , "Friuli-Venezia Giulia"@it ;
       italy-schema:contains
               italy:trieste , italy:gorizia , italy:udine , italy:pordenone ;
       italy-schema:iso3166-2

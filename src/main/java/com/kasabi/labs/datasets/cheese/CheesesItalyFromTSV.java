@@ -353,15 +353,16 @@ public class CheesesItalyFromTSV {
 			if ( use != null ) {
 				String[] uses = use.split(",");
 				for (String u : uses) {
+					u = u.trim() ;
 					if ( u.toLowerCase().equals("table") ) {
 						model.add(subject, CHEESE.use, CHEESE.TableUse);
 					} else if ( u.toLowerCase().equals("grating") ) {
 						model.add(subject, CHEESE.use, CHEESE.GratingUse);
 					} else if ( u.toLowerCase().equals("melting") ) {
 						model.add(subject, CHEESE.use, CHEESE.MeltingUse);
-					} else if ( u.toLowerCase().equals("spreading") ) {
+					} else if ( ( u.toLowerCase().equals("spreading") ) || ( u.toLowerCase().equals("spread") ) ) {
 						model.add(subject, CHEESE.use, CHEESE.SpreadingUse);
-					} else if ( u.toLowerCase().equals("grilling") ) {
+					} else if ( ( u.toLowerCase().equals("grilling") ) || ( u.toLowerCase().equals("grill") ) ) {
 						model.add(subject, CHEESE.use, CHEESE.GrillingUse);
 					} else if ( u.toLowerCase().equals("cooking") ) {
 						model.add(subject, CHEESE.use, CHEESE.CookingUse);

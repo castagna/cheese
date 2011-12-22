@@ -9,9 +9,13 @@
     "items": [
 #set ( $count = 1 )
 #foreach( $solution in $resultset )
+// $solution
 #set ( $name = $solution.get("name") )
 #set ( $milk = $solution.get("milk") )
+#set ( $milk_type = $solution.get("milk_type") )
 #set ( $pasteurised = $solution.get("pasteurised") )
+#set ( $texture = $solution.get("texture") )
+#set ( $cheese_use = $solution.get("cheese_use") )
 #set ( $link = $solution.get("link") )
 #set ( $certification = $solution.get("certification") )
 #set ( $municipality = $solution.get("municipality") )
@@ -24,27 +28,35 @@
 #set ( $region_lat = $solution.get("region_lat") )
 #set ( $region_long = $solution.get("region_long") )
 #set ( $country = $solution.get("country") )
+#set ( $country_lat = $solution.get("country_lat") )
+#set ( $country_long = $solution.get("country_long") )
         {   
             "label":          "$name",
             "type":           "Cheese",
             "number":         "$count",
 #if($milk)            "milk":           "$milk",
+#end#if($milk_type)            "milk_type":      "$milk_type",
 #end#if($pasteurised)            "pasteurised":    "$pasteurised",
+#end#if($texture)            "texture":        "$texture",
+#end#if($cheese_use)            "cheese_use":     "$cheese_use",
 #end#if($municipality)            "municipality":   "$municipality",
 #end#if($province)            "province":       "$province",
 #end#if($region)            "region":         "$region",
 #end#if($country)            "country":        "$country",
 #end#if($province_lat && $province_long)            "latLng":         "$province_lat, $province_long",
 #elseif($region_lat && $region_long)            "latLng":         "$region_lat, $region_long",
+#elseif($country_lat && $country_long)            "latLng":         "$country_lat, $country_long",
 #end#if($link)            "link":           "$link",
 #end#if($certification)            "certification":  "$certification"
 #end
         },
 #set ( $count = $count + 1 )
-
 #set ( $name = false )
 #set ( $milk = false )
+#set ( $milk_type = false )
 #set ( $pasteurised = false )
+#set ( $texture = false )
+#set ( $cheese_use = false )
 #set ( $link = false )
 #set ( $certification = false )
 #set ( $municipality = false )
@@ -57,7 +69,8 @@
 #set ( $region_lat = false )
 #set ( $region_long = false )
 #set ( $country = false )
-
+#set ( $country_lat = false )
+#set ( $country_long = false )
 #end
 
     ],

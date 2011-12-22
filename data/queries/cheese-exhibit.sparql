@@ -6,9 +6,15 @@ SELECT * {
   BIND ( str(?label) AS ?name ) . 
   BIND ( ?s AS ?link )
 
-  ?s cheese:country ?co .
-  ?co rdfs:label ?coul .
-  BIND ( str(?coul) AS ?country ) 
+  OPTIONAL {
+    ?s cheese:country ?co .
+    ?co rdfs:label ?coul .
+    ?co geo:lat ?cola .
+    ?co geo:long ?colo .
+    BIND ( str(?coul) AS ?country ) 
+    BIND ( str (?cola) AS ?country_lat )
+    BIND ( str (?colo) AS ?country_long )
+  } 
 
   OPTIONAL {
     ?s cheese:certification ?c .
@@ -25,10 +31,36 @@ SELECT * {
   }
   
   OPTIONAL {
+    ?s cheese:milkType ?milk_type_obj .
+    ?milk_type_obj rdfs:label ?milk_type_label .
+    FILTER langmatches( lang(?milk_type_label), "en-UK") .
+    BIND ( str(?milk_type_label) AS ?milk_type )
+  }
+
+  OPTIONAL {
+    ?s cheese:use ?cheese_use_obj .
+    ?cheese_use_obj rdfs:label ?cheese_use_label .
+    FILTER langmatches( lang(?cheese_use_label), "en") .
+    BIND ( str(?cheese_use_label) AS ?cheese_use )
+  }
+
+  OPTIONAL {
     ?s cheese:milkProcessing ?mp .
     ?mp rdfs:label ?mpl .
     FILTER langmatches( lang(?mpl), "en") .
     BIND ( str(?mpl) AS ?pasteurised )
+  }
+  
+  OPTIONAL {
+    ?s cheese:texture ?t .
+    ?t rdfs:label ?tl .
+    FILTER langmatches( lang(?tl), "en") .
+    BIND ( str(?tl) AS ?texture )
+  }
+
+  OPTIONAL {
+    ?s cheese:use ?u .
+    ?u rdfs:label ?use .
   }
   
   OPTIONAL {

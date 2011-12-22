@@ -1,0 +1,146 @@
+@prefix italy:   <http://data.kasabi.com/dataset/italy/> .
+@prefix europe:  <http://data.kasabi.com/dataset/europe/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix cheese:  <http://data.kasabi.com/dataset/cheese/schema/> .
+
+italy:italy
+    a cheese:Country ;
+    rdfs:label "Italy"@en ;
+    geo:lat "42.10"^^xsd:float ;
+    geo:long "12.78"^^xsd:float ;
+    .
+
+europe:france
+    a cheese:Country ;
+    rdfs:label "France"@en ;
+    geo:lat "46.0"^^xsd:float ;
+    geo:long "2.0"^^xsd:float ;
+    .
+
+europe:austria
+    a cheese:Country ;
+    rdfs:label "Austria"@en ;
+    geo:lat "47.3333333"^^xsd:float ;
+    geo:long "13.3333333"^^xsd:float ;
+    .
+
+europe:belgium
+    a cheese:Country ;
+    rdfs:label "Belgium"@en ;
+    geo:lat "50.8333333"^^xsd:float ;
+    geo:long "4.0"^^xsd:float ;
+    .
+
+europe:cyprus
+    a cheese:Country ;
+    rdfs:label "Cyprus"@en ;
+    geo:lat "35.012"^^xsd:float ;
+    geo:long "33.20"^^xsd:float ;
+    .
+
+europe:czech-republic
+    a cheese:Country ;
+    rdfs:label "Czech Republic"@en ;
+    geo:lat "50.01"^^xsd:float ;
+    geo:long "14.98"^^xsd:float ;
+    .
+
+europe:denmark
+    a cheese:Country ;
+    rdfs:label "Denmark"@en ;
+    geo:lat "56.0"^^xsd:float ;
+    geo:long "10.0"^^xsd:float ;
+    .
+
+europe:germany
+    a cheese:Country ;
+    rdfs:label "Germany"@en ;
+    geo:lat "51.5"^^xsd:float ;
+    geo:long "10.5"^^xsd:float ;
+    .
+
+europe:greece
+    a cheese:Country ;
+    rdfs:label "Greece"@en ;
+    geo:lat "39.10"^^xsd:float ;
+    geo:long "22.52"^^xsd:float ;
+    .
+
+europe:ireland
+    a cheese:Country ;
+    rdfs:label "Ireland"@en ;
+    geo:lat "53.49"^^xsd:float ;
+    geo:long "-7.77"^^xsd:float ;
+    .
+
+europe:lithuania
+    a cheese:Country ;
+    rdfs:label "Lithuania"@en ;
+    geo:lat "56.0"^^xsd:float ;
+    geo:long "24.0"^^xsd:float ;
+    .
+
+europe:netherlands
+    a cheese:Country ;
+    rdfs:label "Netherlands"@en ;
+    geo:lat "52.5"^^xsd:float ;
+    geo:long "5.75"^^xsd:float ;
+    .
+
+europe:poland
+    a cheese:Country ;
+    rdfs:label "Poland"@en ;
+    geo:lat "52.0"^^xsd:float ;
+    geo:long "20.0"^^xsd:float ;
+    .
+
+europe:portugal
+    a cheese:Country ;
+    rdfs:label "Portugal"@en ;
+    geo:lat "40.2"^^xsd:float ;
+    geo:long "-7.9"^^xsd:float ;
+    .
+
+europe:slovakia
+    a cheese:Country ;
+    rdfs:label "Slovakia"@en ;
+    geo:lat "39.5"^^xsd:float ;
+    geo:long "-8.0"^^xsd:float ;
+    .
+
+europe:slovenia
+    a cheese:Country ;
+    rdfs:label "Slovenia"@en ;
+    geo:lat "46.25"^^xsd:float ;
+    geo:long "15.1666667"^^xsd:float ;
+    .
+
+europe:spain
+    a cheese:Country ;
+    rdfs:label "Spain"@en ;
+    geo:lat "40.0"^^xsd:float ;
+    geo:long "-4.0"^^xsd:float ;
+    .
+
+europe:Sweden
+    a cheese:Country ;
+    rdfs:label "Sweden"@en ;
+    geo:lat "62.0"^^xsd:float ;
+    geo:long "15.0"^^xsd:float ;
+    .
+
+europe:united-kingdom
+    a cheese:Country ;
+    rdfs:label "United Kingdom"@en ;
+    geo:lat "51.92"^^xsd:float ;
+    geo:long "-0.86"^^xsd:float ;
+    .
+
+europe:united-states
+    a cheese:Country ;
+    rdfs:label "United States"@en ;
+    geo:lat "39.6"^^xsd:float ;
+    geo:long "-101.5"^^xsd:float ;
+    .

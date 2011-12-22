@@ -1,6 +1,7 @@
 package com.kasabi.labs.datasets.cheese.visualizations;
 
 import static com.kasabi.labs.datasets.Constants.DATA_PATH;
+import static com.kasabi.labs.datasets.Constants.DATA_ITALY_PATH;
 import static com.kasabi.labs.datasets.Constants.QUERIES_PATH;
 
 import java.io.File;
@@ -14,6 +15,7 @@ public class CheeseExhibit {
 	public static void main(String[] args) throws IOException {
 		File[] data = new File[]{
 				new File ( DATA_PATH, "cheeses-0.1.ttl" ),
+				new File ( DATA_ITALY_PATH, "europe-patches.ttl" ),
 				new File ( "cheese.ttl" ),
 		};
 		File query = new File(QUERIES_PATH + "cheese-exhibit.sparql") ;
