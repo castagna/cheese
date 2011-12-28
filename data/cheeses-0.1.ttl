@@ -213,16 +213,6 @@ italy:veneto
       wgs84_pos:long "11.75"^^xsd:float ;
       foaf:page <http://en.wikipedia.org/wiki/Veneto> .
 
-nuts:ITC15
-      a       eurostat:NUTSRegion ;
-      rdfs:label "ITC15 - Novara" ;
-      rdfs:seeAlso italy:novara ;
-      eurostat:hasParentRegion
-              nuts:ITC1 ;
-      eurostat:level 3 ;
-      eurostat:name "Novara" ;
-      eurostat:regionCode "ITC15" .
-
 italy:vercelli
       a       gn:Feature , cheese:Province , italy-schema:Province ;
       rdfs:label "Vercelli"@it ;
@@ -241,13 +231,23 @@ italy:vercelli
       wgs84_pos:lat "45.33188"^^xsd:float ;
       wgs84_pos:long "8.41415"^^xsd:float .
 
-europe:greece
-      a       cheese:Country ;
-      rdfs:label "Greece"@en .
+nuts:ITC15
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITC15 - Novara" ;
+      rdfs:seeAlso italy:novara ;
+      eurostat:hasParentRegion
+              nuts:ITC1 ;
+      eurostat:level 3 ;
+      eurostat:name "Novara" ;
+      eurostat:regionCode "ITC15" .
 
 europe:portugal
       a       cheese:Country ;
       rdfs:label "Portugal"@en .
+
+europe:greece
+      a       cheese:Country ;
+      rdfs:label "Greece"@en .
 
 <http://data.kasabi.com/dataset/cheese/ricotta-romana>
       a       cheese:Cheese ;
@@ -315,6 +315,18 @@ nuts:ITF43
       eurostat:name "Taranto" ;
       eurostat:regionCode "ITF43" .
 
+nuts:ITD5
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD5 - Emilia-Romagna" ;
+      rdfs:seeAlso italy:emilia-romagna ;
+      eurostat:hasParentRegion
+              nuts:ITD ;
+      eurostat:hasSubRegion
+              nuts:ITD59 , nuts:ITD54 , nuts:ITD51 , nuts:ITD57 , nuts:ITD52 , nuts:ITD56 , nuts:ITD53 , nuts:ITD55 , nuts:ITD58 ;
+      eurostat:level 2 ;
+      eurostat:name "Emilia-Romagna" ;
+      eurostat:regionCode "ITD5" .
+
 <http://data.kasabi.com/dataset/cheese/danbo>
       a       cheese:Cheese ;
       rdfs:label "Danbo"@da , "Danbo"@en ;
@@ -350,18 +362,6 @@ italy:alessandria
       cheese:country europe:united-kingdom ;
       skos:altLabel "Bonchester (cheese)"@en ;
       skos:prefLabel "Bonchester"@en .
-
-nuts:ITD5
-      a       eurostat:NUTSRegion ;
-      rdfs:label "ITD5 - Emilia-Romagna" ;
-      rdfs:seeAlso italy:emilia-romagna ;
-      eurostat:hasParentRegion
-              nuts:ITD ;
-      eurostat:hasSubRegion
-              nuts:ITD59 , nuts:ITD54 , nuts:ITD51 , nuts:ITD57 , nuts:ITD52 , nuts:ITD56 , nuts:ITD53 , nuts:ITD55 , nuts:ITD58 ;
-      eurostat:level 2 ;
-      eurostat:name "Emilia-Romagna" ;
-      eurostat:regionCode "ITD5" .
 
 italy:crotone
       a       gn:Feature , cheese:Province , italy-schema:Province ;
@@ -486,6 +486,10 @@ nuts:ITF63
       eurostat:name "Catanzaro" ;
       eurostat:regionCode "ITF63" .
 
+italy:luino
+      a       cheese:Municipality ;
+      rdfs:label "Luino"@it .
+
 <http://data.kasabi.com/dataset/cheese/nieheimer-kase>
       a       cheese:Cheese ;
       rdfs:label "Nieheimer Käse"@de , "Nieheimer Käse"@en ;
@@ -542,6 +546,10 @@ italy:puglia
       wgs84_pos:lat "41.25"^^xsd:float ;
       wgs84_pos:long "16.25"^^xsd:float ;
       foaf:page <http://en.wikipedia.org/wiki/Apulia> .
+
+italy:scicli
+      a       cheese:Municipality ;
+      rdfs:label "Scicli"@it .
 
 nuts:ITC16
       a       eurostat:NUTSRegion ;
@@ -823,6 +831,7 @@ nuts:ITD42
       cheese:weight "24-40 kg" ;
       owl:sameAs <http://rdf.freebase.com/ns/m/08bgdn> , dbpedia:Grana_Padano ;
       skos:altLabel "Grana Padano (cheese)"@en , "Grana Padano (formaggio)"@it ;
+      skos:hiddenLabel "Grana"@en , "Grana"@it ;
       skos:prefLabel "Grana Padano"@en , "Grana Padano"@it ;
       foaf:page <http://en.wikipedia.org/wiki/Grana_Padano> .
 
@@ -975,6 +984,10 @@ nuts:ITC31
       skos:altLabel "Noord-Hollandse Edammer (cheese)"@en ;
       skos:prefLabel "Noord-Hollandse Edammer"@nl , "Noord-Hollandse Edammer"@en .
 
+italy:vico-equense
+      a       cheese:Municipality ;
+      rdfs:label "Vico Equense"@it .
+
 <http://data.kasabi.com/dataset/cheese/tomme-de-savoie>
       a       cheese:Cheese ;
       rdfs:label "Tomme de Savoie"@fr , "Tomme de Savoie"@en ;
@@ -1095,6 +1108,10 @@ italy:torino
       skos:altLabel "Salva Cremasco (cheese)"@en , "Salva Cremasco (formaggio)"@it ;
       skos:prefLabel "Salva Cremasco"@en , "Salva Cremasco"@it .
 
+italy:santagnello
+      a       cheese:Municipality ;
+      rdfs:label "Sant'Agnello"@it .
+
 <http://data.kasabi.com/dataset/cheese/teviotdale-cheese>
       a       cheese:Cheese ;
       rdfs:label "Teviotdale Cheese"@en ;
@@ -1103,6 +1120,10 @@ italy:torino
       cheese:country europe:united-kingdom ;
       skos:altLabel "Teviotdale Cheese (cheese)"@en ;
       skos:prefLabel "Teviotdale Cheese"@en .
+
+italy:gragnano
+      a       cheese:Municipality ;
+      rdfs:label "Gragnano"@it .
 
 <http://data.kasabi.com/dataset/cheese/queijo-s-jorge>
       a       cheese:Cheese ;
@@ -1179,6 +1200,28 @@ nuts:ITC11
       skos:altLabel "Fromage de Herve (cheese)"@en ;
       skos:prefLabel "Fromage de Herve"@fr , "Fromage de Herve"@nl , "Fromage de Herve"@en .
 
+<http://data.kasabi.com/dataset/cheese/bastardo-del-grappa>
+      a       cheese:Cheese ;
+      rdfs:label "Bastardo del Grappa"@it , "Bastardo del Grappa"@en ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Bastardo_del_Grappa_cheese" , dbpedia:Monte_Grappa ;
+      cheese:aging "6 months"@en ;
+      cheese:country italy:italy ;
+      cheese:diameter "25-30 cm" ;
+      cheese:height "5-8 cm" ;
+      cheese:location italy:monte-grappa ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:MixedMilk , cheese:SheepMilk , cheese:GoatMilk , cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:province italy:treviso , italy:vicenza , italy:belluno ;
+      cheese:region italy:veneto ;
+      cheese:shape "circle"@en ;
+      cheese:texture cheese:SemiHardCheese ;
+      cheese:use cheese:CookingUse ;
+      cheese:weight "2.5-5 kg" ;
+      skos:altLabel "Bastardo del Grappa (cheese)"@en , "Bastardo del Grappa (formaggio)"@it ;
+      skos:prefLabel "Bastardo del Grappa"@it , "Bastardo del Grappa"@en .
+
 italy:pavia
       a       gn:Feature , cheese:Province , italy-schema:Province ;
       rdfs:label "Pavia"@it ;
@@ -1228,6 +1271,27 @@ kasabi:italy
       void:vocabulary void: , rdf: , rdfs: , foaf: , wgs84_pos: , eurostat: , dcterms: , owl: , gn: ;
       foaf:homepage <http://kasabi.com/dataset/italy> ;
       foaf:page kasabi:italy , <http://kasabi.github.com/italy/> , <https://github.com/castagna/italy> .
+
+<http://data.kasabi.com/dataset/cheese/almkase->
+      a       cheese:Cheese ;
+      rdfs:label "Almkäse "@en , "Almkäse "@it ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Almk%C3%A4se_cheese" ;
+      cheese:aging "6-8 months"@en ;
+      cheese:country italy:italy ;
+      cheese:diameter "35-40 cm" ;
+      cheese:height "8-10 cm" ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:SemiSkimmedMilk ;
+      cheese:province italy:bolzano ;
+      cheese:region italy:trentino-alto-adige ;
+      cheese:shape "circle"@en ;
+      cheese:texture cheese:HardCheese ;
+      cheese:use cheese:GratingUse , cheese:MeltingUse ;
+      cheese:weight "7-14 kg" ;
+      skos:altLabel "Almkäse  (cheese)"@en , "Almkäse  (formaggio)"@it ;
+      skos:prefLabel "Almkäse "@it , "Almkäse "@en .
 
 italy:valli-giudicarie
       a       cheese:Location ;
@@ -1472,7 +1536,7 @@ italy:reggio-emilia
       cheese:height "5-7 cm" ;
       cheese:location italy:valsassina ;
       cheese:milkProcessing
-              cheese:RawMilk , cheese:PastourizedMilk ;
+              cheese:PastourizedMilk ;
       cheese:milkSource cheese:CowMilk ;
       cheese:milkType cheese:WholeMilk ;
       cheese:province italy:treviso , italy:cremona , italy:pavia , italy:brescia , italy:bergamo , italy:milano , italy:lodi , italy:novara , italy:como ;
@@ -1537,13 +1601,22 @@ italy:varese
       a       cheese:Cheese ;
       rdfs:label "Provolone del Monaco"@it , "Provolone del Monaco"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Provolone_del_monaco_cheese" ;
+      cheese:aging "at least 6 months"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
       cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:municipality italy:santagnello , italy:massa-lubrense , italy:casola-di-napoli , italy:piano-di-sorrento , italy:castellammare-di-stabia , italy:gragnano , italy:santa-maria-la-carita , italy:vico-equense , italy:agerola , italy:pimonte , italy:lettere , italy:meta , italy:sorrento ;
       cheese:province italy:napoli ;
       cheese:region italy:campania ;
+      cheese:shape "pear-like"@en ;
+      cheese:texture cheese:SemiHardCheese ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
       skos:altLabel "Provolone del Monaco (cheese)"@en , "Provolone del Monaco (formaggio)"@it ;
+      skos:hiddenLabel "Provolone"@it , "Provolone"@en ;
       skos:prefLabel "Provolone del Monaco"@it , "Provolone del Monaco"@en .
 
 <http://data.kasabi.com/dataset/cheese/swaledale>
@@ -1749,6 +1822,10 @@ italy:palermo
       wgs84_pos:lat "37.81667"^^xsd:float ;
       wgs84_pos:long "13.58333"^^xsd:float .
 
+italy:moliterno
+      a       cheese:Municipality ;
+      rdfs:label "Moliterno"@it .
+
 nuts:ITC3
       a       eurostat:NUTSRegion ;
       rdfs:label "ITC3 - Liguria" ;
@@ -1860,6 +1937,28 @@ italy:pisa
       wgs84_pos:lat "43.41667"^^xsd:float ;
       wgs84_pos:long "10.71667"^^xsd:float .
 
+<http://data.kasabi.com/dataset/cheese/branzi>
+      a       cheese:Cheese ;
+      rdfs:label "Branzi"@it , "Branzi"@en ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Branzi_cheese" ;
+      cheese:aging "1-7 months"@en ;
+      cheese:country italy:italy ;
+      cheese:diameter "40-45 cm" ;
+      cheese:height "9 cm" ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:municipality italy:branzi ;
+      cheese:province italy:bergamo ;
+      cheese:region italy:lombardia ;
+      cheese:shape "circle"@en ;
+      cheese:texture cheese:HardCheese ;
+      cheese:use cheese:CookingUse , cheese:TableUse ;
+      cheese:weight "5-15 kg" ;
+      skos:altLabel "Branzi (formaggio)"@it , "Branzi (cheese)"@en ;
+      skos:prefLabel "Branzi"@it , "Branzi"@en .
+
 italy:piazzatore
       a       cheese:Municipality ;
       rdfs:label "Piazzatore"@it .
@@ -1885,6 +1984,10 @@ italy:gavoi
       cheese:country europe:spain ;
       skos:altLabel "Queso los Beyos (cheese)"@en ;
       skos:prefLabel "Queso los Beyos"@es , "Queso los Beyos"@ca , "Queso los Beyos"@en .
+
+italy:castellammare-di-stabia
+      a       cheese:Municipality ;
+      rdfs:label "Castellammare di Stabia"@it .
 
 <http://data.kasabi.com/dataset/italy/sicilia.rdf>
       void:inDataset kasabi:italy ;
@@ -1982,14 +2085,14 @@ nuts:ITF4
       cheese:diameter "6-7 cm" ;
       cheese:height "3-4 cm" ;
       cheese:milkProcessing
-              cheese:RawMilk ;
-      cheese:milkSource cheese:CowMilk ;
+              cheese:PastourizedMilk ;
+      cheese:milkSource cheese:MixedMilk , cheese:GoatMilk , cheese:CowMilk ;
       cheese:milkType cheese:WholeMilk ;
       cheese:municipality italy:valtorta , italy:val-brembana ;
-      cheese:province italy:bergamo ;
+      cheese:province italy:bergamo , italy:como ;
       cheese:region italy:lombardia ;
       cheese:shape "circle"@en ;
-      cheese:texture cheese:FreshCheese ;
+      cheese:texture cheese:SemiHardCheese ;
       cheese:use cheese:TableUse ;
       cheese:weight "70-80 g" ;
       skos:altLabel "Agrì di Valtorta (cheese)"@en , "Agrì di Valtorta (formaggio)"@it ;
@@ -1999,12 +2102,19 @@ nuts:ITF4
       a       cheese:Cheese ;
       rdfs:label "Casciotta d'Urbino DOP"@fr , "Casciotta d'Urbino"@it , "Casciotta d'Urbino"@en , "Casciotta d'Urbino"@es , "Casciotta d’Urbino"@de ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Caciotta_cheese" ;
+      cheese:aging "20-30 days"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:diameter "12-16 cm" ;
+      cheese:height "5-7 cm" ;
       cheese:milkSource cheese:MixedMilk , cheese:SheepMilk , cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
       cheese:province italy:urbino , italy:pesaro ;
       cheese:region italy:marche ;
+      cheese:shape "circle"@en ;
+      cheese:use cheese:TableUse ;
+      cheese:weight "800 g – 1.2 kg" ;
       owl:sameAs <http://rdf.freebase.com/ns/m/02v_w5y> , <http://dbpedia.org/resource/Casciotta_d%27Urbino> ;
       skos:altLabel "Casciotta d'Urbino (formaggio)"@it , "Casciotta d'Urbino (cheese)"@en ;
       skos:prefLabel "Casciotta d'Urbino"@it , "Casciotta d'Urbino"@en ;
@@ -2150,6 +2260,7 @@ italy:genova
       cheese:province italy:potenza ;
       cheese:region italy:basilicata ;
       skos:altLabel "Pecorino di Filiano (formaggio)"@it , "Pecorino di Filiano (cheese)"@en ;
+      skos:hiddenLabel "Pecorino"@it , "Pecorino"@en ;
       skos:prefLabel "Pecorino di Filiano"@it , "Pecorino di Filiano"@en .
 
 italy:gorizia
@@ -2340,6 +2451,10 @@ nuts:ITC34
       skos:altLabel "Rigotte de Condrieu (cheese)"@en ;
       skos:prefLabel "Rigotte de Condrieu"@fr , "Rigotte de Condrieu"@en .
 
+italy:santa-croce-camerina
+      a       cheese:Municipality ;
+      rdfs:label "Santa Croce Camerina"@it .
+
 <http://data.kasabi.com/dataset/cheese/bleu-du-vercors-sassenage>
       a       cheese:Cheese ;
       rdfs:label "Bleu du Vercors-Sassenage"@fr , "Bleu du Vercors-Sassenage"@en ;
@@ -2408,6 +2523,10 @@ italy:rieti
       wgs84_pos:lat "42.3"^^xsd:float ;
       wgs84_pos:long "12.86667"^^xsd:float .
 
+italy:massa-lubrense
+      a       cheese:Municipality ;
+      rdfs:label "Massa Lubrense"@it .
+
 <http://data.kasabi.com/dataset/cheese/neufchatel>
       a       cheese:Cheese ;
       rdfs:label "Neufchâtel"@fr , "Neufchâtel"@en ;
@@ -2446,6 +2565,10 @@ europe:lithuania
       cheese:weight "0.5-1 kg" ;
       skos:altLabel "Peretta (cheese)"@en , "Peretta (formaggio)"@it ;
       skos:prefLabel "Peretta"@it , "Peretta"@en .
+
+italy:rosolini
+      a       cheese:Municipality ;
+      rdfs:label "Rosolini"@it .
 
 nuts:ITF2
       a       eurostat:NUTSRegion ;
@@ -2488,6 +2611,10 @@ italy:val-formazza
       skos:prefLabel "Raschera"@it , "Raschera"@en ;
       foaf:page <http://en.wikipedia.org/wiki/Raschera> .
 
+italy:villafranca-piemonte
+      a       cheese:Location ;
+      rdfs:label "Villafranca Piemonte"@it .
+
 italy:trieste
       a       gn:Feature , cheese:Province , italy-schema:Province ;
       rdfs:label "Trieste"@it ;
@@ -2519,6 +2646,24 @@ italy:moena
       a       cheese:Municipality ;
       rdfs:label "Moena"@it .
 
+italy:matera
+      a       gn:Feature , cheese:Province , italy-schema:Province ;
+      rdfs:label "Matera"@it ;
+      italy-schema:isContained
+              italy:basilicata ;
+      italy-schema:iso3166-2
+              "IT-MT" ;
+      eurostat:regionCode "ITF52" ;
+      gn:countryCode "IT" ;
+      gn:featureClass gn:A ;
+      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
+      gn:parentCountry <http://sws.geonames.org/3175395/> ;
+      gn:parentFeature <http://sws.geonames.org/3182306/> ;
+      gn:population 203570 ;
+      owl:sameAs <http://sws.geonames.org/3173718/> ;
+      wgs84_pos:lat "40.5"^^xsd:float ;
+      wgs84_pos:long "16.41667"^^xsd:float .
+
 nuts:ITD31
       a       eurostat:NUTSRegion ;
       rdfs:label "ITD31 - Verona" ;
@@ -2544,30 +2689,13 @@ nuts:ITD31
       cheese:municipality italy:asiago ;
       cheese:province italy:vicenza , italy:trento ;
       cheese:region italy:veneto , italy:trentino-alto-adige ;
+      cheese:texture cheese:SemiHardCheese ;
       cheese:use cheese:TableUse ;
       owl:sameAs <http://rdf.freebase.com/ns/m/02k5rl> , dbpedia:Asiago_cheese ;
       skos:altLabel "Asiago Pressato (cheese)"@en , "Asiago Pressato (formaggio)"@it ;
       skos:hiddenLabel "Asiago"@it , "Asiago"@en ;
       skos:prefLabel "Asiago Pressato"@it , "Asiago Pressato"@en ;
       foaf:page <http://en.wikipedia.org/wiki/Asiago_cheese> .
-
-italy:matera
-      a       gn:Feature , cheese:Province , italy-schema:Province ;
-      rdfs:label "Matera"@it ;
-      italy-schema:isContained
-              italy:basilicata ;
-      italy-schema:iso3166-2
-              "IT-MT" ;
-      eurostat:regionCode "ITF52" ;
-      gn:countryCode "IT" ;
-      gn:featureClass gn:A ;
-      gn:featureCode <http://www.geonames.org/ontology#A.ADM2> ;
-      gn:parentCountry <http://sws.geonames.org/3175395/> ;
-      gn:parentFeature <http://sws.geonames.org/3182306/> ;
-      gn:population 203570 ;
-      owl:sameAs <http://sws.geonames.org/3173718/> ;
-      wgs84_pos:lat "40.5"^^xsd:float ;
-      wgs84_pos:long "16.41667"^^xsd:float .
 
 nuts:ITC47
       a       eurostat:NUTSRegion ;
@@ -2589,6 +2717,36 @@ nuts:ITE43
       eurostat:name "Roma" ;
       eurostat:regionCode "ITE43" .
 
+<http://data.kasabi.com/dataset/cheese/bra-tenero>
+      a       cheese:Cheese ;
+      rdfs:label "Bra (Käse)"@de , "Bra Tenero"@it , "Bra Tenero"@en , "Bra (formaggio)"@it , "Bra (cheese)"@en , "Bra (queso)"@es ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Bra_cheese" ;
+      cheese:aging "1-2 months"@en ;
+      cheese:certification
+              cheese:PDO ;
+      cheese:country italy:italy ;
+      cheese:diameter "30-40 cm" ;
+      cheese:height "7-9 cm" ;
+      cheese:location italy:villafranca-piemonte ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:MixedMilk , cheese:SheepMilk , cheese:GoatMilk , cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:province italy:cuneo , italy:torino ;
+      cheese:region italy:piemonte ;
+      cheese:shape "circle"@en ;
+      cheese:use cheese:TableUse ;
+      cheese:weight "6-8 kg" ;
+      owl:sameAs <http://dbpedia.org/resource/Bra_%28cheese%29> , <http://rdf.freebase.com/ns/m/03h4kpc> ;
+      skos:altLabel "Bra Tenero (cheese)"@en , "Bra Tenero (formaggio)"@it ;
+      skos:hiddenLabel "Bra"@it , "Bra"@en ;
+      skos:prefLabel "Bra Tenero"@it , "Bra Tenero"@en ;
+      foaf:page <http://en.wikipedia.org/wiki/Bra_%28cheese%29> .
+
+italy:palazzolo-acreide
+      a       cheese:Municipality ;
+      rdfs:label "Palazzolo Acreide"@it .
+
 <http://data.kasabi.com/dataset/cheese/charolais>
       a       cheese:Cheese ;
       rdfs:label "Charolais"@fr , "Charolais"@en ;
@@ -2598,10 +2756,15 @@ nuts:ITE43
       skos:altLabel "Charolais (cheese)"@en ;
       skos:prefLabel "Charolais"@fr , "Charolais"@en .
 
+italy:pimonte
+      a       cheese:Municipality ;
+      rdfs:label "Pimonte"@it .
+
 <http://data.kasabi.com/dataset/cheese/gorgonzola>
       a       cheese:Cheese ;
       rdfs:label "Gorgonzola"@it , "Gorgonzola"@en , "Gorgonzola cheese"@en ;
       rdfs:seeAlso "http://www.bbc.co.uk/food/gorgonzola_cheese" , "http://www.cookipedia.co.uk/wiki/index.php/Gorgonzola_cheese" ;
+      cheese:aging "3-6 months"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
@@ -2614,6 +2777,7 @@ nuts:ITE43
       cheese:municipality italy:casale-monferrato ;
       cheese:province italy:cremona , italy:vercelli , italy:pavia , italy:cuneo , italy:brescia , italy:milano , italy:bergamo , italy:lodi , italy:novara , italy:como ;
       cheese:region italy:lombardia , italy:piemonte ;
+      cheese:shape "circle"@en ;
       cheese:use cheese:SpreadingUse , cheese:TableUse ;
       cheese:weight "6-13 kg" ;
       owl:sameAs dbpedia:Gorgonzola_cheese ;
@@ -2703,8 +2867,10 @@ italy:treviso
       cheese:milkSource cheese:SheepMilk ;
       cheese:province italy:oristano , italy:cagliari , italy:nuoro , italy:sassari ;
       cheese:region italy:sardegna ;
+      cheese:texture cheese:HardCheese ;
       owl:sameAs dbpedia:Pecorino_Sardo , <http://rdf.freebase.com/ns/m/0ccd24> ;
       skos:altLabel "Pecorino Sardo (formaggio)"@it , "Pecorino Sardo (cheese)"@en ;
+      skos:hiddenLabel "Pecorino"@it , "Pecorino"@en ;
       skos:prefLabel "Pecorino Sardo"@it , "Pecorino Sardo"@en ;
       foaf:page <http://en.wikipedia.org/wiki/Pecorino_Sardo> .
 
@@ -2746,13 +2912,22 @@ italy:rimini
       a       cheese:Cheese ;
       rdfs:label "Canestrato Pugliese"@it , "Canestrato Pugliese"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Canestrato_Pugliese_cheese" , dbpedia:List_of_Italian_cheeses ;
+      cheese:aging "2-12 months"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:diameter "25 cm" ;
+      cheese:height "10 cm" ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
       cheese:milkSource cheese:SheepMilk ;
+      cheese:milkType cheese:WholeMilk ;
       cheese:province italy:foggia ;
       cheese:region italy:puglia ;
+      cheese:shape "circle"@en ;
+      cheese:texture cheese:HardCheese ;
       cheese:use cheese:GratingUse , cheese:TableUse ;
+      cheese:weight "7 kg" ;
       skos:altLabel "Canestrato Pugliese (formaggio)"@it , "Canestrato Pugliese (cheese)"@en ;
       skos:prefLabel "Canestrato Pugliese"@it , "Canestrato Pugliese"@en .
 
@@ -2786,11 +2961,14 @@ nuts:ITE22
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
       cheese:milkSource cheese:CowMilk ;
       cheese:milkType cheese:SkimmedMilk ;
       cheese:municipality italy:asiago ;
       cheese:province italy:treviso , italy:vicenza , italy:padova , italy:trento ;
       cheese:region italy:veneto , italy:trentino-alto-adige ;
+      cheese:texture cheese:HardCheese ;
       cheese:use cheese:GratingUse , cheese:TableUse ;
       owl:sameAs <http://rdf.freebase.com/ns/m/02k5rl> , dbpedia:Asiago_cheese ;
       skos:altLabel "Asiago d'Allevo (formaggio)"@it , "Asiago d'Allevo (cheese)"@en ;
@@ -2835,16 +3013,20 @@ italy:san-nicolo-gerrei
       skos:altLabel "Redykołka (cheese)"@en ;
       skos:prefLabel "Redykołka"@pl , "Redykołka"@en .
 
+italy:comiso
+      a       cheese:Municipality ;
+      rdfs:label "Comiso"@it .
+
 <http://data.kasabi.com/dataset/cheese/bitto>
       a       cheese:Cheese ;
       rdfs:label "Bitto"@it , "Bitto"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Bitto_Valtellina_cheese" ;
-      cheese:aging "at least 70 days, up to 10 years"@en ;
+      cheese:aging "at least 70 days, up to 1 year. But, it can last for 10 years"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
-      cheese:diameter "30-50 cm" ;
-      cheese:height "8-10 cm" ;
+      cheese:diameter "50 cm" ;
+      cheese:height "9-12 cm" ;
       cheese:location italy:valtellina ;
       cheese:milkProcessing
               cheese:RawMilk ;
@@ -3014,6 +3196,10 @@ nuts:ITD57
       eurostat:name "Ravenna" ;
       eurostat:regionCode "ITD57" .
 
+italy:modica
+      a       cheese:Municipality ;
+      rdfs:label "Modica"@it .
+
 italy:molise
       a       gn:Feature , cheese:Region , italy-schema:Region ;
       rdfs:label "Molise"@en , "Molise"@it ;
@@ -3121,6 +3307,25 @@ italy:cusio
       a       cheese:Municipality ;
       rdfs:label "Cusio"@it .
 
+<http://data.kasabi.com/dataset/cheese/casolet>
+      a       cheese:Cheese ;
+      rdfs:label "Casolet"@it , "Casolet"@en ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Casolet_cheese, Casolét_della_Val_di_Sole_cheese" , dbpedia:List_of_Italian_cheeses ;
+      cheese:aging "2-12 months"@en ;
+      cheese:country italy:italy ;
+      cheese:diameter "20-25 cm" ;
+      cheese:height "5-8 cm" ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:region italy:trentino-alto-adige , italy:lombardia ;
+      cheese:shape "rectangular"@en ;
+      cheese:use cheese:TableUse ;
+      cheese:weight "1.3-2 kg" ;
+      skos:altLabel "Casolet (cheese)"@en , "Casolet (formaggio)"@it ;
+      skos:prefLabel "Casolet"@it , "Casolet"@en .
+
 <http://data.kasabi.com/dataset/cheese/olomoucke-tvaruzky>
       a       cheese:Cheese ;
       rdfs:label "Olomoucké Tvarůžky"@cs , "Olomoucké Tvarůžky"@en ;
@@ -3170,6 +3375,10 @@ nuts:ITD44
       cheese:country europe:spain ;
       skos:altLabel "Quesucos de Liébana (cheese)"@en ;
       skos:prefLabel "Quesucos de Liébana"@es , "Quesucos de Liébana"@ca , "Quesucos de Liébana"@en .
+
+italy:santa-maria-la-carita
+      a       cheese:Municipality ;
+      rdfs:label "Santa Maria La Carità"@it .
 
 italy:valsassina
       a       cheese:Location ;
@@ -3239,11 +3448,11 @@ nuts:ITE34
       a       cheese:Cheese ;
       rdfs:label "Bettelmatt"@it , "Bettelmatt"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Bettelmatt_cheese" , dbpedia:List_of_Italian_cheeses ;
-      cheese:aging "min 2 months"@en ;
+      cheese:aging "2-6 months"@en ;
       cheese:country italy:italy ;
       cheese:diameter "30-40 cm" ;
       cheese:height "10-15 cm" ;
-      cheese:location italy:valdossola , italy:val-formazza ;
+      cheese:location italy:val-dossola , italy:val-formazza ;
       cheese:milkProcessing
               cheese:RawMilk ;
       cheese:milkSource cheese:CowMilk ;
@@ -3252,11 +3461,15 @@ nuts:ITE34
       cheese:province italy:novara ;
       cheese:region italy:piemonte ;
       cheese:shape "circle"@en ;
-      cheese:texture cheese:HardCheese ;
+      cheese:texture cheese:SemiHardCheese ;
       cheese:use cheese:TableUse ;
       cheese:weight "5-7 kg" ;
       skos:altLabel "Bettelmatt (formaggio)"@it , "Bettelmatt (cheese)"@en ;
       skos:prefLabel "Bettelmatt"@it , "Bettelmatt"@en .
+
+italy:branzi
+      a       cheese:Municipality ;
+      rdfs:label "Branzi"@it .
 
 <http://data.kasabi.com/dataset/cheese/semicotto-caprino>
       a       cheese:Cheese ;
@@ -3367,9 +3580,16 @@ italy:perugia
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
       cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:municipality italy:vittoria , italy:ispica , italy:scicli , italy:chiaramonte-gulfi , italy:rosolini , italy:modica , italy:ragusa , italy:giarratana , italy:comiso , italy:palazzolo-acreide , italy:acate , italy:noto , italy:pozzallo , italy:santa-croce-camerina , italy:monterosso-almo ;
       cheese:province italy:siracusa , italy:ragusa ;
       cheese:region italy:sicilia ;
+      cheese:shape "squared"@en ;
+      cheese:texture cheese:HardCheese ;
+      cheese:use cheese:TableUse ;
       owl:sameAs dbpedia:Ragusano ;
       skos:altLabel "Ragusano (cheese)"@en , "Ragusano (formaggio)"@it ;
       skos:prefLabel "Ragusano"@it , "Ragusano"@en ;
@@ -3470,6 +3690,7 @@ italy:ancona
       cheese:province italy:livorno , italy:grosseto , italy:pistoia , italy:prato , italy:arezzo , italy:massa-carrara , italy:lucca , italy:firenze , italy:siena , italy:pisa ;
       cheese:region italy:toscana ;
       skos:altLabel "Pecorino Toscano (cheese)"@en , "Pecorino Toscano (formaggio)"@it ;
+      skos:hiddenLabel "Pecorino"@it , "Pecorino"@en ;
       skos:prefLabel "Pecorino Toscano"@it , "Pecorino Toscano"@en .
 
 nuts:ITE33
@@ -3481,6 +3702,10 @@ nuts:ITE33
       eurostat:level 3 ;
       eurostat:name "Macerata" ;
       eurostat:regionCode "ITE33" .
+
+italy:giarratana
+      a       cheese:Municipality ;
+      rdfs:label "Giarratana"@it .
 
 nuts:ITD35
       a       eurostat:NUTSRegion ;
@@ -3501,6 +3726,10 @@ nuts:ITF31
       eurostat:level 3 ;
       eurostat:name "Caserta" ;
       eurostat:regionCode "ITF31" .
+
+italy:sogliano
+      a       cheese:Municipality ;
+      rdfs:label "Sogliano"@it .
 
 <http://data.kasabi.com/dataset/cheese/raschera-dalpeggio>
       a       cheese:Cheese ;
@@ -3525,6 +3754,28 @@ nuts:ITF31
       skos:hiddenLabel "Raschera"@it , "Raschera"@en ;
       skos:prefLabel "Raschera d'alpeggio"@it , "Raschera d'alpeggio"@en ;
       foaf:page <http://en.wikipedia.org/wiki/Raschera> .
+
+<http://data.kasabi.com/dataset/cheese/crescenza>
+      a       cheese:Cheese ;
+      rdfs:label "Crescenza"@it , "Crescenza"@en , "利古里亞經典起司"@zh , "Stracchino"@en , "Stracchino"@it ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Crescenza_cheese" ;
+      cheese:aging "5-10 days"@en ;
+      cheese:country italy:italy ;
+      cheese:diameter "16-20 cm" ;
+      cheese:height "4-5 cm" ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:region italy:veneto , italy:lombardia , italy:piemonte ;
+      cheese:shape "squared"@en ;
+      cheese:texture cheese:FreshCheese ;
+      cheese:use cheese:TableUse ;
+      cheese:weight "1.8-2 kg" ;
+      owl:sameAs <http://rdf.freebase.com/ns/m/0gf_g0> , dbpedia:Stracchino ;
+      skos:altLabel "Crescenza (cheese)"@en , "Crescenza (formaggio)"@it ;
+      skos:prefLabel "Crescenza"@it , "Crescenza"@en ;
+      foaf:page <http://en.wikipedia.org/wiki/Stracchino> .
 
 italy:como
       a       gn:Feature , cheese:Province , italy-schema:Province ;
@@ -3598,6 +3849,16 @@ italy:livorno
       skos:altLabel "Bovški Sir (cheese)"@en ;
       skos:prefLabel "Bovški Sir"@sl , "Bovški Sir"@en .
 
+nuts:ITD56
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITD56 - Ferrara" ;
+      rdfs:seeAlso italy:ferrara ;
+      eurostat:hasParentRegion
+              nuts:ITD5 ;
+      eurostat:level 3 ;
+      eurostat:name "Ferrara" ;
+      eurostat:regionCode "ITD56" .
+
 nuts:ITF5
       a       eurostat:NUTSRegion ;
       rdfs:label "ITF5 - Basilicata" ;
@@ -3609,16 +3870,6 @@ nuts:ITF5
       eurostat:level 2 ;
       eurostat:name "Basilicata" ;
       eurostat:regionCode "ITF5" .
-
-nuts:ITD56
-      a       eurostat:NUTSRegion ;
-      rdfs:label "ITD56 - Ferrara" ;
-      rdfs:seeAlso italy:ferrara ;
-      eurostat:hasParentRegion
-              nuts:ITD5 ;
-      eurostat:level 3 ;
-      eurostat:name "Ferrara" ;
-      eurostat:regionCode "ITD56" .
 
 <http://data.kasabi.com/dataset/cheese/squacquerone-di-romagna>
       a       cheese:Cheese ;
@@ -3684,10 +3935,6 @@ nuts:ITD36
       eurostat:level 3 ;
       eurostat:name "Padova" ;
       eurostat:regionCode "ITD36" .
-
-italy:valdossola
-      a       cheese:Location ;
-      rdfs:label "Valdossola"@it .
 
 italy:teramo
       a       gn:Feature , italy-schema:Province ;
@@ -4035,6 +4282,33 @@ italy:valtorta
       a       cheese:Municipality ;
       rdfs:label "Valtorta"@it .
 
+<http://data.kasabi.com/dataset/cheese/bra-duro>
+      a       cheese:Cheese ;
+      rdfs:label "Bra (Käse)"@de , "Bra (formaggio)"@it , "Bra Duro"@it , "Bra Duro"@en , "Bra (cheese)"@en , "Bra (queso)"@es ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Bra_cheese" ;
+      cheese:aging "8-9 months"@en ;
+      cheese:certification
+              cheese:PDO ;
+      cheese:country italy:italy ;
+      cheese:diameter "30-40 cm" ;
+      cheese:height "7-9 cm" ;
+      cheese:location italy:villafranca-piemonte ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:province italy:cuneo , italy:torino ;
+      cheese:region italy:piemonte ;
+      cheese:shape "circle"@en ;
+      cheese:texture cheese:HardCheese ;
+      cheese:use cheese:TableUse ;
+      cheese:weight "6-8 kg" ;
+      owl:sameAs <http://dbpedia.org/resource/Bra_%28cheese%29> , <http://rdf.freebase.com/ns/m/03h4kpc> ;
+      skos:altLabel "Bra Duro (formaggio)"@it , "Bra Duro (cheese)"@en ;
+      skos:hiddenLabel "Bra"@it , "Bra"@en ;
+      skos:prefLabel "Bra Duro"@it , "Bra Duro"@en ;
+      foaf:page <http://en.wikipedia.org/wiki/Bra_%28cheese%29> .
+
 italy:trapani
       a       gn:Feature , cheese:Province , italy-schema:Province ;
       rdfs:label "Trapani"@it ;
@@ -4072,16 +4346,6 @@ nuts:ITF33
       skos:altLabel "Queijo Rabaçal (cheese)"@en ;
       skos:prefLabel "Queijo Rabaçal"@pt , "Queijo Rabaçal"@en .
 
-nuts:ITF13
-      a       eurostat:NUTSRegion ;
-      rdfs:label "ITF13 - Pescara" ;
-      rdfs:seeAlso italy:pescara ;
-      eurostat:hasParentRegion
-              nuts:ITF1 ;
-      eurostat:level 3 ;
-      eurostat:name "Pescara" ;
-      eurostat:regionCode "ITF13" .
-
 italy:toscana
       a       gn:Feature , cheese:Region , italy-schema:Region ;
       rdfs:label "Toscana"@it , "Tuscany"@en ;
@@ -4101,6 +4365,16 @@ italy:toscana
       wgs84_pos:lat "43.41667"^^xsd:float ;
       wgs84_pos:long "11"^^xsd:float ;
       foaf:page <http://en.wikipedia.org/wiki/Tuscany> .
+
+nuts:ITF13
+      a       eurostat:NUTSRegion ;
+      rdfs:label "ITF13 - Pescara" ;
+      rdfs:seeAlso italy:pescara ;
+      eurostat:hasParentRegion
+              nuts:ITF1 ;
+      eurostat:level 3 ;
+      eurostat:name "Pescara" ;
+      eurostat:regionCode "ITF13" .
 
 italy:grosseto
       a       gn:Feature , cheese:Province , italy-schema:Province ;
@@ -4176,6 +4450,10 @@ nuts:ITC4B
       eurostat:name "Mantova" ;
       eurostat:regionCode "ITC4B" .
 
+italy:lettere
+      a       cheese:Municipality ;
+      rdfs:label "Lettere"@it .
+
 italy:campobasso
       a       gn:Feature , italy-schema:Province ;
       rdfs:label "Campobasso"@it ;
@@ -4193,6 +4471,14 @@ italy:campobasso
       owl:sameAs <http://sws.geonames.org/3180990/> ;
       wgs84_pos:lat "41.63333"^^xsd:float ;
       wgs84_pos:long "14.58333"^^xsd:float .
+
+italy:sorrento
+      a       cheese:Municipality ;
+      rdfs:label "Sorrento"@it .
+
+italy:vittoria
+      a       cheese:Municipality ;
+      rdfs:label "Vittoria"@it .
 
 <http://data.kasabi.com/dataset/cheese/tiroler-almkase>
       a       cheese:Cheese ;
@@ -4215,7 +4501,7 @@ nuts:ITF22
 
 <http://data.kasabi.com/dataset/cheese/pecorino-romano>
       a       cheese:Cheese ;
-      rdfs:label "Pecorino romano"@fr , "Pecorino romano"@it , "Pecorino Romano"@it , "Pecorino Romano"@en , "Pecorino Romano"@es , "ペコリーノ・ロマーノ"@ja ;
+      rdfs:label "Pecorino romano"@it , "Pecorino romano"@fr , "Pecorino Romano"@es , "Pecorino Romano"@en , "Pecorino Romano"@it , "ペコリーノ・ロマーノ"@ja ;
       rdfs:seeAlso "http://www.bbc.co.uk/food/pecorino_cheese" , "http://www.cookipedia.co.uk/wiki/index.php/Pecorino_Romano_cheese" ;
       cheese:aging "5-8 months"@en ;
       cheese:certification
@@ -4236,7 +4522,8 @@ nuts:ITF22
       cheese:weight "20-35 kg" ;
       owl:sameAs dbpedia:Pecorino_Romano , <http://rdf.freebase.com/ns/m/068kk> ;
       skos:altLabel "Pecorino Romano (formaggio)"@it , "Pecorino Romano (cheese)"@en ;
-      skos:prefLabel "Pecorino Romano"@it , "Pecorino Romano"@en ;
+      skos:hiddenLabel "Pecorino"@en , "Pecorino"@it ;
+      skos:prefLabel "Pecorino Romano"@en , "Pecorino Romano"@it ;
       foaf:page <http://en.wikipedia.org/wiki/Pecorino_Romano> .
 
 italy:monza-e-brianza
@@ -4325,16 +4612,22 @@ nuts:ITG25
 
 <http://data.kasabi.com/dataset/cheese/parmigiano-reggiano>
       a       cheese:Cheese ;
-      rdfs:label "Parmezan"@pl , "Parmesan"@sv , "Parmesan"@no , "Parmesan"@de , "帕馬森乾酪"@zh , "Пармезан"@ru , "Parmigiano Reggiano"@fr , "Parmigiano Reggiano"@en , "Parmigiano Reggiano"@it , "Parmezaanse kaas"@nl , "Parmesaani"@fi , "Parmigiano-Reggiano"@en , "Parmigiano-Reggiano"@it , "Queso parmesano"@es , "Parmesão"@pt , "パルミジャーノ・レッジャーノ"@ja ;
+      rdfs:label "Parmezan"@pl , "Parmesan"@no , "Parmesan"@de , "Parmesan"@sv , "帕馬森乾酪"@zh , "Пармезан"@ru , "Parmigiano Reggiano"@fr , "Parmigiano Reggiano"@en , "Parmigiano Reggiano"@it , "Parmezaanse kaas"@nl , "Parmesaani"@fi , "Parmigiano-Reggiano"@en , "Parmigiano-Reggiano"@it , "Queso parmesano"@es , "Parmesão"@pt , "パルミジャーノ・レッジャーノ"@ja ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Parmigiano-Reggiano_cheese" , "http://www.bbc.co.uk/food/parmesan_cheese" ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
       cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:SkimmedMilk ;
       cheese:province italy:mantova , italy:reggio-emilia , italy:parma , italy:bologna , italy:modena ;
       cheese:region italy:emilia-romagna , italy:lombardia ;
+      cheese:texture cheese:HardCheese ;
+      cheese:use cheese:GratingUse , cheese:TableUse ;
       owl:sameAs dbpedia:Parmigiano-Reggiano , <http://rdf.freebase.com/ns/m/01sbt1> ;
       skos:altLabel "Parmigiano Reggiano (formaggio)"@it , "Parmigiano Reggiano (cheese)"@en ;
+      skos:hiddenLabel "Parmigiano-Reggiano"@en , "Parmigiano-Reggiano"@it , "Grana"@en , "Grana"@it ;
       skos:prefLabel "Parmigiano Reggiano"@en , "Parmigiano Reggiano"@it ;
       foaf:page <http://en.wikipedia.org/wiki/Parmigiano-Reggiano> .
 
@@ -4376,7 +4669,7 @@ italy:caltanissetta
       skos:prefLabel "Xygalo Siteias"@el , "Xygalo Siteias"@en , "Xigalo Siteias"@en , "Xigalo Siteias"@el .
 
 italy:val-pusteria
-      a       cheese:Location ;
+      a       cheese:Location , cheese:Municipality ;
       rdfs:label "Val Pusteria"@it .
 
 <http://data.kasabi.com/dataset/cheese/piave>
@@ -4411,6 +4704,10 @@ italy:brescia
       owl:sameAs <http://sws.geonames.org/3181553/> ;
       wgs84_pos:lat "45.63333"^^xsd:float ;
       wgs84_pos:long "10.3"^^xsd:float .
+
+italy:acate
+      a       cheese:Municipality ;
+      rdfs:label "Acate"@it .
 
 europe:poland
       a       cheese:Country ;
@@ -4588,6 +4885,7 @@ italy:chieti
       a       cheese:Cheese ;
       rdfs:label "Bra (Käse)"@de , "Bra (formaggio)"@it , "Bra (cheese)"@en , "Bra (queso)"@es , "Bra d'Alpeggio"@it , "Bra d'Alpeggio"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Bra_cheese" ;
+      cheese:aging "8-9 months"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
@@ -4738,6 +5036,10 @@ italy:forli-cesena
       wgs84_pos:lat "44.08333"^^xsd:float ;
       wgs84_pos:long "12.03333"^^xsd:float .
 
+italy:dobbiaco
+      a       cheese:Province ;
+      rdfs:label "Dobbiaco"@it .
+
 <http://data.kasabi.com/dataset/cheese/zazrivsky-korbacik>
       a       cheese:Cheese ;
       rdfs:label "Zázrivský Korbáčik"@sk , "Zázrivský Korbáčik"@en ;
@@ -4792,6 +5094,10 @@ italy:firenze
       skos:altLabel "Queso de la Serena (cheese)"@en ;
       skos:prefLabel "Queso de la Serena"@es , "Queso de la Serena"@ca , "Queso de la Serena"@en .
 
+italy:valle-grana
+      a       cheese:Location ;
+      rdfs:label "Valle Grana"@it .
+
 <http://data.kasabi.com/dataset/cheese/pelardon>
       a       cheese:Cheese ;
       rdfs:label "Pélardon"@fr , "Pélardon"@en ;
@@ -4813,7 +5119,7 @@ italy:firenze
       cheese:municipality italy:montiferru ;
       cheese:province italy:oristano ;
       cheese:region italy:sardegna ;
-      cheese:shape "variable"@en ;
+      cheese:shape "various"@en ;
       cheese:texture cheese:SemiHardCheese ;
       cheese:use cheese:TableUse ;
       cheese:weight "0.3-1 kg" ;
@@ -4832,11 +5138,21 @@ italy:firenze
 
 <http://data.kasabi.com/dataset/cheese/stracchino>
       a       cheese:Cheese ;
-      rdfs:label "Stracchino"@it , "Stracchino"@en ;
-      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Stracchino_cheese" , dbpedia:Robiola ;
+      rdfs:label "利古里亞經典起司"@zh , "Stracchino"@it , "Stracchino"@en ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Stracchino_cheese" ;
       cheese:country italy:italy ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:region italy:veneto , italy:lombardia , italy:piemonte ;
+      cheese:shape "squared"@en ;
+      cheese:texture cheese:SoftCheese ;
+      cheese:use cheese:TableUse ;
+      owl:sameAs <http://rdf.freebase.com/ns/m/0gf_g0> , dbpedia:Stracchino ;
       skos:altLabel "Stracchino (formaggio)"@it , "Stracchino (cheese)"@en ;
-      skos:prefLabel "Stracchino"@it , "Stracchino"@en .
+      skos:prefLabel "Stracchino"@it , "Stracchino"@en ;
+      foaf:page <http://en.wikipedia.org/wiki/Stracchino> .
 
 <http://data.kasabi.com/dataset/cheese/svecia>
       a       cheese:Cheese ;
@@ -4911,6 +5227,10 @@ italy:foppolo
       a       cheese:Municipality ;
       rdfs:label "Foppolo"@it .
 
+italy:pozzallo
+      a       cheese:Municipality ;
+      rdfs:label "Pozzallo"@it .
+
 nuts:ITE14
       a       eurostat:NUTSRegion ;
       rdfs:label "ITE14 - Firenze" ;
@@ -4920,6 +5240,23 @@ nuts:ITE14
       eurostat:level 3 ;
       eurostat:name "Firenze" ;
       eurostat:regionCode "ITE14" .
+
+<http://data.kasabi.com/dataset/cheese/torta>
+      a       cheese:Cheese ;
+      rdfs:label "Torta"@it , "Torta"@en ;
+      rdfs:seeAlso dbpedia:Torta_del_Casar , "http://www.cookipedia.co.uk/wiki/index.php/Torta_Orobica_cheese" ;
+      cheese:country italy:italy ;
+      cheese:milkProcessing
+              cheese:PastourizedMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:province italy:trieste ;
+      cheese:region italy:friuli-venezia-giulia ;
+      cheese:shape "rectangular"@en ;
+      cheese:texture cheese:SoftCheese ;
+      cheese:use cheese:SpreadingUse , cheese:CookingUse , cheese:TableUse ;
+      skos:altLabel "Torta (cheese)"@en , "Torta (formaggio)"@it ;
+      skos:prefLabel "Torta"@it , "Torta"@en .
 
 italy-schema:Region
       a       owl:Class , rdfs:Class ;
@@ -4938,8 +5275,14 @@ italy-schema:Region
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkType cheese:WholeMilk ;
       cheese:province italy:caserta , italy:salerno , italy:latina , italy:napoli , italy:benevento , italy:roma , italy:frosinone ;
       cheese:region italy:campania , italy:lazio ;
+      cheese:shape "pear-like"@en ;
+      cheese:texture cheese:SoftCheese ;
+      cheese:use cheese:TableUse ;
       owl:sameAs dbpedia:Buffalo_mozzarella , <http://rdf.freebase.com/ns/m/0610rv> ;
       skos:altLabel "Mozzarella di Bufala Campana (formaggio)"@it , "Mozzarella di Bufala Campana (cheese)"@en ;
       skos:prefLabel "Mozzarella di Bufala Campana"@it , "Mozzarella di Bufala Campana"@en ;
@@ -4962,6 +5305,7 @@ italy-schema:Region
       cheese:province italy:oristano , italy:cagliari , italy:nuoro , italy:sassari ;
       cheese:region italy:sardegna ;
       cheese:shape "circle"@en ;
+      cheese:texture cheese:HardCheese ;
       cheese:use cheese:TableUse ;
       cheese:weight "1-5 kg" ;
       owl:sameAs dbpedia:Fiore_Sardo ;
@@ -5005,6 +5349,10 @@ italy:oristano
       wgs84_pos:lat "39.9"^^xsd:float ;
       wgs84_pos:long "8.6"^^xsd:float .
 
+italy:seneghe
+      a       cheese:Municipality ;
+      rdfs:label "Seneghe"@it .
+
 <http://data.kasabi.com/dataset/cheese/livarot>
       a       cheese:Cheese ;
       rdfs:label "Livarot"@fr , "Livarot"@en ;
@@ -5013,10 +5361,6 @@ italy:oristano
       cheese:country europe:france ;
       skos:altLabel "Livarot (cheese)"@en ;
       skos:prefLabel "Livarot"@fr , "Livarot"@en .
-
-italy:seneghe
-      a       cheese:Municipality ;
-      rdfs:label "Seneghe"@it .
 
 italy:pordenone
       a       gn:Feature , cheese:Province , italy-schema:Province ;
@@ -5185,17 +5529,23 @@ italy:brindisi
       a       cheese:Cheese ;
       rdfs:label "Bra (Käse)"@de , "Bra (formaggio)"@it , "Bra (cheese)"@en , "Bra (queso)"@es , "Bra"@it , "Bra"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Bra_cheese" ;
+      cheese:aging "1-9 months"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:diameter "30-40 cm" ;
+      cheese:height "7-9 cm" ;
+      cheese:location italy:villafranca-piemonte ;
       cheese:milkProcessing
               cheese:RawMilk ;
       cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
       cheese:municipality italy:bra ;
       cheese:province italy:cuneo , italy:torino ;
       cheese:region italy:piemonte ;
-      cheese:texture cheese:HardCheese ;
+      cheese:shape "circle"@en ;
       cheese:use cheese:MeltingUse , cheese:TableUse ;
+      cheese:weight "5-9 kg" ;
       owl:sameAs <http://dbpedia.org/resource/Bra_%28cheese%29> , <http://rdf.freebase.com/ns/m/03h4kpc> ;
       skos:altLabel "Bra (formaggio)"@it , "Bra (cheese)"@en ;
       skos:hiddenLabel "Bra"@it , "Bra"@en ;
@@ -5233,6 +5583,10 @@ nuts:ITE15
       eurostat:name "Prato" ;
       eurostat:regionCode "ITE15" .
 
+italy:monterosso-almo
+      a       cheese:Municipality ;
+      rdfs:label "Monterosso Almo"@it .
+
 italy:links2dbpedia
       a       void:Linkset ;
       void:linkPredicate owl:sameAs ;
@@ -5240,6 +5594,10 @@ italy:links2dbpedia
       void:subjectsTarget italy:dataset ;
       void:target italy:dbpedia ;
       void:triples 130 .
+
+italy:murgia
+      a       cheese:Location ;
+      rdfs:label "Murgia"@it .
 
 <http://data.kasabi.com/dataset/cheese/comte>
       a       cheese:Cheese ;
@@ -5299,9 +5657,13 @@ italy:asti
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
       cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:SemiSkimmedMilk ;
       cheese:province italy:treviso , italy:trieste , italy:venezia , italy:padova , italy:gorizia , italy:udine , italy:pordenone , italy:belluno ;
       cheese:region italy:veneto , italy:friuli-venezia-giulia ;
+      cheese:texture cheese:SemiHardCheese ;
       owl:sameAs dbpedia:Montasio , <http://rdf.freebase.com/ns/m/04cxk82> ;
       skos:altLabel "Montasio (formaggio)"@it , "Montasio (cheese)"@en ;
       skos:prefLabel "Montasio"@it , "Montasio"@en ;
@@ -5459,12 +5821,22 @@ italy:val-brembana
       a       cheese:Cheese ;
       rdfs:label "Formaggella del Luinese"@it , "Formaggella del Luinese"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Formaggella_del_Luinese_cheese" , dbpedia:List_of_Italian_cheeses ;
+      cheese:aging "20-30 days"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:diameter "13-15 cm" ;
+      cheese:height "8-12 cm" ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
       cheese:milkSource cheese:GoatMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:municipality italy:luino ;
       cheese:province italy:varese ;
       cheese:region italy:lombardia ;
+      cheese:shape "circle"@en ;
+      cheese:use cheese:TableUse ;
+      cheese:weight "700-900 g" ;
       skos:altLabel "Formaggella del Luinese (formaggio)"@it , "Formaggella del Luinese (cheese)"@en ;
       skos:prefLabel "Formaggella del Luinese"@it , "Formaggella del Luinese"@en .
 
@@ -5502,15 +5874,6 @@ nuts:ITE13
       eurostat:name "Pistoia" ;
       eurostat:regionCode "ITE13" .
 
-<http://data.kasabi.com/dataset/cheese/west-country-farmhouse-cheddar>
-      a       cheese:Cheese ;
-      rdfs:label "West Country Farmhouse Cheddar"@en ;
-      cheese:certification
-              cheese:PDO ;
-      cheese:country europe:united-kingdom ;
-      skos:altLabel "West Country Farmhouse Cheddar (cheese)"@en ;
-      skos:prefLabel "West Country Farmhouse Cheddar"@en .
-
 italy:lazio
       a       gn:Feature , cheese:Region , italy-schema:Region ;
       rdfs:label "Lazio"@it , "Lazio"@en ;
@@ -5530,6 +5893,15 @@ italy:lazio
       wgs84_pos:lat "42"^^xsd:float ;
       wgs84_pos:long "12.5"^^xsd:float ;
       foaf:page <http://en.wikipedia.org/wiki/Lazio> .
+
+<http://data.kasabi.com/dataset/cheese/west-country-farmhouse-cheddar>
+      a       cheese:Cheese ;
+      rdfs:label "West Country Farmhouse Cheddar"@en ;
+      cheese:certification
+              cheese:PDO ;
+      cheese:country europe:united-kingdom ;
+      skos:altLabel "West Country Farmhouse Cheddar (cheese)"@en ;
+      skos:prefLabel "West Country Farmhouse Cheddar"@en .
 
 nuts:ITF
       a       eurostat:NUTSRegion ;
@@ -5567,10 +5939,6 @@ nuts:ITC1
       eurostat:level 2 ;
       eurostat:name "Piemonte" ;
       eurostat:regionCode "ITC1" .
-
-italy:villfranca-piemonte
-      a       cheese:Location ;
-      rdfs:label "Villfranca Piemonte"@it .
 
 italy:marche
       a       gn:Feature , cheese:Region , italy-schema:Region ;
@@ -5630,6 +5998,29 @@ italy:trento
       cheese:country europe:greece ;
       skos:altLabel "Metsovone (cheese)"@en ;
       skos:prefLabel "Metsovone"@el , "Metsovone"@en .
+
+<http://data.kasabi.com/dataset/cheese/asiago-mezzano>
+      a       cheese:Cheese ;
+      rdfs:label "艾斯阿格芝士"@zh , "Asiago cheese"@en , "Asiago (queso)"@es , "Asiago (kaas)"@nl , "Asiago (Käse)"@de , "Asiago DOP"@fr , "Asiago Mezzano"@it , "Asiago Mezzano"@en , "アジアーゴ・チーズ"@ja ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Asiago_d'allevo_cheese" ;
+      cheese:aging "3-8 months"@en ;
+      cheese:certification
+              cheese:PDO ;
+      cheese:country italy:italy ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:SkimmedMilk ;
+      cheese:municipality italy:asiago ;
+      cheese:province italy:vicenza , italy:trento ;
+      cheese:region italy:veneto , italy:trentino-alto-adige ;
+      cheese:texture cheese:HardCheese ;
+      cheese:use cheese:TableUse ;
+      owl:sameAs <http://rdf.freebase.com/ns/m/02k5rl> , dbpedia:Asiago_cheese ;
+      skos:altLabel "Asiago Mezzano (cheese)"@en , "Asiago Mezzano (formaggio)"@it ;
+      skos:hiddenLabel "Asiago d'Allevo (Mezzano)"@it , "Asiago d'Allevo (Mezzano)"@en , "Asiago d'Allevo, Asiago"@it , "Asiago d'Allevo, Asiago"@en ;
+      skos:prefLabel "Asiago Mezzano"@it , "Asiago Mezzano"@en ;
+      foaf:page <http://en.wikipedia.org/wiki/Asiago_cheese> .
 
 <http://data.kasabi.com/dataset/cheese/kopanisti>
       a       cheese:Cheese ;
@@ -5897,13 +6288,31 @@ italy:verbano-cusio-ossola
       skos:altLabel "Kefalograviera (cheese)"@en ;
       skos:prefLabel "Kefalograviera"@el , "Kefalograviera"@en .
 
+italy:ispica
+      a       cheese:Municipality ;
+      rdfs:label "Ispica"@it .
+
 <http://data.kasabi.com/dataset/cheese/canestrato-di-moliterno>
       a       cheese:Cheese ;
       rdfs:label "Canestrato di Moliterno"@it , "Canestrato di Moliterno"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Canestrato_di_Moliterno_Stagionato_cheese" , dbpedia:List_of_Italian_cheeses ;
+      cheese:aging "2-18 months"@en ;
       cheese:certification
               cheese:PGI ;
       cheese:country italy:italy ;
+      cheese:diameter "20-25 cm" ;
+      cheese:height "10-15 cm" ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:GoatMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:municipality italy:moliterno ;
+      cheese:province italy:matera , italy:potenza ;
+      cheese:region italy:basilicata ;
+      cheese:shape "circle"@en ;
+      cheese:texture cheese:HardCheese ;
+      cheese:use cheese:GratingUse , cheese:TableUse ;
+      cheese:weight "2-3 kg" ;
       skos:altLabel "Canestrato di Moliterno (cheese)"@en , "Canestrato di Moliterno (formaggio)"@it ;
       skos:prefLabel "Canestrato di Moliterno"@it , "Canestrato di Moliterno"@en .
 
@@ -5964,6 +6373,10 @@ italy:siracusa
       skos:altLabel "Boeren-Leidse met Sleutels (cheese)"@en ;
       skos:prefLabel "Boeren-Leidse met Sleutels"@nl , "Boeren-Leidse met Sleutels"@en .
 
+italy:val-dossola
+      a       cheese:Location ;
+      rdfs:label "Val d'Ossola"@it .
+
 europe:slovenia
       a       cheese:Country ;
       rdfs:label "Slovenia"@en .
@@ -6011,11 +6424,13 @@ nuts:ITC2
       a       cheese:Cheese ;
       rdfs:label "Castelmagno (Käse)"@de , "Castelmagno DOP"@fr , "カステルマーニョ (チーズ)"@ja , "Castelmagno (formaggio)"@it , "Castelmagno (cheese)"@en , "Castelmagno (queso)"@es , "Castelmagno"@it , "Castelmagno"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Bruss_di_Castelmagno_cheese" ;
+      cheese:aging "2-6 months"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
       cheese:diameter "15-25 cm" ;
       cheese:height "12-20 cm" ;
+      cheese:location italy:valle-grana ;
       cheese:milkProcessing
               cheese:RawMilk ;
       cheese:milkSource cheese:MixedMilk , cheese:GoatMilk , cheese:CowMilk ;
@@ -6024,8 +6439,8 @@ nuts:ITC2
       cheese:province italy:cuneo ;
       cheese:region italy:piemonte ;
       cheese:shape "circle"@en ;
-      cheese:texture cheese:SemiHardCheese ;
-      cheese:use cheese:TableUse ;
+      cheese:texture cheese:HardCheese ;
+      cheese:use cheese:MeltingUse , cheese:TableUse ;
       cheese:weight "5-7 kg" ;
       owl:sameAs <http://dbpedia.org/resource/Castelmagno_%28cheese%29> , <http://rdf.freebase.com/ns/m/03cl7d5> ;
       skos:altLabel "Castelmagno (formaggio)"@it , "Castelmagno (cheese)"@en ;
@@ -6126,6 +6541,10 @@ italy:la-spezia
       wgs84_pos:lat "44.25"^^xsd:float ;
       wgs84_pos:long "9.7"^^xsd:float .
 
+italy:casola-di-napoli
+      a       cheese:Municipality ;
+      rdfs:label "Casola di Napoli"@it .
+
 <http://data.kasabi.com/dataset/cheese/odenwalder-fruhstuckskase>
       a       cheese:Cheese ;
       rdfs:label "Odenwälder Frühstückskäse"@de , "Odenwälder Frühstückskäse"@en ;
@@ -6134,6 +6553,10 @@ italy:la-spezia
       cheese:country europe:germany ;
       skos:altLabel "Odenwälder Frühstückskäse (cheese)"@en ;
       skos:prefLabel "Odenwälder Frühstückskäse"@de , "Odenwälder Frühstückskäse"@en .
+
+italy:piano-di-sorrento
+      a       cheese:Municipality ;
+      rdfs:label "Piano di Sorrento"@it .
 
 <http://data.kasabi.com/dataset/cheese/feta>
       a       cheese:Cheese ;
@@ -6160,13 +6583,17 @@ italy:la-spezia
 <http://data.kasabi.com/dataset/cheese/formaggio-di-fossa-di-sogliano>
       a       cheese:Cheese ;
       rdfs:label "Formaggio di Fossa di Sogliano"@it , "Formaggio di Fossa di Sogliano"@en ;
-      rdfs:seeAlso dbpedia:Sogliano_al_Rubicone , "http://www.cookipedia.co.uk/wiki/index.php/Formaggio_di_fossa_di_Sogliano_cheese" ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Formaggio_di_fossa_cheese" , dbpedia:Sogliano_al_Rubicone ;
+      cheese:aging "3-4 months"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
       cheese:milkSource cheese:MixedMilk , cheese:SheepMilk , cheese:CowMilk ;
+      cheese:municipality italy:sogliano ;
       cheese:province italy:ancona , italy:ascoli-piceno , italy:forli-cesena , italy:rimini , italy:bologna , italy:macerata , italy:ravenna , italy:pesaro-urbino ;
       cheese:region italy:marche , italy:emilia-romagna ;
+      cheese:shape "various"@en ;
+      cheese:use cheese:TableUse ;
       skos:altLabel "Formaggio di Fossa di Sogliano (cheese)"@en , "Formaggio di Fossa di Sogliano (formaggio)"@it ;
       skos:prefLabel "Formaggio di Fossa di Sogliano"@it , "Formaggio di Fossa di Sogliano"@en .
 
@@ -6203,7 +6630,7 @@ italy:rendena
       a       cheese:Cheese ;
       rdfs:label "芳提娜芝士"@zh , "Fontina"@it , "Fontina"@en , "Fontina"@es , "Fontina"@pl , "Fontina"@fr , "Fontina"@pt , "Fontina"@de , "Fontina"@no , "Fontina"@nl , "Fontina"@sv ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Fontina_cheese" , "http://www.bbc.co.uk/food/fontina_cheese" ;
-      cheese:aging "at least 80 days"@en ;
+      cheese:aging "3 months"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
@@ -6215,8 +6642,7 @@ italy:rendena
       cheese:milkType cheese:WholeMilk ;
       cheese:region italy:valle-daosta ;
       cheese:shape "circle"@en ;
-      cheese:texture cheese:SemiHardCheese ;
-      cheese:use cheese:CookingUse , cheese:TableUse ;
+      cheese:use cheese:MeltingUse , cheese:CookingUse , cheese:TableUse ;
       cheese:weight "8-12 kg" ;
       owl:sameAs <http://rdf.freebase.com/ns/m/083rwm> , dbpedia:Fontina ;
       skos:altLabel "Fontina (cheese)"@en , "Fontina (formaggio)"@it ;
@@ -6260,6 +6686,7 @@ italy:rendena
       cheese:province italy:frosinone ;
       cheese:region italy:lazio ;
       skos:altLabel "Pecorino di Picinisco (formaggio)"@it , "Pecorino di Picinisco (cheese)"@en ;
+      skos:hiddenLabel "Pecorino"@it , "Pecorino"@en ;
       skos:prefLabel "Pecorino di Picinisco"@it , "Pecorino di Picinisco"@en .
 
 <http://data.kasabi.com/dataset/italy/calabria.rdf>
@@ -6320,6 +6747,10 @@ nuts:ITG2B
       skos:altLabel "Cantal (cheese)"@en , "Fourme de Cantal (cheese)"@en , "Cantalet (cheese)"@en ;
       skos:prefLabel "Cantal"@fr , "Cantal"@en , "Cantalet"@fr , "Cantalet"@en , "Fourme de Cantal"@en , "Fourme de Cantal"@fr .
 
+italy:noto
+      a       cheese:Municipality ;
+      rdfs:label "Noto"@it .
+
 <http://data.kasabi.com/dataset/cheese/gouda-holland>
       a       cheese:Cheese ;
       rdfs:label "Gouda Holland"@nl , "Gouda Holland"@en ;
@@ -6342,10 +6773,6 @@ italy:mesaina
       skos:altLabel "Fourme d'Ambert (cheese)"@en ;
       skos:prefLabel "Fourme d'Ambert"@fr , "Fourme d'Ambert"@en .
 
-italy:casale-monferrato
-      a       cheese:Municipality ;
-      rdfs:label "Casale Monferrato"@it .
-
 <http://data.kasabi.com/dataset/cheese/maroilles>
       a       cheese:Cheese ;
       rdfs:label "Maroilles"@fr , "Maroilles"@en , "Marolles"@fr , "Marolles"@en ;
@@ -6354,6 +6781,10 @@ italy:casale-monferrato
       cheese:country europe:france ;
       skos:altLabel "Maroilles (cheese)"@en , "Marolles (cheese)"@en ;
       skos:prefLabel "Maroilles"@fr , "Maroilles"@en , "Marolles"@en , "Marolles"@fr .
+
+italy:casale-monferrato
+      a       cheese:Municipality ;
+      rdfs:label "Casale Monferrato"@it .
 
 italy:arezzo
       a       gn:Feature , cheese:Province , italy-schema:Province ;
@@ -6395,6 +6826,26 @@ nuts:IT
 <http://data.kasabi.com/dataset/italy/abruzzo.rdf>
       void:inDataset kasabi:italy ;
       foaf:primaryTopic italy:abruzzo .
+
+<http://data.kasabi.com/dataset/cheese/burrata>
+      a       cheese:Cheese ;
+      rdfs:label "Буррата"@ru , "Burrata"@it , "Burrata"@en , "Burrata"@no , "Burrata"@fr , "Burrata"@de ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Burrata_cheese" ;
+      cheese:aging "1-2 days"@en ;
+      cheese:country italy:italy ;
+      cheese:location italy:murgia ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:region italy:puglia ;
+      cheese:shape "spherical"@en ;
+      cheese:texture cheese:FreshCheese ;
+      cheese:use cheese:TableUse ;
+      owl:sameAs <http://rdf.freebase.com/ns/m/04hmk8> , dbpedia:Burrata ;
+      skos:altLabel "Burrata (cheese)"@en , "Burrata (formaggio)"@it ;
+      skos:prefLabel "Burrata"@it , "Burrata"@en ;
+      foaf:page <http://en.wikipedia.org/wiki/Burrata> .
 
 <http://data.kasabi.com/dataset/cheese/tiroler-graukase>
       a       cheese:Cheese ;
@@ -6476,6 +6927,10 @@ italy:catanzaro
       skos:altLabel "Brie de Melun (cheese)"@en ;
       skos:prefLabel "Brie de Melun"@fr , "Brie de Melun"@en .
 
+italy:monte-grappa
+      a       cheese:Location ;
+      rdfs:label "Monte Grappa"@it .
+
 <http://data.kasabi.com/dataset/cheese/pressato>
       a       cheese:Cheese ;
       rdfs:label "Pressato"@it , "Pressato"@en ;
@@ -6520,6 +6975,7 @@ italy-schema:Comune
       cheese:region italy:sicilia ;
       owl:sameAs dbpedia:Pecorino_Siciliano , <http://rdf.freebase.com/ns/m/02x0nwz> ;
       skos:altLabel "Pecorino Siciliano (formaggio)"@it , "Pecorino Siciliano (cheese)"@en ;
+      skos:hiddenLabel "Pecorino"@it , "Pecorino"@en ;
       skos:prefLabel "Pecorino Siciliano"@it , "Pecorino Siciliano"@en ;
       foaf:page <http://en.wikipedia.org/wiki/Pecorino_Siciliano> .
 
@@ -6572,31 +7028,6 @@ italy-schema:Comune
       skos:hiddenLabel "Casu Modde"@it , "Casu Modde"@en , "Casu Cundhídu"@it , "Casu Cundhídu"@en , "Pecorino"@it , "Pecorino"@en ;
       skos:prefLabel "Casu Marzu"@it , "Casu Marzu"@en ;
       foaf:page <http://en.wikipedia.org/wiki/Casu_marzu> .
-
-<http://data.kasabi.com/dataset/cheese/bra-tenero-o-duro>
-      a       cheese:Cheese ;
-      rdfs:label "Bra (Käse)"@de , "Bra (formaggio)"@it , "Bra (cheese)"@en , "Bra Tenero o Duro"@it , "Bra Tenero o Duro"@en , "Bra (queso)"@es ;
-      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Bra_cheese" ;
-      cheese:certification
-              cheese:PDO ;
-      cheese:country italy:italy ;
-      cheese:diameter "30-40 cm" ;
-      cheese:height "7-9 cm" ;
-      cheese:location italy:villfranca-piemonte ;
-      cheese:milkProcessing
-              cheese:RawMilk ;
-      cheese:milkSource cheese:CowMilk ;
-      cheese:milkType cheese:WholeMilk ;
-      cheese:province italy:cuneo , italy:torino ;
-      cheese:region italy:piemonte ;
-      cheese:shape "circle"@en ;
-      cheese:use cheese:TableUse ;
-      cheese:weight "6-8 kg" ;
-      owl:sameAs <http://dbpedia.org/resource/Bra_%28cheese%29> , <http://rdf.freebase.com/ns/m/03h4kpc> ;
-      skos:altLabel "Bra Tenero o Duro (cheese)"@en , "Bra Tenero o Duro (formaggio)"@it ;
-      skos:hiddenLabel "Bra"@en , "Bra"@it ;
-      skos:prefLabel "Bra Tenero o Duro"@it , "Bra Tenero o Duro"@en ;
-      foaf:page <http://en.wikipedia.org/wiki/Bra_%28cheese%29> .
 
 <http://data.kasabi.com/dataset/italy/liguria.rdf>
       void:inDataset kasabi:italy ;
@@ -7036,6 +7467,10 @@ nuts:ITG2C
       eurostat:name "Carbonia-Iglesias" ;
       eurostat:regionCode "ITG2C" .
 
+italy:meta
+      a       cheese:Municipality ;
+      rdfs:label "Meta"@it .
+
 nuts:ITG17
       a       eurostat:NUTSRegion ;
       rdfs:label "ITG17 - Catania" ;
@@ -7103,12 +7538,22 @@ italy:avellino
       a       cheese:Cheese ;
       rdfs:label "Casatella Trevigiana"@it , "Casatella Trevigiana"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Casatella_Trevigiana_cheese" , dbpedia:List_of_Italian_cheeses ;
+      cheese:aging "5-10 days"@en ;
       cheese:certification
               cheese:PDO ;
       cheese:country italy:italy ;
+      cheese:diameter "8-22 cm" ;
+      cheese:height "4-6 cm" ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
       cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
       cheese:province italy:treviso ;
       cheese:region italy:veneto ;
+      cheese:shape "rectangular"@en ;
+      cheese:texture cheese:FreshCheese ;
+      cheese:use cheese:TableUse ;
+      cheese:weight "400 g – 2.2 kg" ;
       skos:altLabel "Casatella Trevigiana (formaggio)"@it , "Casatella Trevigiana (cheese)"@en ;
       skos:prefLabel "Casatella Trevigiana"@it , "Casatella Trevigiana"@en .
 
@@ -7136,6 +7581,10 @@ italy:avellino
       skos:altLabel "Gioddu (formaggio)"@it , "Gioddu (cheese)"@en ;
       skos:hiddenLabel "Mizzurado"@it , "Mizzurado"@en ;
       skos:prefLabel "Gioddu"@it , "Gioddu"@en .
+
+italy:chiaramonte-gulfi
+      a       cheese:Municipality ;
+      rdfs:label "Chiaramonte Gulfi"@it .
 
 italy:valtellina
       a       cheese:Location ;
@@ -7186,6 +7635,27 @@ italy:valtellina
       skos:altLabel "Brocciu (cheese)"@en , "Brocciu Corse (cheese)"@en ;
       skos:prefLabel "Brocciu"@en , "Brocciu"@fr , "Brocciu Corse"@fr , "Brocciu Corse"@en .
 
+<http://data.kasabi.com/dataset/cheese/dobbiaco>
+      a       cheese:Cheese ;
+      rdfs:label "Dobbiaco"@en , "Dobbiaco"@it ;
+      rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Dobbiaco_cheese" , dbpedia:List_of_Italian_cheeses ;
+      cheese:aging "3-5 months"@en ;
+      cheese:country italy:italy ;
+      cheese:diameter "10 cm" ;
+      cheese:height "40 cm" ;
+      cheese:milkProcessing
+              cheese:RawMilk ;
+      cheese:milkSource cheese:CowMilk ;
+      cheese:milkType cheese:WholeMilk ;
+      cheese:municipality italy:val-pusteria ;
+      cheese:province italy:dobbiaco ;
+      cheese:region italy:trentino-alto-adige ;
+      cheese:shape "loaf-like"@en ;
+      cheese:use cheese:TableUse ;
+      cheese:weight "5 kg" ;
+      skos:altLabel "Dobbiaco (cheese)"@en , "Dobbiaco (formaggio)"@it ;
+      skos:prefLabel "Dobbiaco"@it , "Dobbiaco"@en .
+
 nuts:ITF45
       a       eurostat:NUTSRegion ;
       rdfs:label "ITF45 - Lecce" ;
@@ -7229,6 +7699,10 @@ nuts:ITE3
       eurostat:level 2 ;
       eurostat:name "Marche" ;
       eurostat:regionCode "ITE3" .
+
+italy:agerola
+      a       cheese:Municipality ;
+      rdfs:label "Agerola"@it .
 
 italy:messina
       a       gn:Feature , italy-schema:Province ;
@@ -7352,7 +7826,7 @@ nuts:ITG14
       eurostat:regionCode "ITG14" .
 
 italy:ragusa
-      a       gn:Feature , cheese:Province , italy-schema:Province ;
+      a       gn:Feature , cheese:Province , cheese:Municipality , italy-schema:Province ;
       rdfs:label "Ragusa"@it ;
       italy-schema:isContained
               italy:sicilia ;
@@ -7435,6 +7909,7 @@ nuts:ITD4
       a       cheese:Cheese ;
       rdfs:label "Carnia"@it , "Carnia"@en ;
       rdfs:seeAlso "http://www.cookipedia.co.uk/wiki/index.php/Carnia_cheese" , dbpedia:List_of_Italian_cheeses ;
+      cheese:aging "6-12 months or more"@en ;
       cheese:country italy:italy ;
       cheese:diameter "30 cm" ;
       cheese:height "8 cm" ;
