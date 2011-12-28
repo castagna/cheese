@@ -47,7 +47,7 @@ public class CheesesItalyFromTSV {
 
 	private static final Logger log = LoggerFactory.getLogger(CheesesItalyFromTSV.class) ;
 	
-	private static final File INPUT_PATH = new File("data/") ;
+	public static final File INPUT_PATH = new File("data/") ;
     public static final String NS = "http://data.kasabi.com/dataset/cheese/" ;
     public static final String DBPEDIA_NS = "http://dbpedia.org/resource/" ;
     public static final String ITALY_NS = "http://data.kasabi.com/dataset/italy/" ;
